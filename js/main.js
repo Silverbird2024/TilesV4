@@ -222,7 +222,67 @@ $scope.PushButton37_click = function() {$App.a2 = $App.i10001;};
 $scope.PushButton38_click = function() {$scope.GotoPage( "ic01" );};
 $scope.PushButton39_click = function() {$scope.GotoPage( "id01" );};
 $scope.PushButton40_click = function() {$scope.GotoPage( "ie01" );};
-$scope.Combobox1_change = function() {if ($App.letter == "a") {
+$scope.Combobox1_change = function() {$scope.ObjectToFront("blanc");};
+$scope.Combobox2_change = function() {if ($App.line == "1") {
+$App.a1 = $App.i10001;
+localStorage.setItem("a1",$App.a1);
+} else {
+};
+if ($App.line == "2") {
+$App.a2 = $App.i10001;
+localStorage.setItem("a2",$App.a2);
+} else {
+};
+if ($App.line == "3") {
+$App.a3 = $App.i10001;
+localStorage.setItem("a3",$App.a3);
+} else {
+};
+if ($App.line == "4") {
+$App.a4 = $App.i10001;
+} else {
+};
+if ($App.line == "5") {
+$App.a5 = $App.i10001;
+} else {
+};
+if ($App.line == "6") {
+$App.a6 = $App.i10001;
+} else {
+};
+if ($App.line == "7") {
+$App.a7 = $App.i10001;
+} else {
+};
+if ($App.line == "8") {
+$App.a8 = $App.i10001;
+} else {
+};
+if ($App.line == "9") {
+$App.a9 = $App.i10001;
+} else {
+};
+if ($App.line == "10") {
+$App.a10 = $App.i10001;
+} else {
+};
+if ($App.line == "11") {
+$App.a11 = $App.i10001;
+} else {
+};
+if ($App.line == "12") {
+$App.a12 = $App.i10001;
+} else {
+};};
+$scope.TextArea19_change = function() {localStorage.setItem("i10003",$App.i10003);};
+$scope.TextArea20_change = function() {localStorage.setItem("i10002",$App.i10002);};
+$scope.TextArea21_change = function() {localStorage.setItem("i10004",$App.i10004);};
+$scope.TextArea22_change = function() {localStorage.setItem("i10005",$App.i10005);};
+$scope.TextArea23_change = function() {localStorage.setItem("i10006",$App.i10006);};
+$scope.TextArea24_change = function() {localStorage.setItem("i10007",$App.i10007);};
+$scope.TextArea25_change = function() {localStorage.setItem("i10008",$App.i10008);};
+$scope.PushButton41_click = function() {$scope.ObjectToBack("blanc");
+if ($App.letter == "a") {
 $scope.ObjectToFront("Container-A");
 } else {
 };
@@ -322,64 +382,6 @@ if ($App.letter == "Z") {
 $scope.ObjectToFront("Container-z");
 } else {
 };};
-$scope.Combobox2_change = function() {if ($App.line == "1") {
-$App.a1 = $App.i10001;
-localStorage.setItem("a1",$App.a1);
-} else {
-};
-if ($App.line == "2") {
-$App.a2 = $App.i10001;
-localStorage.setItem("a2",$App.a2);
-} else {
-};
-if ($App.line == "3") {
-$App.a3 = $App.i10001;
-localStorage.setItem("a3",$App.a3);
-} else {
-};
-if ($App.line == "4") {
-$App.a4 = $App.i10001;
-} else {
-};
-if ($App.line == "5") {
-$App.a5 = $App.i10001;
-} else {
-};
-if ($App.line == "6") {
-$App.a6 = $App.i10001;
-} else {
-};
-if ($App.line == "7") {
-$App.a7 = $App.i10001;
-} else {
-};
-if ($App.line == "8") {
-$App.a8 = $App.i10001;
-} else {
-};
-if ($App.line == "9") {
-$App.a9 = $App.i10001;
-} else {
-};
-if ($App.line == "10") {
-$App.a10 = $App.i10001;
-} else {
-};
-if ($App.line == "11") {
-$App.a11 = $App.i10001;
-} else {
-};
-if ($App.line == "12") {
-$App.a12 = $App.i10001;
-} else {
-};};
-$scope.TextArea19_change = function() {localStorage.setItem("i10003",$App.i10003);};
-$scope.TextArea20_change = function() {localStorage.setItem("i10002",$App.i10002);};
-$scope.TextArea21_change = function() {localStorage.setItem("i10004",$App.i10004);};
-$scope.TextArea22_change = function() {localStorage.setItem("i10005",$App.i10005);};
-$scope.TextArea23_change = function() {localStorage.setItem("i10006",$App.i10006);};
-$scope.TextArea24_change = function() {localStorage.setItem("i10007",$App.i10007);};
-$scope.TextArea25_change = function() {localStorage.setItem("i10008",$App.i10008);};
 });
 NeoApp.controller("NewDialog_Ctrl", function($scope,$rootScope,$modalInstance,$filter,$window) {
  $scope.CloseDialog = function() {

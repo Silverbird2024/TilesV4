@@ -222,6 +222,106 @@ $scope.PushButton37_click = function() {$App.a2 = $App.i10001;};
 $scope.PushButton38_click = function() {$scope.GotoPage( "ic01" );};
 $scope.PushButton39_click = function() {$scope.GotoPage( "id01" );};
 $scope.PushButton40_click = function() {$scope.GotoPage( "ie01" );};
+$scope.Combobox1_change = function() {if ($App.letter == "a") {
+$scope.ObjectToFront("Container-A");
+} else {
+};
+if ($App.letter == "b") {
+$scope.ObjectToFront("Container-B");
+} else {
+};
+if ($App.letter == "c") {
+$scope.ObjectToFront("Container-C");
+} else {
+};
+if ($App.letter == "d") {
+$scope.ObjectToFront("Container-D");
+} else {
+};
+if ($App.letter == "e") {
+$scope.ObjectToFront("Container-E");
+} else {
+};
+if ($App.letter == "f") {
+$scope.ObjectToFront("Container-F");
+} else {
+};
+if ($App.letter == "g") {
+$scope.ObjectToFront("Container-G");
+} else {
+};
+if ($App.letter == "h") {
+$scope.ObjectToFront("Container-H");
+} else {
+};
+if ($App.letter == "i") {
+$scope.ObjectToFront("Container-I");
+} else {
+};
+if ($App.letter == "j") {
+$scope.ObjectToFront("Container-J");
+} else {
+};
+if ($App.letter == "k") {
+$scope.ObjectToFront("Container-K");
+} else {
+};
+if ($App.letter == "l") {
+$scope.ObjectToFront("Container-L");
+} else {
+};
+if ($App.letter == "m") {
+$scope.ObjectToFront("Container-m");
+} else {
+};
+if ($App.letter == "n") {
+$scope.ObjectToFront("Container-n");
+} else {
+};
+if ($App.letter == "o") {
+$scope.ObjectToFront("Container-o");
+} else {
+};
+if ($App.letter == "p") {
+$scope.ObjectToFront("Container-p");
+} else {
+};
+if ($App.letter == "q") {
+$scope.ObjectToFront("Container-q");
+} else {
+};
+if ($App.letter == "r") {
+$scope.ObjectToFront("Container-r");
+} else {
+};
+if ($App.letter == "s") {
+$scope.ObjectToFront("Container-s");
+} else {
+};
+if ($App.letter == "t") {
+$scope.ObjectToFront("Container-t");
+} else {
+};
+if ($App.letter == "u") {
+$scope.ObjectToFront("Container-u");
+} else {
+};
+if ($App.letter == "v") {
+$scope.ObjectToFront("Container-v");
+} else {
+};
+if ($App.letter == "w") {
+$scope.ObjectToFront("Container-w");
+} else {
+};
+if ($App.letter == "y") {
+$scope.ObjectToFront("Container-y");
+} else {
+};
+if ($App.letter == "Z") {
+$scope.ObjectToFront("Container-z");
+} else {
+};};
 $scope.Combobox2_change = function() {if ($App.line == "1") {
 $App.a1 = $App.i10001;
 localStorage.setItem("a1",$App.a1);

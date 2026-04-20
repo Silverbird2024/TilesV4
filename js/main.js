@@ -196,12 +196,12 @@ $scope.PushButton7_click = function() {$scope.GotoPage( "ib01" );};
 $scope.PushButton8_click = function() {$scope.GotoPage( "ic01" );};
 $scope.PushButton13_click = function() {$scope.GotoPage( "id01" );};
 $scope.PushButton14_click = function() {$scope.GotoPage( "ie01" );};
-$scope.PushButton15_click = function() {$scope.GotoPage( "if01" );};
-$scope.PushButton16_click = function() {$scope.GotoPage( "ig01" );};
-$scope.PushButton17_click = function() {$scope.GotoPage( "ih01" );};
-$scope.PushButton18_click = function() {$scope.GotoPage( "ii01" );};
-$scope.PushButton19_click = function() {$scope.GotoPage( "ij01" );};
-$scope.PushButton20_click = function() {$scope.GotoPage( "ik01" );};
+$scope.PushButton15_click = function() {$scope.ObjectToFront("Container-F");};
+$scope.PushButton16_click = function() {$scope.ObjectToFront("Container-G");};
+$scope.PushButton17_click = function() {$scope.ObjectToFront("Container-H");};
+$scope.PushButton18_click = function() {$scope.ObjectToFront("Container-I");};
+$scope.PushButton19_click = function() {$scope.ObjectToFront("Container-J");};
+$scope.PushButton20_click = function() {$scope.ObjectToFront("Container-K");};
 $scope.PushButton21_click = function() {$scope.GotoPage( "il01" );};
 $scope.PushButton22_click = function() {$scope.GotoPage( "im01" );};
 $scope.PushButton23_click = function() {$scope.GotoPage( "in01" );};
@@ -222,7 +222,113 @@ $scope.PushButton37_click = function() {$App.a2 = $App.i10001;};
 $scope.PushButton38_click = function() {$scope.GotoPage( "ic01" );};
 $scope.PushButton39_click = function() {$scope.GotoPage( "id01" );};
 $scope.PushButton40_click = function() {$scope.GotoPage( "ie01" );};
-$scope.Combobox1_change = function() {$scope.ObjectToFront("blanc");};
+$scope.Combobox1_change = function() {$scope.ObjectToFront("blanc");
+Delay(500);
+$scope.ObjectToBack("blanc");
+if ($App.letter == "a") {
+$scope.ObjectToFront("Container-A");
+} else {
+};
+if ($App.letter == "b") {
+$scope.ObjectToFront("Container-B");
+} else {
+};
+if ($App.letter == "c") {
+$scope.ObjectToFront("Container-C");
+} else {
+};
+if ($App.letter == "d") {
+$scope.ObjectToFront("Container-D");
+} else {
+};
+if ($App.letter == "e") {
+$scope.ObjectToFront("Container-E");
+} else {
+};
+if ($App.letter == "f") {
+$scope.ObjectToFront("Container-F");
+} else {
+};
+if ($App.letter == "g") {
+$scope.ObjectToFront("Container-G");
+} else {
+};
+if ($App.letter == "h") {
+$scope.ObjectToFront("Container-H");
+} else {
+};
+if ($App.letter == "i") {
+$scope.ObjectToFront("Container-I");
+} else {
+};
+if ($App.letter == "j") {
+$scope.ObjectToFront("Container-J");
+} else {
+};
+if ($App.letter == "k") {
+$scope.ObjectToFront("Container-K");
+} else {
+};
+if ($App.letter == "l") {
+$scope.ObjectToFront("Container-L");
+} else {
+};
+if ($App.letter == "m") {
+$scope.ObjectToFront("Container-M");
+} else {
+};
+if ($App.letter == "n") {
+$scope.ObjectToFront("Container-N");
+} else {
+};
+if ($App.letter == "o") {
+$scope.ObjectToFront("Container-O");
+} else {
+};
+if ($App.letter == "p") {
+$scope.ObjectToFront("Container-P");
+} else {
+};
+if ($App.letter == "q") {
+$scope.ObjectToFront("Container-Q");
+} else {
+};
+if ($App.letter == "r") {
+$scope.ObjectToFront("Container-R");
+} else {
+};
+if ($App.letter == "s") {
+$scope.ObjectToFront("Container-S");
+} else {
+};
+if ($App.letter == "t") {
+$scope.ObjectToFront("Container-T");
+} else {
+};
+if ($App.letter == "u") {
+$scope.ObjectToFront("Container-U");
+} else {
+};
+if ($App.letter == "v") {
+$scope.ObjectToFront("Container-V");
+} else {
+};
+if ($App.letter == "w") {
+$scope.ObjectToFront("Container-W");
+} else {
+};
+if ($App.letter == "x") {
+$scope.ObjectToFront("Container-X");
+} else {
+};
+if ($App.letter == "y") {
+$scope.ObjectToFront("Container-Y");
+} else {
+};
+if ($App.letter == "z") {
+$scope.ObjectToFront("Container-Z");
+} else {
+};};
 $scope.Combobox2_change = function() {if ($App.line == "1") {
 $App.a1 = $App.i10001;
 localStorage.setItem("a1",$App.a1);
@@ -274,6 +380,12 @@ if ($App.line == "12") {
 $App.a12 = $App.i10001;
 } else {
 };};
+$scope.PushButton41_click = function() {window.document.location.reload();};
+$scope.PushButton42_click = function() {$scope.ObjectToFront("Container-A");};
+$scope.PushButton43_click = function() {$scope.ObjectToFront("Container-B");};
+$scope.PushButton44_click = function() {$scope.ObjectToFront("Container-C");};
+$scope.PushButton45_click = function() {$scope.ObjectToFront("Container-D");};
+$scope.PushButton46_click = function() {$scope.ObjectToFront("Container-E");};
 $scope.TextArea19_change = function() {localStorage.setItem("i10003",$App.i10003);};
 $scope.TextArea20_change = function() {localStorage.setItem("i10002",$App.i10002);};
 $scope.TextArea21_change = function() {localStorage.setItem("i10004",$App.i10004);};
@@ -281,107 +393,6 @@ $scope.TextArea22_change = function() {localStorage.setItem("i10005",$App.i10005
 $scope.TextArea23_change = function() {localStorage.setItem("i10006",$App.i10006);};
 $scope.TextArea24_change = function() {localStorage.setItem("i10007",$App.i10007);};
 $scope.TextArea25_change = function() {localStorage.setItem("i10008",$App.i10008);};
-$scope.PushButton41_click = function() {$scope.ObjectToBack("blanc");
-if ($App.letter == "a") {
-$scope.ObjectToFront("Container-A");
-} else {
-};
-if ($App.letter == "b") {
-$scope.ObjectToFront("Container-B");
-} else {
-};
-if ($App.letter == "c") {
-$scope.ObjectToFront("Container-C");
-} else {
-};
-if ($App.letter == "d") {
-$scope.ObjectToFront("Container-D");
-} else {
-};
-if ($App.letter == "e") {
-$scope.ObjectToFront("Container-E");
-} else {
-};
-if ($App.letter == "f") {
-$scope.ObjectToFront("Container-F");
-} else {
-};
-if ($App.letter == "g") {
-$scope.ObjectToFront("Container-G");
-} else {
-};
-if ($App.letter == "h") {
-$scope.ObjectToFront("Container-H");
-} else {
-};
-if ($App.letter == "i") {
-$scope.ObjectToFront("Container-I");
-} else {
-};
-if ($App.letter == "j") {
-$scope.ObjectToFront("Container-J");
-} else {
-};
-if ($App.letter == "k") {
-$scope.ObjectToFront("Container-K");
-} else {
-};
-if ($App.letter == "l") {
-$scope.ObjectToFront("Container-L");
-} else {
-};
-if ($App.letter == "m") {
-$scope.ObjectToFront("Container-m");
-} else {
-};
-if ($App.letter == "n") {
-$scope.ObjectToFront("Container-n");
-} else {
-};
-if ($App.letter == "o") {
-$scope.ObjectToFront("Container-o");
-} else {
-};
-if ($App.letter == "p") {
-$scope.ObjectToFront("Container-p");
-} else {
-};
-if ($App.letter == "q") {
-$scope.ObjectToFront("Container-q");
-} else {
-};
-if ($App.letter == "r") {
-$scope.ObjectToFront("Container-r");
-} else {
-};
-if ($App.letter == "s") {
-$scope.ObjectToFront("Container-s");
-} else {
-};
-if ($App.letter == "t") {
-$scope.ObjectToFront("Container-t");
-} else {
-};
-if ($App.letter == "u") {
-$scope.ObjectToFront("Container-u");
-} else {
-};
-if ($App.letter == "v") {
-$scope.ObjectToFront("Container-v");
-} else {
-};
-if ($App.letter == "w") {
-$scope.ObjectToFront("Container-w");
-} else {
-};
-if ($App.letter == "y") {
-$scope.ObjectToFront("Container-y");
-} else {
-};
-if ($App.letter == "Z") {
-$scope.ObjectToFront("Container-z");
-} else {
-};};
 });
 NeoApp.controller("NewDialog_Ctrl", function($scope,$rootScope,$modalInstance,$filter,$window) {
  $scope.CloseDialog = function() {

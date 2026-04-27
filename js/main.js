@@ -1,9 +1,126 @@
-var NeoApp=angular.module("NeoApp",["ngAnimate","ngRoute","ngSanitize","ngTouch","ui.bootstrap"],function($interpolateProvider){$interpolateProvider.startSymbol("[");$interpolateProvider.endSymbol("]");});NeoApp.config(["$routeProvider",function($routeProvider,$scope,$rootScope){$routeProvider.when("/Temphome",{templateUrl:"Temphome",controller:"Temphome_Ctrl"});$routeProvider.when("/CopyAll",{templateUrl:"CopyAll",controller:"CopyAll_Ctrl"});$routeProvider.when("/ia01",{templateUrl:"ia01",controller:"ia01_Ctrl"});$routeProvider.when("/ia02",{templateUrl:"ia02",controller:"ia02_Ctrl"});$routeProvider.when("/ia03",{templateUrl:"ia03",controller:"ia03_Ctrl"});$routeProvider.when("/ia04",{templateUrl:"ia04",controller:"ia04_Ctrl"});$routeProvider.when("/ia05",{templateUrl:"ia05",controller:"ia05_Ctrl"});$routeProvider.when("/ia06",{templateUrl:"ia06",controller:"ia06_Ctrl"});$routeProvider.when("/ib01",{templateUrl:"ib01",controller:"ib01_Ctrl"});$routeProvider.when("/ib02",{templateUrl:"ib02",controller:"ib02_Ctrl"});$routeProvider.when("/ib03",{templateUrl:"ib03",controller:"ib03_Ctrl"});$routeProvider.when("/ib04",{templateUrl:"ib04",controller:"ib04_Ctrl"});$routeProvider.when("/ib05",{templateUrl:"ib05",controller:"ib05_Ctrl"});$routeProvider.when("/ib06",{templateUrl:"ib06",controller:"ib06_Ctrl"});$routeProvider.when("/ic01",{templateUrl:"ic01",controller:"ic01_Ctrl"});$routeProvider.when("/ic02",{templateUrl:"ic02",controller:"ic02_Ctrl"});$routeProvider.when("/ic03",{templateUrl:"ic03",controller:"ic03_Ctrl"});$routeProvider.when("/ic04",{templateUrl:"ic04",controller:"ic04_Ctrl"});$routeProvider.when("/ic05",{templateUrl:"ic05",controller:"ic05_Ctrl"});$routeProvider.when("/ic06",{templateUrl:"ic06",controller:"ic06_Ctrl"});$routeProvider.when("/id01",{templateUrl:"id01",controller:"id01_Ctrl"});$routeProvider.when("/id02",{templateUrl:"id02",controller:"id02_Ctrl"});$routeProvider.when("/id03",{templateUrl:"id03",controller:"id03_Ctrl"});$routeProvider.when("/id04",{templateUrl:"id04",controller:"id04_Ctrl"});$routeProvider.when("/id05",{templateUrl:"id05",controller:"id05_Ctrl"});$routeProvider.when("/id06",{templateUrl:"id06",controller:"id06_Ctrl"});$routeProvider.when("/ie01",{templateUrl:"ie01",controller:"ie01_Ctrl"});$routeProvider.when("/if01",{templateUrl:"if01",controller:"if01_Ctrl"});$routeProvider.when("/ig01",{templateUrl:"ig01",controller:"ig01_Ctrl"});$routeProvider.when("/ih01",{templateUrl:"ih01",controller:"ih01_Ctrl"});$routeProvider.when("/ii01",{templateUrl:"ii01",controller:"ii01_Ctrl"});$routeProvider.when("/ij01",{templateUrl:"ij01",controller:"ij01_Ctrl"});$routeProvider.when("/ik01",{templateUrl:"ik01",controller:"ik01_Ctrl"});$routeProvider.when("/il01",{templateUrl:"il01",controller:"il01_Ctrl"});$routeProvider.when("/im01",{templateUrl:"im01",controller:"im01_Ctrl"});$routeProvider.when("/in01",{templateUrl:"in01",controller:"in01_Ctrl"});$routeProvider.when("/io01",{templateUrl:"io01",controller:"io01_Ctrl"});$routeProvider.when("/ip01",{templateUrl:"ip01",controller:"ip01_Ctrl"});$routeProvider.when("/iq01",{templateUrl:"iq01",controller:"iq01_Ctrl"});$routeProvider.when("/ir01",{templateUrl:"ir01",controller:"ir01_Ctrl"});$routeProvider.when("/is01",{templateUrl:"is01",controller:"is01_Ctrl"});$routeProvider.when("/it01",{templateUrl:"it01",controller:"it01_Ctrl"});$routeProvider.when("/iu01",{templateUrl:"iu01",controller:"iu01_Ctrl"});$routeProvider.when("/iv01",{templateUrl:"iv01",controller:"iv01_Ctrl"});$routeProvider.when("/iw01",{templateUrl:"iw01",controller:"iw01_Ctrl"});$routeProvider.when("/ixy01",{templateUrl:"ixy01",controller:"ixy01_Ctrl"});$routeProvider.when("/iz01",{templateUrl:"iz01",controller:"iz01_Ctrl"});$routeProvider.when("/ie02",{templateUrl:"ie02",controller:"ie02_Ctrl"});$routeProvider.when("/ie03",{templateUrl:"ie03",controller:"ie03_Ctrl"});$routeProvider.when("/ie04",{templateUrl:"ie04",controller:"ie04_Ctrl"});$routeProvider.when("/ie05",{templateUrl:"ie05",controller:"ie05_Ctrl"});$routeProvider.when("/ie06",{templateUrl:"ie06",controller:"ie06_Ctrl"});$routeProvider.when("/Speed01",{templateUrl:"Speed01",controller:"Speed01_Ctrl"});$routeProvider.when("/Speed02",{templateUrl:"Speed02",controller:"Speed02_Ctrl"});$routeProvider.when("/Speed03",{templateUrl:"Speed03",controller:"Speed03_Ctrl"});$routeProvider.when("/Speed04",{templateUrl:"Speed04",controller:"Speed04_Ctrl"});$routeProvider.when("/Speed05",{templateUrl:"Speed05",controller:"Speed05_Ctrl"});$routeProvider.when("/Speed06",{templateUrl:"Speed06",controller:"Speed06_Ctrl"});$routeProvider.when("/Speed07",{templateUrl:"Speed07",controller:"Speed07_Ctrl"});$routeProvider.when("/Speed08",{templateUrl:"Speed08",controller:"Speed08_Ctrl"});$routeProvider.when("/Speed09",{templateUrl:"Speed09",controller:"Speed09_Ctrl"});$routeProvider.when("/Speed10",{templateUrl:"Speed10",controller:"Speed10_Ctrl"});$routeProvider.when("/Speed11",{templateUrl:"Speed11",controller:"Speed11_Ctrl"});$routeProvider.when("/Speed12",{templateUrl:"Speed12",controller:"Speed12_Ctrl"});$routeProvider.when("/Speed13",{templateUrl:"Speed13",controller:"Speed13_Ctrl"});$routeProvider.when("/Speed14",{templateUrl:"Speed14",controller:"Speed14_Ctrl"});$routeProvider.when("/Speed15",{templateUrl:"Speed15",controller:"Speed15_Ctrl"});$routeProvider.when("/Speed16",{templateUrl:"Speed16",controller:"Speed16_Ctrl"});$routeProvider.when("/Speed17",{templateUrl:"Speed17",controller:"Speed17_Ctrl"});$routeProvider.when("/Speed18",{templateUrl:"Speed18",controller:"Speed18_Ctrl"});$routeProvider.when("/Speed19",{templateUrl:"Speed19",controller:"Speed19_Ctrl"});$routeProvider.when("/Speed20",{templateUrl:"Speed20",controller:"Speed20_Ctrl"});$routeProvider.when("/Speed21",{templateUrl:"Speed21",controller:"Speed21_Ctrl"});$routeProvider.when("/Speed22",{templateUrl:"Speed22",controller:"Speed22_Ctrl"});$routeProvider.when("/Speed23",{templateUrl:"Speed23",controller:"Speed23_Ctrl"});$routeProvider.when("/Speed24",{templateUrl:"Speed24",controller:"Speed24_Ctrl"});$routeProvider.when("/HomeTiles",{templateUrl:"HomeTiles",controller:"HomeTiles_Ctrl"});$routeProvider.when("/TNeoAppPage11",{templateUrl:"TNeoAppPage11",controller:"TNeoAppPage11_Ctrl"});$routeProvider.when("/Health",{templateUrl:"Health",controller:"Health_Ctrl"});$routeProvider.when("/Homestuff",{templateUrl:"Homestuff",controller:"Homestuff_Ctrl"});$routeProvider.when("/WorkDesktop",{templateUrl:"WorkDesktop",controller:"WorkDesktop_Ctrl"});$routeProvider.when("/HowToV3",{templateUrl:"HowToV3",controller:"HowToV3_Ctrl"});$routeProvider.when("/Tentinastorm",{templateUrl:"Tentinastorm",controller:"Tentinastorm_Ctrl"});$routeProvider.when("/fiveyearplan",{templateUrl:"fiveyearplan",controller:"fiveyearplan_Ctrl"});$routeProvider.when("/TILES",{templateUrl:"TILES",controller:"TILES_Ctrl"});$routeProvider.when("/Project1",{templateUrl:"Project1",controller:"Project1_Ctrl"});$routeProvider.when("/Project1pa",{templateUrl:"Project1pa",controller:"Project1pa_Ctrl"});$routeProvider.when("/Projectaa",{templateUrl:"Projectaa",controller:"Projectaa_Ctrl"});$routeProvider.when("/Projectab",{templateUrl:"Projectab",controller:"Projectab_Ctrl"});$routeProvider.when("/Projectac",{templateUrl:"Projectac",controller:"Projectac_Ctrl"});$routeProvider.when("/Projectad",{templateUrl:"Projectad",controller:"Projectad_Ctrl"});$routeProvider.when("/Project1pb",{templateUrl:"Project1pb",controller:"Project1pb_Ctrl"});$routeProvider.when("/Project1pc",{templateUrl:"Project1pc",controller:"Project1pc_Ctrl"});$routeProvider.when("/Project1pd",{templateUrl:"Project1pd",controller:"Project1pd_Ctrl"});$routeProvider.when("/Project1pe",{templateUrl:"Project1pe",controller:"Project1pe_Ctrl"});$routeProvider.when("/Project1pf",{templateUrl:"Project1pf",controller:"Project1pf_Ctrl"});$routeProvider.when("/Project1pg",{templateUrl:"Project1pg",controller:"Project1pg_Ctrl"});$routeProvider.when("/Project1ph",{templateUrl:"Project1ph",controller:"Project1ph_Ctrl"});$routeProvider.when("/Project1pi",{templateUrl:"Project1pi",controller:"Project1pi_Ctrl"});$routeProvider.when("/Project1pj",{templateUrl:"Project1pj",controller:"Project1pj_Ctrl"});$routeProvider.when("/Project1pk",{templateUrl:"Project1pk",controller:"Project1pk_Ctrl"});$routeProvider.when("/Project1pl",{templateUrl:"Project1pl",controller:"Project1pl_Ctrl"});$routeProvider.when("/Project1pm",{templateUrl:"Project1pm",controller:"Project1pm_Ctrl"});$routeProvider.when("/Project1pn",{templateUrl:"Project1pn",controller:"Project1pn_Ctrl"});$routeProvider.when("/Project1pfo",{templateUrl:"Project1pfo",controller:"Project1pfo_Ctrl"});$routeProvider.when("/Project1pp",{templateUrl:"Project1pp",controller:"Project1pp_Ctrl"});$routeProvider.when("/Project1pq",{templateUrl:"Project1pq",controller:"Project1pq_Ctrl"});$routeProvider.when("/Project1pr",{templateUrl:"Project1pr",controller:"Project1pr_Ctrl"});$routeProvider.when("/Project1ps",{templateUrl:"Project1ps",controller:"Project1ps_Ctrl"});$routeProvider.when("/Project1pft",{templateUrl:"Project1pft",controller:"Project1pft_Ctrl"});$routeProvider.when("/Project1pu",{templateUrl:"Project1pu",controller:"Project1pu_Ctrl"});$routeProvider.when("/Project1pv",{templateUrl:"Project1pv",controller:"Project1pv_Ctrl"});$routeProvider.when("/Project1pw",{templateUrl:"Project1pw",controller:"Project1pw_Ctrl"});$routeProvider.when("/Project1px",{templateUrl:"Project1px",controller:"Project1px_Ctrl"});$routeProvider.when("/Project2",{templateUrl:"Project2",controller:"Project2_Ctrl"});$routeProvider.when("/Projectaa2",{templateUrl:"Projectaa2",controller:"Projectaa2_Ctrl"});$routeProvider.when("/Projectab2",{templateUrl:"Projectab2",controller:"Projectab2_Ctrl"});$routeProvider.when("/Projectac2",{templateUrl:"Projectac2",controller:"Projectac2_Ctrl"});$routeProvider.when("/Projectad2",{templateUrl:"Projectad2",controller:"Projectad2_Ctrl"});$routeProvider.when("/Project2pa",{templateUrl:"Project2pa",controller:"Project2pa_Ctrl"});$routeProvider.when("/Project2pb",{templateUrl:"Project2pb",controller:"Project2pb_Ctrl"});$routeProvider.when("/Project2pc",{templateUrl:"Project2pc",controller:"Project2pc_Ctrl"});$routeProvider.when("/Project2pd",{templateUrl:"Project2pd",controller:"Project2pd_Ctrl"});$routeProvider.when("/Project2pe",{templateUrl:"Project2pe",controller:"Project2pe_Ctrl"});$routeProvider.when("/Project2pf",{templateUrl:"Project2pf",controller:"Project2pf_Ctrl"});$routeProvider.when("/Project2pg",{templateUrl:"Project2pg",controller:"Project2pg_Ctrl"});$routeProvider.when("/Project2ph",{templateUrl:"Project2ph",controller:"Project2ph_Ctrl"});$routeProvider.when("/Project2pi",{templateUrl:"Project2pi",controller:"Project2pi_Ctrl"});$routeProvider.when("/Project2pj",{templateUrl:"Project2pj",controller:"Project2pj_Ctrl"});$routeProvider.when("/Project2pk",{templateUrl:"Project2pk",controller:"Project2pk_Ctrl"});$routeProvider.when("/Project2pl",{templateUrl:"Project2pl",controller:"Project2pl_Ctrl"});$routeProvider.when("/Project2pm",{templateUrl:"Project2pm",controller:"Project2pm_Ctrl"});$routeProvider.when("/Project2pn",{templateUrl:"Project2pn",controller:"Project2pn_Ctrl"});$routeProvider.when("/C-A-Z",{templateUrl:"C-A-Z",controller:"C-A-Z_Ctrl"});$routeProvider.when("/Workstuff-A",{templateUrl:"Workstuff-A",controller:"Workstuff-A_Ctrl"});$routeProvider.when("/Workstuff-B",{templateUrl:"Workstuff-B",controller:"Workstuff-B_Ctrl"});$routeProvider.when("/Workstuff-C",{templateUrl:"Workstuff-C",controller:"Workstuff-C_Ctrl"});$routeProvider.when("/Prayer",{templateUrl:"Prayer",controller:"Prayer_Ctrl"});$routeProvider.when("/Next",{templateUrl:"Next",controller:"Next_Ctrl"});$routeProvider.when("/DailyReps",{templateUrl:"DailyReps",controller:"DailyReps_Ctrl"});$routeProvider.when("/Home",{templateUrl:"Home",controller:"Home_Ctrl"});$routeProvider.when("/Templates",{templateUrl:"Templates",controller:"Templates_Ctrl"});$routeProvider.when("/Workstuff-D",{templateUrl:"Workstuff-D",controller:"Workstuff-D_Ctrl"});$routeProvider.when("/VERSION",{templateUrl:"VERSION",controller:"VERSION_Ctrl"});$routeProvider.when("/ResetRules",{templateUrl:"ResetRules",controller:"ResetRules_Ctrl"});$routeProvider.when("/Resetoverview",{templateUrl:"Resetoverview",controller:"Resetoverview_Ctrl"});$routeProvider.when("/ResetNotes",{templateUrl:"ResetNotes",controller:"ResetNotes_Ctrl"});$routeProvider.when("/Template001",{templateUrl:"Template001",controller:"Template001_Ctrl"});$routeProvider.when("/Template1setup",{templateUrl:"Template1setup",controller:"Template1setup_Ctrl"});$routeProvider.when("/KeepJIC",{templateUrl:"KeepJIC",controller:"KeepJIC_Ctrl"});$routeProvider.when("/ResetNew",{templateUrl:"ResetNew",controller:"ResetNew_Ctrl"});$routeProvider.when("/Reset",{templateUrl:"Reset",controller:"Reset_Ctrl"});$routeProvider.when("/Stages",{templateUrl:"Stages",controller:"Stages_Ctrl"});$routeProvider.when("/Lanes",{templateUrl:"Lanes",controller:"Lanes_Ctrl"});$routeProvider.when("/Me",{templateUrl:"Me",controller:"Me_Ctrl"});$routeProvider.otherwise({redirectTo:"/Temphome"});}]);NeoApp.filter("checkmark",function(){return function(input){return input?"\u2713":"\u2718";};});NeoApp.filter("element",function(){return function(input,idx1,idx2){idx1=idx1||0;if(input&&input.constructor===Array){if(idx2){return input[idx1,idx2];}else{return input[idx1];};};return"";};});NeoApp.filter("string",function(){return function(input){if(input&&input.constructor===Array)return input.toString();if(input)return input;return"";};});NeoApp.filter("default",function(){return function(input,defValue){if(!input)return defValue;return input;};});NeoApp.filter("trustUrl",function($sce){return function(url){return $sce.trustAsResourceUrl(url);};});NeoApp.filter('bool',function(){return function(input,valueTrue,valueFalse){return input!==true?valueFalse:valueTrue;};});NeoApp.filter('splitLt',function(){return function(str,delimeter){var p=str.indexOf(delimeter);return(p>-1)?str.substring(0,p):str;};});NeoApp.filter('splitRt',function(){return function(str,delimeter){var p=str.indexOf(delimeter);return(p>-1)?str.substring(p+1):str;};});NeoApp.controller("NeoApp_CoreCtrl",function($scope,$rootScope,$location,$route,$modal,$window,$timeout,$interval,$http,$filter,$compile,$animate){$App=$rootScope;$App.$on("$locationChangeStart",function(event,newUrl,oldUrl){var newPg=newUrl.substr(newUrl.lastIndexOf("/")+1);var oldPg=oldUrl.substr(oldUrl.lastIndexOf("/")+1);if(newPg=="!"){event.preventDefault();};if(newPg=="Temphome"){$timeout($scope.Temphome_pageenter);};if(newPg=="HomeTiles"){$timeout($scope.HomeTiles_pageenter);};if(newPg=="TNeoAppPage11"){$timeout($scope.TNeoAppPage11_pageenter);};if(oldPg=="Tentinastorm"){$scope.Tentinastorm_pageexit();};if(oldPg=="fiveyearplan"){$scope.fiveyearplan_pageexit();};if(newPg=="Project1pm"){$timeout($scope.Project1pm_pageenter);};if(newPg=="Project1pn"){$timeout($scope.Project1pn_pageenter);};if(newPg=="Project1pfo"){$timeout($scope.Project1pfo_pageenter);};if(newPg=="Project1pp"){$timeout($scope.Project1pp_pageenter);};if(newPg=="Project1pq"){$timeout($scope.Project1pq_pageenter);};if(newPg=="Project1pr"){$timeout($scope.Project1pr_pageenter);};if(newPg=="Project1ps"){$timeout($scope.Project1ps_pageenter);};if(newPg=="Project1pft"){$timeout($scope.Project1pft_pageenter);};if(newPg=="Project1pv"){$timeout($scope.Project1pv_pageenter);};if(newPg=="Project1pw"){$timeout($scope.Project1pw_pageenter);};if(newPg=="Project1px"){$timeout($scope.Project1px_pageenter);};if(newPg=="Project2pa"){$timeout($scope.Project2pa_pageenter);};if(newPg=="Home"){$timeout($scope.Home_pageenter);};if(newPg=="KeepJIC"){$timeout($scope.KeepJIC_pageenter);};if(oldPg=="ResetNew"){$scope.ResetNew_pageexit();};});
+var NeoApp=angular.module("NeoApp",["ngAnimate","ngRoute","ngSanitize","ngTouch","ui.bootstrap"],function($interpolateProvider){$interpolateProvider.startSymbol("[");$interpolateProvider.endSymbol("]");});NeoApp.config(["$routeProvider",function($routeProvider,$scope,$rootScope){$routeProvider.when("/Temphome",{templateUrl:"Temphome",controller:"Temphome_Ctrl"});$routeProvider.when("/Indexwrite",{templateUrl:"Indexwrite",controller:"Indexwrite_Ctrl"});$routeProvider.when("/P012-Index-Cards-Read1",{templateUrl:"P012-Index-Cards-Read1",controller:"P012-Index-Cards-Read1_Ctrl"});$routeProvider.when("/P002-Diary-Main1",{templateUrl:"P002-Diary-Main1",controller:"P002-Diary-Main1_Ctrl"});$routeProvider.when("/P003-Prayer-Main1",{templateUrl:"P003-Prayer-Main1",controller:"P003-Prayer-Main1_Ctrl"});$routeProvider.when("/P004-Reps-Main1",{templateUrl:"P004-Reps-Main1",controller:"P004-Reps-Main1_Ctrl"});$routeProvider.when("/P005-Reps-Main21",{templateUrl:"P005-Reps-Main21",controller:"P005-Reps-Main21_Ctrl"});$routeProvider.when("/P006-Reps-Main31",{templateUrl:"P006-Reps-Main31",controller:"P006-Reps-Main31_Ctrl"});$routeProvider.when("/P007-Health-Main1",{templateUrl:"P007-Health-Main1",controller:"P007-Health-Main1_Ctrl"});$routeProvider.when("/P008-Health-Main21",{templateUrl:"P008-Health-Main21",controller:"P008-Health-Main21_Ctrl"});$routeProvider.when("/P008-Health-Main31",{templateUrl:"P008-Health-Main31",controller:"P008-Health-Main31_Ctrl"});$routeProvider.when("/P009-Project-Main1",{templateUrl:"P009-Project-Main1",controller:"P009-Project-Main1_Ctrl"});$routeProvider.when("/P010-Project-Main21",{templateUrl:"P010-Project-Main21",controller:"P010-Project-Main21_Ctrl"});$routeProvider.when("/P011-Project-Main31",{templateUrl:"P011-Project-Main31",controller:"P011-Project-Main31_Ctrl"});$routeProvider.when("/Landing1",{templateUrl:"Landing1",controller:"Landing1_Ctrl"});$routeProvider.when("/CopyAll",{templateUrl:"CopyAll",controller:"CopyAll_Ctrl"});$routeProvider.when("/ia01",{templateUrl:"ia01",controller:"ia01_Ctrl"});$routeProvider.when("/ia02",{templateUrl:"ia02",controller:"ia02_Ctrl"});$routeProvider.when("/ia03",{templateUrl:"ia03",controller:"ia03_Ctrl"});$routeProvider.when("/ia04",{templateUrl:"ia04",controller:"ia04_Ctrl"});$routeProvider.when("/ia05",{templateUrl:"ia05",controller:"ia05_Ctrl"});$routeProvider.when("/ia06",{templateUrl:"ia06",controller:"ia06_Ctrl"});$routeProvider.when("/ib01",{templateUrl:"ib01",controller:"ib01_Ctrl"});$routeProvider.when("/ib02",{templateUrl:"ib02",controller:"ib02_Ctrl"});$routeProvider.when("/ib03",{templateUrl:"ib03",controller:"ib03_Ctrl"});$routeProvider.when("/ib04",{templateUrl:"ib04",controller:"ib04_Ctrl"});$routeProvider.when("/ib05",{templateUrl:"ib05",controller:"ib05_Ctrl"});$routeProvider.when("/ib06",{templateUrl:"ib06",controller:"ib06_Ctrl"});$routeProvider.when("/ic01",{templateUrl:"ic01",controller:"ic01_Ctrl"});$routeProvider.when("/ic02",{templateUrl:"ic02",controller:"ic02_Ctrl"});$routeProvider.when("/ic03",{templateUrl:"ic03",controller:"ic03_Ctrl"});$routeProvider.when("/ic04",{templateUrl:"ic04",controller:"ic04_Ctrl"});$routeProvider.when("/ic05",{templateUrl:"ic05",controller:"ic05_Ctrl"});$routeProvider.when("/ic06",{templateUrl:"ic06",controller:"ic06_Ctrl"});$routeProvider.when("/id01",{templateUrl:"id01",controller:"id01_Ctrl"});$routeProvider.when("/id02",{templateUrl:"id02",controller:"id02_Ctrl"});$routeProvider.when("/id03",{templateUrl:"id03",controller:"id03_Ctrl"});$routeProvider.when("/id04",{templateUrl:"id04",controller:"id04_Ctrl"});$routeProvider.when("/id05",{templateUrl:"id05",controller:"id05_Ctrl"});$routeProvider.when("/id06",{templateUrl:"id06",controller:"id06_Ctrl"});$routeProvider.when("/ie01",{templateUrl:"ie01",controller:"ie01_Ctrl"});$routeProvider.when("/if01",{templateUrl:"if01",controller:"if01_Ctrl"});$routeProvider.when("/ig01",{templateUrl:"ig01",controller:"ig01_Ctrl"});$routeProvider.when("/ih01",{templateUrl:"ih01",controller:"ih01_Ctrl"});$routeProvider.when("/ii01",{templateUrl:"ii01",controller:"ii01_Ctrl"});$routeProvider.when("/ij01",{templateUrl:"ij01",controller:"ij01_Ctrl"});$routeProvider.when("/ik01",{templateUrl:"ik01",controller:"ik01_Ctrl"});$routeProvider.when("/il01",{templateUrl:"il01",controller:"il01_Ctrl"});$routeProvider.when("/im01",{templateUrl:"im01",controller:"im01_Ctrl"});$routeProvider.when("/in01",{templateUrl:"in01",controller:"in01_Ctrl"});$routeProvider.when("/io01",{templateUrl:"io01",controller:"io01_Ctrl"});$routeProvider.when("/ip01",{templateUrl:"ip01",controller:"ip01_Ctrl"});$routeProvider.when("/iq01",{templateUrl:"iq01",controller:"iq01_Ctrl"});$routeProvider.when("/ir01",{templateUrl:"ir01",controller:"ir01_Ctrl"});$routeProvider.when("/is01",{templateUrl:"is01",controller:"is01_Ctrl"});$routeProvider.when("/it01",{templateUrl:"it01",controller:"it01_Ctrl"});$routeProvider.when("/iu01",{templateUrl:"iu01",controller:"iu01_Ctrl"});$routeProvider.when("/iv01",{templateUrl:"iv01",controller:"iv01_Ctrl"});$routeProvider.when("/iw01",{templateUrl:"iw01",controller:"iw01_Ctrl"});$routeProvider.when("/ixy01",{templateUrl:"ixy01",controller:"ixy01_Ctrl"});$routeProvider.when("/iz01",{templateUrl:"iz01",controller:"iz01_Ctrl"});$routeProvider.when("/ie02",{templateUrl:"ie02",controller:"ie02_Ctrl"});$routeProvider.when("/ie03",{templateUrl:"ie03",controller:"ie03_Ctrl"});$routeProvider.when("/ie04",{templateUrl:"ie04",controller:"ie04_Ctrl"});$routeProvider.when("/ie05",{templateUrl:"ie05",controller:"ie05_Ctrl"});$routeProvider.when("/ie06",{templateUrl:"ie06",controller:"ie06_Ctrl"});$routeProvider.when("/Speed01",{templateUrl:"Speed01",controller:"Speed01_Ctrl"});$routeProvider.when("/Speed02",{templateUrl:"Speed02",controller:"Speed02_Ctrl"});$routeProvider.when("/Speed03",{templateUrl:"Speed03",controller:"Speed03_Ctrl"});$routeProvider.when("/Speed04",{templateUrl:"Speed04",controller:"Speed04_Ctrl"});$routeProvider.when("/Speed05",{templateUrl:"Speed05",controller:"Speed05_Ctrl"});$routeProvider.when("/Speed06",{templateUrl:"Speed06",controller:"Speed06_Ctrl"});$routeProvider.when("/Speed07",{templateUrl:"Speed07",controller:"Speed07_Ctrl"});$routeProvider.when("/Speed08",{templateUrl:"Speed08",controller:"Speed08_Ctrl"});$routeProvider.when("/Speed09",{templateUrl:"Speed09",controller:"Speed09_Ctrl"});$routeProvider.when("/Speed10",{templateUrl:"Speed10",controller:"Speed10_Ctrl"});$routeProvider.when("/Speed11",{templateUrl:"Speed11",controller:"Speed11_Ctrl"});$routeProvider.when("/Speed12",{templateUrl:"Speed12",controller:"Speed12_Ctrl"});$routeProvider.when("/Speed13",{templateUrl:"Speed13",controller:"Speed13_Ctrl"});$routeProvider.when("/Speed14",{templateUrl:"Speed14",controller:"Speed14_Ctrl"});$routeProvider.when("/Speed15",{templateUrl:"Speed15",controller:"Speed15_Ctrl"});$routeProvider.when("/Speed16",{templateUrl:"Speed16",controller:"Speed16_Ctrl"});$routeProvider.when("/Speed17",{templateUrl:"Speed17",controller:"Speed17_Ctrl"});$routeProvider.when("/Speed18",{templateUrl:"Speed18",controller:"Speed18_Ctrl"});$routeProvider.when("/Speed19",{templateUrl:"Speed19",controller:"Speed19_Ctrl"});$routeProvider.when("/Speed20",{templateUrl:"Speed20",controller:"Speed20_Ctrl"});$routeProvider.when("/Speed21",{templateUrl:"Speed21",controller:"Speed21_Ctrl"});$routeProvider.when("/Speed22",{templateUrl:"Speed22",controller:"Speed22_Ctrl"});$routeProvider.when("/Speed23",{templateUrl:"Speed23",controller:"Speed23_Ctrl"});$routeProvider.when("/Speed24",{templateUrl:"Speed24",controller:"Speed24_Ctrl"});$routeProvider.when("/Speed25",{templateUrl:"Speed25",controller:"Speed25_Ctrl"});$routeProvider.when("/Speed26",{templateUrl:"Speed26",controller:"Speed26_Ctrl"});$routeProvider.when("/Speed27",{templateUrl:"Speed27",controller:"Speed27_Ctrl"});$routeProvider.when("/Speed28",{templateUrl:"Speed28",controller:"Speed28_Ctrl"});$routeProvider.when("/Speed29",{templateUrl:"Speed29",controller:"Speed29_Ctrl"});$routeProvider.when("/Speed30",{templateUrl:"Speed30",controller:"Speed30_Ctrl"});$routeProvider.when("/Speed31",{templateUrl:"Speed31",controller:"Speed31_Ctrl"});$routeProvider.when("/Speed32",{templateUrl:"Speed32",controller:"Speed32_Ctrl"});$routeProvider.when("/HomeTiles",{templateUrl:"HomeTiles",controller:"HomeTiles_Ctrl"});$routeProvider.when("/TNeoAppPage11",{templateUrl:"TNeoAppPage11",controller:"TNeoAppPage11_Ctrl"});$routeProvider.when("/Health",{templateUrl:"Health",controller:"Health_Ctrl"});$routeProvider.when("/Homestuff",{templateUrl:"Homestuff",controller:"Homestuff_Ctrl"});$routeProvider.when("/WorkDesktop",{templateUrl:"WorkDesktop",controller:"WorkDesktop_Ctrl"});$routeProvider.when("/HowToV3",{templateUrl:"HowToV3",controller:"HowToV3_Ctrl"});$routeProvider.when("/Tentinastorm",{templateUrl:"Tentinastorm",controller:"Tentinastorm_Ctrl"});$routeProvider.when("/fiveyearplan",{templateUrl:"fiveyearplan",controller:"fiveyearplan_Ctrl"});$routeProvider.when("/TILES",{templateUrl:"TILES",controller:"TILES_Ctrl"});$routeProvider.when("/Project1",{templateUrl:"Project1",controller:"Project1_Ctrl"});$routeProvider.when("/Project1pa",{templateUrl:"Project1pa",controller:"Project1pa_Ctrl"});$routeProvider.when("/Projectaa",{templateUrl:"Projectaa",controller:"Projectaa_Ctrl"});$routeProvider.when("/Projectab",{templateUrl:"Projectab",controller:"Projectab_Ctrl"});$routeProvider.when("/Projectac",{templateUrl:"Projectac",controller:"Projectac_Ctrl"});$routeProvider.when("/Projectad",{templateUrl:"Projectad",controller:"Projectad_Ctrl"});$routeProvider.when("/Project1pb",{templateUrl:"Project1pb",controller:"Project1pb_Ctrl"});$routeProvider.when("/Project1pc",{templateUrl:"Project1pc",controller:"Project1pc_Ctrl"});$routeProvider.when("/Project1pd",{templateUrl:"Project1pd",controller:"Project1pd_Ctrl"});$routeProvider.when("/Project1pe",{templateUrl:"Project1pe",controller:"Project1pe_Ctrl"});$routeProvider.when("/Project1pf",{templateUrl:"Project1pf",controller:"Project1pf_Ctrl"});$routeProvider.when("/Project1pg",{templateUrl:"Project1pg",controller:"Project1pg_Ctrl"});$routeProvider.when("/Project1ph",{templateUrl:"Project1ph",controller:"Project1ph_Ctrl"});$routeProvider.when("/Project1pi",{templateUrl:"Project1pi",controller:"Project1pi_Ctrl"});$routeProvider.when("/Project1pj",{templateUrl:"Project1pj",controller:"Project1pj_Ctrl"});$routeProvider.when("/Project1pk",{templateUrl:"Project1pk",controller:"Project1pk_Ctrl"});$routeProvider.when("/Project1pl",{templateUrl:"Project1pl",controller:"Project1pl_Ctrl"});$routeProvider.when("/Project1pm",{templateUrl:"Project1pm",controller:"Project1pm_Ctrl"});$routeProvider.when("/Project1pn",{templateUrl:"Project1pn",controller:"Project1pn_Ctrl"});$routeProvider.when("/Project1pfo",{templateUrl:"Project1pfo",controller:"Project1pfo_Ctrl"});$routeProvider.when("/Project1pp",{templateUrl:"Project1pp",controller:"Project1pp_Ctrl"});$routeProvider.when("/Project1pq",{templateUrl:"Project1pq",controller:"Project1pq_Ctrl"});$routeProvider.when("/Project1pr",{templateUrl:"Project1pr",controller:"Project1pr_Ctrl"});$routeProvider.when("/Project1ps",{templateUrl:"Project1ps",controller:"Project1ps_Ctrl"});$routeProvider.when("/Project1pft",{templateUrl:"Project1pft",controller:"Project1pft_Ctrl"});$routeProvider.when("/Project1pu",{templateUrl:"Project1pu",controller:"Project1pu_Ctrl"});$routeProvider.when("/Project1pv",{templateUrl:"Project1pv",controller:"Project1pv_Ctrl"});$routeProvider.when("/Project1pw",{templateUrl:"Project1pw",controller:"Project1pw_Ctrl"});$routeProvider.when("/Project1px",{templateUrl:"Project1px",controller:"Project1px_Ctrl"});$routeProvider.when("/Project2",{templateUrl:"Project2",controller:"Project2_Ctrl"});$routeProvider.when("/Projectaa2",{templateUrl:"Projectaa2",controller:"Projectaa2_Ctrl"});$routeProvider.when("/Projectab2",{templateUrl:"Projectab2",controller:"Projectab2_Ctrl"});$routeProvider.when("/Projectac2",{templateUrl:"Projectac2",controller:"Projectac2_Ctrl"});$routeProvider.when("/Projectad2",{templateUrl:"Projectad2",controller:"Projectad2_Ctrl"});$routeProvider.when("/Project2pa",{templateUrl:"Project2pa",controller:"Project2pa_Ctrl"});$routeProvider.when("/Project2pb",{templateUrl:"Project2pb",controller:"Project2pb_Ctrl"});$routeProvider.when("/Project2pc",{templateUrl:"Project2pc",controller:"Project2pc_Ctrl"});$routeProvider.when("/Project2pd",{templateUrl:"Project2pd",controller:"Project2pd_Ctrl"});$routeProvider.when("/Project2pe",{templateUrl:"Project2pe",controller:"Project2pe_Ctrl"});$routeProvider.when("/Project2pf",{templateUrl:"Project2pf",controller:"Project2pf_Ctrl"});$routeProvider.when("/Project2pg",{templateUrl:"Project2pg",controller:"Project2pg_Ctrl"});$routeProvider.when("/Project2ph",{templateUrl:"Project2ph",controller:"Project2ph_Ctrl"});$routeProvider.when("/Project2pi",{templateUrl:"Project2pi",controller:"Project2pi_Ctrl"});$routeProvider.when("/Project2pj",{templateUrl:"Project2pj",controller:"Project2pj_Ctrl"});$routeProvider.when("/Project2pk",{templateUrl:"Project2pk",controller:"Project2pk_Ctrl"});$routeProvider.when("/Project2pl",{templateUrl:"Project2pl",controller:"Project2pl_Ctrl"});$routeProvider.when("/Project2pm",{templateUrl:"Project2pm",controller:"Project2pm_Ctrl"});$routeProvider.when("/Project2pn",{templateUrl:"Project2pn",controller:"Project2pn_Ctrl"});$routeProvider.when("/C-A-Z",{templateUrl:"C-A-Z",controller:"C-A-Z_Ctrl"});$routeProvider.when("/Workstuff-A",{templateUrl:"Workstuff-A",controller:"Workstuff-A_Ctrl"});$routeProvider.when("/Workstuff-B",{templateUrl:"Workstuff-B",controller:"Workstuff-B_Ctrl"});$routeProvider.when("/Workstuff-C",{templateUrl:"Workstuff-C",controller:"Workstuff-C_Ctrl"});$routeProvider.when("/Prayer",{templateUrl:"Prayer",controller:"Prayer_Ctrl"});$routeProvider.when("/Next",{templateUrl:"Next",controller:"Next_Ctrl"});$routeProvider.when("/DailyReps",{templateUrl:"DailyReps",controller:"DailyReps_Ctrl"});$routeProvider.when("/Home",{templateUrl:"Home",controller:"Home_Ctrl"});$routeProvider.when("/Templates",{templateUrl:"Templates",controller:"Templates_Ctrl"});$routeProvider.when("/Workstuff-D",{templateUrl:"Workstuff-D",controller:"Workstuff-D_Ctrl"});$routeProvider.when("/VERSION",{templateUrl:"VERSION",controller:"VERSION_Ctrl"});$routeProvider.when("/ResetRules",{templateUrl:"ResetRules",controller:"ResetRules_Ctrl"});$routeProvider.when("/Resetoverview",{templateUrl:"Resetoverview",controller:"Resetoverview_Ctrl"});$routeProvider.when("/ResetNotes",{templateUrl:"ResetNotes",controller:"ResetNotes_Ctrl"});$routeProvider.when("/Template001",{templateUrl:"Template001",controller:"Template001_Ctrl"});$routeProvider.when("/Template1setup",{templateUrl:"Template1setup",controller:"Template1setup_Ctrl"});$routeProvider.when("/KeepJIC",{templateUrl:"KeepJIC",controller:"KeepJIC_Ctrl"});$routeProvider.when("/ResetNew",{templateUrl:"ResetNew",controller:"ResetNew_Ctrl"});$routeProvider.when("/Reset",{templateUrl:"Reset",controller:"Reset_Ctrl"});$routeProvider.when("/Stages",{templateUrl:"Stages",controller:"Stages_Ctrl"});$routeProvider.when("/Lanes",{templateUrl:"Lanes",controller:"Lanes_Ctrl"});$routeProvider.when("/Me",{templateUrl:"Me",controller:"Me_Ctrl"});$routeProvider.otherwise({redirectTo:"/Temphome"});}]);NeoApp.filter("checkmark",function(){return function(input){return input?"\u2713":"\u2718";};});NeoApp.filter("element",function(){return function(input,idx1,idx2){idx1=idx1||0;if(input&&input.constructor===Array){if(idx2){return input[idx1,idx2];}else{return input[idx1];};};return"";};});NeoApp.filter("string",function(){return function(input){if(input&&input.constructor===Array)return input.toString();if(input)return input;return"";};});NeoApp.filter("default",function(){return function(input,defValue){if(!input)return defValue;return input;};});NeoApp.filter("trustUrl",function($sce){return function(url){return $sce.trustAsResourceUrl(url);};});NeoApp.filter('bool',function(){return function(input,valueTrue,valueFalse){return input!==true?valueFalse:valueTrue;};});NeoApp.filter('splitLt',function(){return function(str,delimeter){var p=str.indexOf(delimeter);return(p>-1)?str.substring(0,p):str;};});NeoApp.filter('splitRt',function(){return function(str,delimeter){var p=str.indexOf(delimeter);return(p>-1)?str.substring(p+1):str;};});NeoApp.controller("NeoApp_CoreCtrl",function($scope,$rootScope,$location,$route,$modal,$window,$timeout,$interval,$http,$filter,$compile,$animate){$App=$rootScope;$App.$on("$locationChangeStart",function(event,newUrl,oldUrl){var newPg=newUrl.substr(newUrl.lastIndexOf("/")+1);var oldPg=oldUrl.substr(oldUrl.lastIndexOf("/")+1);if(newPg=="!"){event.preventDefault();};if(newPg=="Temphome"){$timeout($scope.Temphome_pageenter);};if(newPg=="Landing1"){$timeout($scope.Landing1_pageenter);};if(newPg=="HomeTiles"){$timeout($scope.HomeTiles_pageenter);};if(newPg=="TNeoAppPage11"){$timeout($scope.TNeoAppPage11_pageenter);};if(oldPg=="Tentinastorm"){$scope.Tentinastorm_pageexit();};if(oldPg=="fiveyearplan"){$scope.fiveyearplan_pageexit();};if(newPg=="Project1pm"){$timeout($scope.Project1pm_pageenter);};if(newPg=="Project1pn"){$timeout($scope.Project1pn_pageenter);};if(newPg=="Project1pfo"){$timeout($scope.Project1pfo_pageenter);};if(newPg=="Project1pp"){$timeout($scope.Project1pp_pageenter);};if(newPg=="Project1pq"){$timeout($scope.Project1pq_pageenter);};if(newPg=="Project1pr"){$timeout($scope.Project1pr_pageenter);};if(newPg=="Project1ps"){$timeout($scope.Project1ps_pageenter);};if(newPg=="Project1pft"){$timeout($scope.Project1pft_pageenter);};if(newPg=="Project1pv"){$timeout($scope.Project1pv_pageenter);};if(newPg=="Project1pw"){$timeout($scope.Project1pw_pageenter);};if(newPg=="Project1px"){$timeout($scope.Project1px_pageenter);};if(newPg=="Project2pa"){$timeout($scope.Project2pa_pageenter);};if(newPg=="Home"){$timeout($scope.Home_pageenter);};if(newPg=="KeepJIC"){$timeout($scope.KeepJIC_pageenter);};if(oldPg=="ResetNew"){$scope.ResetNew_pageexit();};});
 $scope.SetError=function(msg){throw msg;};$scope.Refresh=function(){$timeout(angular.noop);};$scope.AddFont=function(fontName,fontPath){neotempstyle=document.createElement("style");var position=fontPath.lastIndexOf("/");if(position!=-1){position++;}else{position=0;}var extPosition=fontPath.lastIndexOf(".");extPosition++;var extension=fontPath.substr(extPosition);if(extension=="ttf"){extension="truetype";}if(window.location.href.indexOf("file://")!=-1){neotempstyle.textContent='@font-face{font-family: "'+fontName+'";src: url("'+fontPath+'") format("'+extension+'");}';}else{fontPath=fontPath.substr(position);neotempstyle.textContent='@font-face{font-family: "'+fontName+'";src: url("./fonts/'+fontPath+'") format("'+extension+'");}';}document.head.append(neotempstyle);};$scope.GetOrientation=function(){if($window.orientation){if(Math.abs(window.orientation)===90){return"Landscape";}else{return"Portrait";}}else{if($window.innerWidth>=$window.innerHeight){return"Landscape";}else{return"Portrait";}}};$scope.GotoPageNum=function(pgNum){if(pgNum>0&&pgNum<=$App.NAB.PageList.length){if($App.NAB.PageEnterEffect[pgNum-1]){$App.NAB._pageEffect=" animate enter-"+$App.NAB.PageEnterEffect[pgNum-1]+" exit-"+($App.NAB.PageExitEffect[pgNum-1]||"fadeOut");}else{$App.NAB._pageEffect="";}$timeout(function(){$location.path('/'+$App.NAB.PageList[pgNum-1]);});}else{$scope.SetError('Invalid page.');}};$scope.GotoPage=function(pgId){$scope.GotoPageNum($App.NAB.PageList.indexOf(pgId)+1);};$scope.GotoFirstPage=function(){$scope.GotoPageNum(1);};$scope.GotoLastPage=function(){$scope.GotoPageNum($App.NAB.PageList.length);};$scope.GotoNextPage=function(){var pgNum=$App.NAB.PageNumber;if(pgNum<$App.NAB.PageList.length){$scope.GotoPageNum(pgNum+1);return true;}return false;};$scope.GotoPrevPage=function(){var pgNum=$App.NAB.PageNumber;if(pgNum>1){$scope.GotoPageNum(pgNum-1);return true;}return false;};function makeSVG(tag,attrs){var el=document.createElementNS('http://www.w3.org/2000/svg',tag);for(var k in attrs)el.setAttribute(k,attrs[k]);return el;};function addSvgNode(objId,svgNode){if(document.getElementById(objId).tagName=="svg"){document.getElementById(objId).appendChild(svgNode);}else{document.getElementById(objId).getElementsByTagName('svg')[0].appendChild(svgNode);}};$scope.DrawCircle=function DrawCircle(objId,svgName,cx,cy,circleRadio,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('circle',{'id':svgName,'VisualNEOWebName':svgName,'cx':cx,'cy':cy,'r':circleRadio,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawEllipse=function DrawEllipse(objId,svgName,cx,cy,rx,ry,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('ellipse',{'id':svgName,'VisualNEOWebName':svgName,'cx':cx,'cy':cy,'rx':rx,'ry':ry,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawRect=function DrawRect(objId,svgName,posx,posy,width,height,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('rect',{'id':svgName,'VisualNEOWebName':svgName,'x':posx,'y':posy,'width':width,'height':height,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawPolygon=function DrawPolygon(objId,svgName,points,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('polygon',{'id':svgName,'VisualNEOWebName':svgName,'points':points,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawPath=function DrawPath(objId,svgName,path,strokeColor,strokeWidth,fillColor){$App[svgName]=makeSVG('path',{'id':svgName,'VisualNEOWebName':svgName,'d':path,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':fillColor});addSvgNode(objId,$App[svgName]);};$scope.DrawPolyLine=function DrawPolyLine(objId,svgName,points,strokeColor,strokeWidth){$App[svgName]=makeSVG('polyline',{'id':svgName,'VisualNEOWebName':svgName,'points':points,'stroke':strokeColor,'stroke-width':strokeWidth,'fill':'none'});addSvgNode(objId,$App[svgName]);};$scope.DrawLine=function DrawLine(objId,svgName,x1,y1,x2,y2,strokeColor,strokeWidth){$App[svgName]=makeSVG('line',{'id':svgName,'VisualNEOWebName':svgName,'x1':x1,'y1':y1,'x2':x2,'y2':y2,'stroke':strokeColor,'stroke-width':strokeWidth});addSvgNode(objId,$App[svgName]);};$scope.DrawImage=function DrawImage(objId,svgName,fileName,x,y,width,height){$App[svgName]=makeSVG('image',{'id':svgName,'VisualNEOWebName':svgName,'x':x,'y':y,'width':width,'height':height,'xlink:href':''});$App[svgName].setAttributeNS("http://www.w3.org/1999/xlink","xlink:href",""+fileName+"");addSvgNode(objId,$App[svgName]);};$scope.DrawText=function DrawText(objId,svgName,theText,posx,posy,fillColor,fontSize,fontFamily,angle){$App[svgName]=makeSVG('text',{'id':svgName,'VisualNEOWebName':svgName,'x':posx,'y':posy,'stroke-width':0,'fill':fillColor,'font-size':fontSize,'font-family':fontFamily,'transform':'rotate('+angle+' '+posx+' '+posy+')'});$App[svgName].textContent=theText;addSvgNode(objId,$App[svgName]);};$scope.DrawClear=function DrawClear(objId){var n=0;$("#"+objId).children().each(function(){if(n!=0){$(this).remove();}n++;});};$scope.OnMouseEvent=function(objId,eventName,subroutine){if(eventName=="contextmenu"){if($App.NAB[objId]){$App.NAB[objId].on(eventName,function(e){e.preventDefault();subroutine;return;});}$("#"+objId).on(eventName,function(e){e.preventDefault();subroutine;return;});}if($App.NAB[objId]){$App.NAB[objId].on(eventName,subroutine);return;}$("#"+objId).on(eventName,subroutine);};$scope.RemoveOnMouseEvent=function(objId,eventName){if($App.NAB[objId]){$App.NAB[objId].off(eventName);return;}$("#"+objId).off(eventName);};$scope.OnTouchEvent=function(objId,eventName,subroutine){if($App.NAB[objId]){$App.NAB[objId].on(eventName,subroutine);return;}$("#"+objId).on(eventName,subroutine);};$scope.RemoveOnTouchEvent=function(objId,eventName){if($App.NAB[objId]){$App.NAB[objId].off(eventName);return;}$("#"+objId).off(eventName);};$scope.ShowObject=function(objId,effect,speed){if($App.NAB[objId]){$App.NAB[objId].show(speed);return;}if(!effect||effect.toLowerCase()=='none'){$App.NAB[objId+'_effect']='';}else{if(speed)effect=effect+' speed-'+speed*50;$App.NAB[objId+'_effect']='animate enter-'+effect;}$timeout(function(){var name=objId+'_hidden';if($App.NAB[name])delete $App.NAB[name];});};$scope.HideObject=function(objId,effect,speed){if($App.NAB[objId]){$App.NAB[objId].hide(speed);return;}if(!effect||effect.toLowerCase()=='none'){$App.NAB[objId+'_effect']='';}else{if(speed)effect=effect+' speed-'+speed*50;$App.NAB[objId+'_effect']='animate exit-'+effect;}$timeout(function(){$App.NAB[objId+'_hidden']=true;});};$scope.DisableObject=function(objId,value){var name=objId+'_disabled';if(value){$App.NAB[name]=value;}else{if($App.NAB[name])delete $App.NAB[name];}};$scope.ClipObjectPolygon=function(objId,polygonId){var points=$("#"+polygonId).html();points=points.replace('<polygon vector-effect="non-scaling-stroke" points="',"");points=points.replace('"></polygon>','');coords=points.split(",");var puntos="";for(i=0;i<coords.length;i=i+2){if(i!=coords.length-2){puntos=puntos+coords[i]+"px "+coords[i+1]+"px,";}else{puntos=puntos+coords[i]+"px "+coords[i+1]+"px";}}$("#"+objId).css("clip-path","polygon("+puntos+")");};$scope.ClipObjectPath=function(objId,shape){if(shape=="circle"){$("#"+objId).css("clip-path","circle(50% at 50% 50%)");}else if(shape=="triangle"){$("#"+objId).css("clip-path","polygon(50% 0%, 0% 100%, 100% 100%)");}else if(shape=="rhombus"){$("#"+objId).css("clip-path","polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)");}else if(shape=="pentagon"){$("#"+objId).css("clip-path","polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)");}else{$("#"+objId).css("clip-path",shape);}};$scope.SetObjectStyle=function(objId,selector,value){if($App.NAB[objId]){$App.NAB[objId].css(selector,value);return;}if($App[objId]){$("#"+objId).css(selector,value);return;}var name=objId+'_style';if(!$App.NAB[name])$App.NAB[name]={};if(value&&value.length>0){$App.NAB[name][selector]=value;}else{if($App.NAB[name][selector])delete $App.NAB[name][selector];if(jQuery.isEmptyObject($App.NAB[name]))delete $App.NAB[name];}};$scope.ClearObjectStyles=function(objId){var name=objId+'_style';if($App.NAB[name])delete $App.NAB[name];};$scope.GetObjectInfo=function(objId,info){if($App.NAB[objId]){return $App.NAB[objId].css(info);}return $("#"+objId).css(info);};$scope.GetObjectXY=function(objId,xvar,yvar){var rect=document.getElementById($App.NAB.PageID).getBoundingClientRect();$App.PageLeft=rect.left;$App.PageTop=rect.top;var objeto=document.getElementById(objId).getBoundingClientRect();$App[xvar]=objeto.x-$App.PageLeft;$App[yvar]=objeto.y-$App.PageTop;};$scope.SetObjectHTML=function(objId,code){if($App.NAB[objId]){$App.NAB[objId].html(code);return;}var e=document.getElementById(objId);e.innerHTML=code;$compile(e)($scope);};$scope.GetObjectHTML=function(objId){if($App.NAB[objId]){return $App.NAB[objId].html();;}return document.getElementById(objId).innerHTML;};$scope.SetObjectAttribute=function(objId,AttrName,AttrValue){var element=$("#"+objId);if(AttrName==="src"){AttrName="ng-src";}var pendingChanges=$App.NAB['pendingChanges']||{};pendingChanges[objId]=pendingChanges[objId]||[];pendingChanges[objId].push({AttrName,AttrValue});$App.NAB['pendingChanges']=pendingChanges;$scope.applyPendingChanges();};$scope.applyPendingChanges=function(){var pendingChanges=$App.NAB['pendingChanges'];if(!pendingChanges||jQuery.isEmptyObject(pendingChanges)){return;}Object.keys(pendingChanges).forEach(function(objId){var element=$("#"+objId);if(element.length>0){pendingChanges[objId].forEach(function(change){element.attr(change.AttrName,change.AttrValue);$compile(element)($scope);});}});};$scope.GetObjectAttribute=function(objId,AttrName){if($App.NAB[objId]){return $App.NAB[objId].attr(AttrName);}return $("#"+objId).attr(AttrName);};$scope.SetObjectText=function(objId,code){if($App.NAB[objId]){$App.NAB[objId].text(code);return;}var e=document.getElementById(objId);e.innerText=code;$compile(e)($scope);};$scope.GetObjectText=function(objId){if($App.NAB[objId]){return $App.NAB[objId].text();}return document.getElementById(objId).innerText;};$scope.DuplicateObject=function(objId,objName,containerId){if($App.NAB[objName]){$App.NAB[objName].remove();delete $App.NAB[objName];}else{$("#"+objName).remove();delete $App.NAB[objName];}if($App.NAB[objId]){$App.NAB[objName]=$App.NAB[objId].clone().appendTo("#"+containerId);}else if($App[objId]){$App.NAB[objName]=$("#"+objId).clone().appendTo("#"+containerId);$App.NAB[objName].attr("id","");}else{$App.NAB[objName]=$("#"+objId).clone().appendTo("#"+containerId);}$App.NAB[objName].attr("VisualNEOWebName",objName);$App.NAB[objName].attr("ng-style","NAB."+objName+"_style");$App.NAB[objName].attr("ng-hide","NAB."+objName+"_hidden");$App.NAB[objName].attr("ng-disabled","NAB."+objName+"_disabled");var e=document.getElementById(containerId);$compile(e)($scope);};$scope.DuplicateObjectEx=function(objId,objName,containerId,objStyle){if($App.NAB[objName]){$App.NAB[objName].remove();delete $App.NAB[objName];}else{$("#"+objName).remove();delete $App.NAB[objName];}if($App.NAB[objId]){$App.NAB[objName]=$App.NAB[objId].clone().appendTo("#"+containerId);}else if($App[objId]){$App.NAB[objName]=$("#"+objId).clone().appendTo("#"+containerId);$App.NAB[objName].attr("id","");}else{$App.NAB[objName]=$("#"+objId).clone().appendTo("#"+containerId);$App.NAB[objName].attr("id",objName);$App.NAB[objName].atyle=document.getElementById(objId).style;}$App.NAB[objName].attr("VisualNEOWebName",objName);$App.NAB[objName].attr("ng-style","NAB."+objName+"_style");$App.NAB[objName].attr("ng-hide","NAB."+objName+"_hidden");$App.NAB[objName].attr("ng-disabled","NAB."+objName+"_disabled");$App.NAB[objName].attr("style",objStyle);var e=document.getElementById(containerId);$compile(e)($scope);};$scope.AnimateObjectCSS=function(objId,cssData,duration,delay,easing,callbackfn){if($App.NAB[objId]){$App.NAB[objId].delay(delay).animate(cssData,duration,easing,callbackfn);}else{$("#"+objId).delay(delay).animate(cssData,duration,easing,callbackfn);}};$scope.SetObjectCSS=function(objId,cssData){if($App.NAB[objId]){$App.NAB[objId].css(cssData);}else{$("#"+objId).css(cssData);}};$scope.CheckCollision=function(objId1,objId2){var x1=$("#"+objId1).offset().left;var y1=$("#"+objId1).offset().top;var h1=$("#"+objId1).outerHeight(true);var w1=$("#"+objId1).outerWidth(true);var b1=y1+h1;var r1=x1+w1;var x2=$("#"+objId2).offset().left;var y2=$("#"+objId2).offset().top;var h2=$("#"+objId2).outerHeight(true);var w2=$("#"+objId2).outerWidth(true);var b2=y2+h2;var r2=x2+w2;if(b1<y2||y1>b2||r1<x2||x1>r2){return false;}else{return true;}};$scope.CheckFullCollision=function(objId1,objId2){var r1=document.getElementById(rectone);var r2=document.getElementById(recttwo);var r1bb=r1.getBoundingClientRect();var r2bb=r2.getBoundingClientRect();var r1x=r1bb.x;var r1w=r1bb.width;var r1y=r1bb.y;var r1h=r1bb.height;var r2x=r2bb.x;var r2w=r2bb.width;var r2y=r2bb.y;var r2h=r2bb.height;if(r1x+1>=r2x&&r1y+1>=r2y&&r1x+r1w-1<=r2x+r2w&&r1y+r1h-1<=r2y+r2h){return true;}else{return false;}};function fixUnit(s){var t=s.toString();var parts=t.match(/^([+-]?(?:\d+|\d*\.\d+))([a-z]*|%)$/);return(parts[2])?t:parts[1]+'px';}$scope.SetObjectBounds=function(objId,l,t,w,h){if($App.NAB[objId]){var e=$App.NAB[objId];}else{var e=document.getElementById(objId);}if(w){w=fixUnit(w);e.style.width=w;$scope.SetObjectStyle(objId,'width',w);};if(h){h=fixUnit(h);e.style.height=h;$scope.SetObjectStyle(objId,'height',h);};if(l){l=fixUnit(l);e.style.left=l;$scope.SetObjectStyle(objId,'left',l);};if(t){t=fixUnit(t);e.style.top=t;$scope.SetObjectStyle(objId,'top',t);};};$scope.MoveObject=function(objId,left,top){if($App.NAB[objId]){$App.NAB[objId].css("left",left);$App.NAB[objId].css("top",top);}else{$scope.SetObjectBounds(objId,left,top);}};$scope.ObjectToFront=function(objId){if($App.NAB[objId]){theParent=$App.NAB[objId].parent();$App.NAB[objId].detach().appendTo(theParent);}else{theParent=$("#"+objId).parent();$("#"+objId).detach().appendTo(theParent);}};$scope.ObjectToBack=function(objId){if($App.NAB[objId]){theParent=$App.NAB[objId].parent();$App.NAB[objId].detach().prependTo(theParent);}else if($("#"+objId).parent().prop("tagName")=="svg"){theParent=$("#"+objId).parent().children().first();$("#"+objId).detach().insertAfter(theParent);}else{theParent=$("#"+objId).parent();$("#"+objId).detach().prependTo(theParent);}};$scope.SizeObject=function(objId,width,height){if($App.NAB[objId]){w=fixUnit(width);h=fixUnit(height);$App.NAB[objId].css("width",w);$App.NAB[objId].css("height",h);}else{$scope.SetObjectBounds(objId,null,null,width,height);}};$scope.RotateObject=function(objId,deg){if($App.NAB[objId]){$App.NAB[objId].css("webkitTransform","rotate("+deg+"deg)");$App.NAB[objId].css("mozTransform","rotate("+deg+"deg)");$App.NAB[objId].css("msTransform","rotate("+deg+"deg)");$App.NAB[objId].css("oTransform","rotate("+deg+"deg)");$App.NAB[objId].css("transform","rotate("+deg+"deg)");}else{var e=document.getElementById(objId);e.style.webkitTransform='rotate('+deg+'deg)';e.style.mozTransform='rotate('+deg+'deg)';e.style.msTransform='rotate('+deg+'deg)';e.style.oTransform='rotate('+deg+'deg)';e.style.transform='rotate('+deg+'deg)';};};$scope.ListBoxSort=function(objId){if($("#"+objId).children("option:selected").text()==""){$("#"+objId).children("option:selected").remove();};$("#"+objId+" option").filter(function(){return!this.value||$.trim(this.value).length==0||$.trim(this.text).length==0;}).remove();var options=$("#"+objId+" option");var arr=options.map(function(_,o){return{t:$(o).text(),v:o.value};}).get();arr.sort(function(o1,o2){return o1.t>o2.t?1:o1.t<o2.t?-1:0;});options.each(function(i,o){o.value=arr[i].v;$(o).text(arr[i].t);});if($("#"+objId).children("option:selected").text()==""){$("#"+objId).children("option:selected").remove();};};$scope.ListBoxMoveItem=function(listID,direction){var listbox=document.getElementById(listID);var selIndex=listbox.selectedIndex;if(-1==selIndex){return;}var increment=-1;if(direction=='up'){if(selIndex==1){return;}else{increment=-1;}}else{increment=1;}if((selIndex+increment)<0||(selIndex+increment)>(listbox.options.length-1)){return;}var selValue=listbox.options[selIndex].value;var selText=listbox.options[selIndex].text;listbox.options[selIndex].value=listbox.options[selIndex+increment].value
 listbox.options[selIndex].text=listbox.options[selIndex+increment].text
 listbox.options[selIndex+increment].value=selValue;listbox.options[selIndex+increment].text=selText;listbox.selectedIndex=selIndex+increment;};$scope.OpenDialog=function(dlgId){var modalInstance=$modal.open({templateUrl:dlgId,controller:dlgId+'_Ctrl',scope:$scope,size:'sm',backdrop:'static',animation:true});};$scope.AlertBox=function(dlgTitle,dlgMsg,dlgKind,callbackFn){detect1=dlgMsg.toLowerCase().search("<script");detect2=dlgMsg.toLowerCase().search("javascript:");detect3=dlgMsg.toLowerCase().search("onclick");detect4=dlgMsg.toLowerCase().search("onmouse");if(detect1!=-1||detect2!=-1||detect3!=-1||detect4!=-1){return;}var dlgKind=dlgKind||"primary";var modalInstance=$modal.open({template:'<div class="modal-dialog" ng-class="modal-sm">'+'<div class="modal-content">'+'<div class="modal-header bg-'+dlgKind+'">'+'<h4 class="modal-title">'+dlgTitle+'</h4>'+'</div>'+'<div class="modal-body">'+'<p>'+dlgMsg+'</p>'+'</div>'+'<div class="modal-footer">'+'<button class="btn btn-primary" ng-click="CloseDialog();">OK</button>'+'</div>'+'</div>'+'</div>',controller:'App_DlgCtrl',scope:$scope,size:'sm',backdrop:'static'});if(callbackFn!=undefined){modalInstance.result.then(function(){callbackFn()},function(){callbackFn()});}};$scope.AlertBoxEx=function(dlgTitle,dlgMsg,dlgKind,theWidth,theHeight,theColor,callbackFn){detect1=dlgMsg.toLowerCase().search("<script");detect2=dlgMsg.toLowerCase().search("javascript:");detect3=dlgMsg.toLowerCase().search("onclick");detect4=dlgMsg.toLowerCase().search("onmouse");if(detect1!=-1||detect2!=-1||detect3!=-1||detect4!=-1){return;}var dlgKind=dlgKind||"primary";if(theWidth<150){theWidth=150;}if(theHeight<200){theHeight=200;}var modalBodyMaxHeight=theHeight-140;var modalInstance=$modal.open({template:'<div class="modal-dialog" style="width:'+theWidth+'px;height:'+theHeight+'px;" ng-class="modal-sm">'+'<div class="modal-content">'+'<div style="background:'+theColor+';" class="modal-header bg-'+dlgKind+'">'+'<h4 class="modal-title">'+dlgTitle+'</h4>'+'</div>'+'<div style="overflow:auto;max-height:'+modalBodyMaxHeight+'px" class="modal-body">'+'<p>'+dlgMsg+'</p>'+'</div>'+'<div class="modal-footer">'+'<button class="btn btn-custom" style="color:#fff;background:'+theColor+';" ng-click="CloseDialog();">OK</button>'+'</div>'+'</div>'+'</div>',controller:'App_DlgCtrl',scope:$scope,size:'sm',backdrop:'static'});if(callbackFn!=undefined){modalInstance.result.then(function(){callbackFn()},function(){callbackFn()});}};$scope.MessageBoxEx=function(dlgTitle,dlgMsg,dlgButtons,dlgKind,theWidth,theHeight,theColor,callbackFn){detect1=dlgMsg.toLowerCase().search("<script");detect2=dlgMsg.toLowerCase().search("javascript:");detect3=dlgMsg.toLowerCase().search("onclick");detect4=dlgMsg.toLowerCase().search("onmouse");if(detect1!=-1||detect2!=-1||detect3!=-1||detect4!=-1){return;}if(theWidth<150){theWidth=150;}if(theHeight<200){theHeight=200;}var modalBodyMaxHeight=theHeight-140;var idx;var btns=dlgButtons.split("|");var btnsHTML='';for(idx=0;idx<btns.length;idx++){btnsHTML+='<button class="btn btn-custom" style="color:#fff;background:'+theColor+';" ng-click="CloseDialogBtn('+idx.toString()+');">'+btns[idx]+'</button>';}var dlgKind=dlgKind||"primary";var modalInstance=$modal.open({template:'<div class="modal-dialog" style="width:'+theWidth+'px;height:'+theHeight+'px;" ng-class="modal-sm">'+'<div class="modal-content">'+'<div style="background:'+theColor+';" class="modal-header bg-'+dlgKind+'">'+'<h4 class="modal-title">'+dlgTitle+'</h4>'+'</div>'+'<div style="overflow:auto;max-height:'+modalBodyMaxHeight+'px" class="modal-body">'+'<p>'+dlgMsg+'</p>'+'</div>'+'<div class="modal-footer">'+btnsHTML+'</div>'+'</div>'+'</div>',controller:'App_DlgCtrl',scope:$scope,size:'sm',backdrop:'static'});if(callbackFn){modalInstance.result.then(function(value){callbackFn(value+1)},function(){callbackFn(0)});}};$scope.MessageBox=function(dlgTitle,dlgMsg,dlgButtons,dlgKind,callbackFn){detect1=dlgMsg.toLowerCase().search("<script");detect2=dlgMsg.toLowerCase().search("javascript:");detect3=dlgMsg.toLowerCase().search("onclick");detect4=dlgMsg.toLowerCase().search("onmouse");if(detect1!=-1||detect2!=-1||detect3!=-1||detect4!=-1){return;}var idx;var btns=dlgButtons.split("|");var btnsHTML='';for(idx=0;idx<btns.length;idx++){btnsHTML+='<button class="btn btn-primary" ng-click="CloseDialogBtn('+idx.toString()+');">'+btns[idx]+'</button>';}var dlgKind=dlgKind||"primary";var modalInstance=$modal.open({template:'<div class="modal-dialog" ng-class="modal-sm">'+'<div class="modal-content">'+'<div class="modal-header bg-'+dlgKind+'">'+'<h4 class="modal-title">'+dlgTitle+'</h4>'+'</div>'+'<div class="modal-body">'+'<p>'+dlgMsg+'</p>'+'</div>'+'<div class="modal-footer">'+btnsHTML+'</div>'+'</div>'+'</div>',controller:'App_DlgCtrl',scope:$scope,size:'sm',backdrop:'static'});if(callbackFn){modalInstance.result.then(function(value){callbackFn(value+1)},function(){callbackFn(0)});}};$scope.SerializeForm=function(formId){var form=document.getElementById(formId);if(!form||form.nodeName!=="FORM")return;var i,j,s,field,m,q=[];for(i=0;i<form.elements.length;i++){field=form.elements[i];if(field.name==="")continue;switch(field.nodeName){case'INPUT':switch(field.type){case'text':case'hidden':case'password':case'number':q.push(field.name+"="+encodeURIComponent(field.value));break;case'checkbox':if(angular.isElement(field)){m=angular.element(field).controller('ngModel');if(m){q.push(field.name+"="+encodeURIComponent(m.$modelValue));break;}}q.push(field.name+"="+encodeURIComponent(field.checked));break;case'radio':if(field.checked){q.push(field.name+"="+encodeURIComponent(field.value));}break;case'file':break;}break;case'TEXTAREA':q.push(field.name+"="+encodeURIComponent(field.value));break;case'SELECT':switch(field.type){case'select-one':q.push(field.name+"="+encodeURIComponent(field.value));break;case'select-multiple':s='';for(j=field.options.length-1;j>=0;j=j-1){if(field.options[j].selected){s+=','+encodeURIComponent(field.options[j].value);}}if(s.length>0)q.push(field.name+"="+s.substr(1));break;}break;}}return q.join("&");};$scope.SubmitForm=function(form,url,method,submitFn,successFn,failFn){var ok=true;if(submitFn){ok=submitFn();}if(ok&&form&&url&&method){var f=$scope.SerializeForm(form);$http({method:method,url:url,data:f,responseType:"text",headers:{'Content-Type':'application/x-www-form-urlencoded'}}).then(function(response){if(successFn)successFn(response.data,response.status);},function(response){if(failFn)failFn(response.data,response.status);});}};$scope.FormSubmit=function(formulario,url){var neoApp=angular.element(document.getElementById("ng-view")).scope();var fnsubmit=neoApp[formulario+"_submit"];var fnsuccess=neoApp[formulario+"_success"];var fnfail=neoApp[formulario+"_fail"];neoApp.SubmitForm(formulario,url,'POST',fnsubmit,fnsuccess,fnfail);};$scope.FormReset=function(formulario){$("#"+formulario).trigger("reset");};$scope.SetCompVar=function(varname,varvalue){varname2="";vararray=varname.split("[");for(n=0;n<vararray.length;n++){vararray[n]=vararray[n].replace("]","");if($App[vararray[n]]!=undefined){varname2=varname2+$App[vararray[n]];}else{varname2=varname2+vararray[n];};};$App[varname2]=varvalue;};$scope.GetCompVar=function(varname,composedvar){varname2="";vararray=composedvar.split("[");for(n=0;n<vararray.length;n++){vararray[n]=vararray[n].replace("]","");if($App[vararray[n]]!=undefined){varname2=varname2+$App[vararray[n]];}else{varname2=varname2+vararray[n];};};$App[varname]=$App[varname2];};$scope.ArraySuffle=function(array,newArray){for(n=0;n<array.length;n++){newArray[n]=array[n];}var currentIndex=newArray.length,temporaryValue,randomIndex;while(0!==currentIndex){randomIndex=Math.floor(Math.random()*currentIndex);currentIndex-=1;temporaryValue=newArray[currentIndex];newArray[currentIndex]=newArray[randomIndex];newArray[randomIndex]=temporaryValue;}};$scope.ArrayCopy=function(a,start,len){if(a&&start>-1&&len>0)return a.slice(start,start+len);return[]};$scope.LoadGoogleFont=function(fontName){$("head").append("<link href='https://fonts.googleapis.com/css?family="+fontName+"' rel='stylesheet' type='text/css'>");};$scope.LocalFileToVar=function(inputFileName,resultVar,tipo){$App.NAB.temp=resultVar;var realInputFileName=$("#"+inputFileName).prop("for");var files=$('#'+realInputFileName).prop("files");for(var i=0,f;f=files[i];i++){var reader=new FileReader();reader.onload=(function(theFile,resultVar,callBackFunction){return function(e,resultVar){varName=$App.NAB.temp;$App[varName]=e.target.result;};})(f);if(tipo=="text"){reader.readAsText(f);}else if(tipo=="binary"){reader.readAsBinaryString(f);}else if(tipo=="base64"){reader.readAsDataURL(f);}else{reader.readAsArrayBuffer(f);}};};$scope.SvgToBase64=function(theContainer,theWidth,theHeight,theType,theQuality,resultVar,callbackFn){var tagName=$("#"+theContainer).prop("tagName").toLowerCase();if(tagName=="svg"){var svg=document.getElementById(theContainer);}else{var svg=document.querySelector("#"+theContainer+" svg");}var svgToBase64PngTemp=svg.outerHTML;tempWidth=svg.getAttribute("width");if(tempWidth==null){tempWidth=theWidth;}tempHeight=svg.getAttribute("height");if(tempHeight==null){tempHeight=theHeight;}svg.setAttribute("width",theWidth);svg.setAttribute("height",theHeight);var svgData=new XMLSerializer().serializeToString(svg);var canvas=document.createElement("canvas");canvas.width=theWidth;canvas.height=theHeight;var ctx=canvas.getContext("2d");var img=document.createElement("img");img.setAttribute("src","data:image/svg+xml;base64,"+btoa(svgData));img.onload=function(){ctx.drawImage(img,0,0);svg.setAttribute("width",tempWidth);svg.setAttribute("height",tempHeight);if(theType=="jpg"){$App[resultVar]=canvas.toDataURL("image/jpeg",theQuality);if(callbackFn!=""&&callbackFn!=null&&callbackFn!=undefined){callbackFn();}}else{$App[resultVar]=canvas.toDataURL("image/png");if(callbackFn!=""&&callbackFn!=null&&callbackFn!=undefined){callbackFn();}}};};$scope.ImgToBase64=function(theImg,theType,theQuality,resultVar){var img=document.querySelector("#"+theImg);const canvas=document.createElement('canvas');const ctx=canvas.getContext('2d');canvas.width=img.naturalWidth;canvas.height=img.naturalHeight;ctx.drawImage(img,0,0);if(theType=="jpg"){$App[resultVar]=canvas.toDataURL('image/jpeg',theQuality);}else{$App[resultVar]=canvas.toDataURL('image/png');}};$scope.Base64ToLocalFile=function(dataurl,filename){var arr=dataurl.split(','),mime=arr[0].match(/:(.*?);/)[1],bstr=atob(arr[1]),n=bstr.length,u8arr=new Uint8Array(n);while(n--){u8arr[n]=bstr.charCodeAt(n);}theFile=new File([u8arr],filename,{type:mime});saveAs(theFile,filename);};$scope.ResizeDesktopWindow=function(theWidth,theHeight){if(window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true){window.resizeTo(theWidth,theHeight);}};$scope.FitAppToScreen=function(coverScreen,verticalAlign,horizontalAlign){$scope.AppPosition(verticalAlign,horizontalAlign);var ha=horizontalAlign.toUpperCase();var va=verticalAlign.toUpperCase();if(va=="MIDDLE"){va="CENTER"};fit(document.getElementById("ng-app"),{x:0,y:0,width:window.innerWidth,height:window.innerHeight},{cover:coverScreen,hAlign:fit[ha],vAlign:fit[va]});fit(document.getElementById("ng-app"),{x:0,y:0,width:window.innerWidth,height:window.innerHeight},{cover:coverScreen,hAlign:fit[ha],vAlign:fit[va]},function(transform){$App.NAB.AppScale=transform.scale});};$scope.IsInstalled=function(){if(window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true){return true;}else{return false;}};$scope.CenterApp=function(){$("body").css("position","absolute");$("body").css("top","0px");$("body").css("bottom","0px");$("body").css("left","0px");$("body").css("right","0px");$("body").css("margin","auto");$("body").css("margin","auto");};$scope.TopCenterApp=function(){$("body").css("position","absolute");$("body").css("top","0px!important");$("body").css("left","0px");$("body").css("right","0px");$("body").css("bottom","auto");$("body").css("margin","auto");};$scope.ScaleApp=function(thezoom){$App.NAB.AppScale=thezoom;$("#ng-app").css("transform-origin","50% 50%");$("#ng-app").css("transform","scale("+thezoom+","+thezoom+")");};$scope.AppPosition=function(vertical,horizontal){$('body').css("position","absolute");if(vertical=="top"){$('body').css("top","0px");$('body').css("bottom","auto");}else if(vertical=="bottom"){$('body').css("bottom","0px");$('body').css("top","auto");}else{$('body').css("bottom","0px");$('body').css("top","0px");}if(horizontal=="left"){$('body').css("left","0px");$('body').css("right","auto");}else if(horizontal=="right"){$('body').css("left","auto");$('body').css("right","0px");}else{$('body').css("left","0px");$('body').css("right","0px");}$('body').css("margin","auto");};$scope.SetResponsivePages=function(plarge,pmedium,psmall,pxsmall){if(matchMedia){const largedisp=window.matchMedia("(min-width: 1025px)");const mediumdisp=window.matchMedia("(min-width: 768px) and (max-width: 1024px)");const smalldisp=window.matchMedia("(min-width: 481px) and (max-width: 767px)");const verysmalldisp=window.matchMedia("(min-width: 320px) and (max-width: 480px)");funciones=angular.element(document.getElementById("ng-view")).scope();$("body").css("width","100%");$("body").css("height","100%");$("body").css("overflow-x","hidden");$("body").css("overflow-y","auto");largedisp.addListener(WidthChangeLarge);WidthChangeLarge(largedisp);mediumdisp.addListener(WidthChangeMedium);WidthChangeMedium(mediumdisp);smalldisp.addListener(WidthChangeSmall);WidthChangeSmall(smalldisp);verysmalldisp.addListener(WidthChangeVerySmall);WidthChangeVerySmall(verysmalldisp);function WidthChangeLarge(largedisp){if(largedisp.matches){funciones.GotoPage(plarge);}};function WidthChangeMedium(mediumdisp){if(mediumdisp.matches){funciones.GotoPage(pmedium);}};function WidthChangeSmall(smalldisp){if(smalldisp.matches){funciones.GotoPage(psmall);}};function WidthChangeVerySmall(verysmalldisp){if(verysmalldisp.matches){funciones.GotoPage(pxsmall);}};}};$scope.AppBackgroundColor=function(thecolor){$("html").css("background",thecolor);};$scope.AppBackgroundImage=function(imagen){ruta=$("#"+imagen).attr('src');$("html").css('background-image','url('+ruta+' )');$("html").css('background-repeat','no-repeat');$("html").css('background-position','center center');$("html").css('background-attachment','fixed');$("html").css("-webkit-background-size","cover");$("html").css("-moz-background-size","cover");$("html").css("-o-background-size","cover");$("html").css("background-size","cover");};$scope.ObjDisableSelection=function(objectname){$("#"+objectname).css("-webkit-touch-callout","none");$("#"+objectname).css("-webkit-user-select","none");$("#"+objectname).css("-khtml-user-select","none");$("#"+objectname).css("-moz-user-select","none");$("#"+objectname).css("-ms-user-select","none");$("#"+objectname).css("user-select","none");};$scope.DisableSelection=function(){$("*").css("-webkit-touch-callout","none");$("*").css("-webkit-user-select","none");$("*").css("-khtml-user-select","none");$("*").css("-moz-user-select","none");$("*").css("-ms-user-select","none");$("*").css("user-select","none");};$scope.GetUrlParameter=function(param){url=window.location.href;var queryString=url?url.split('?')[1]:window.location.search.slice(1);var obj={};if(queryString){queryString=queryString.split('#')[0];var arr=queryString.split('&');for(var i=0;i<arr.length;i++){var a=arr[i].split('=');var paramName=a[0];var paramValue=typeof(a[1])==='undefined'?true:a[1];if(typeof paramValue==='string')paramValue=paramValue;if(paramName.match(/\[(\d+)?\]$/)){var key=paramName.replace(/\[(\d+)?\]/,'');if(!obj[key])obj[key]=[];if(paramName.match(/\[\d+\]$/)){var index=/\[(\d+)\]/.exec(paramName)[1];obj[key][index]=paramValue;}else{obj[key].push(paramValue);}}else{if(!obj[paramName]){obj[paramName]=paramValue;}else if(obj[paramName]&&typeof obj[paramName]==='string'){obj[paramName]=[obj[paramName]];obj[paramName].push(paramValue);}else{obj[paramName].push(paramValue);}}}}return obj[param];};$scope.csvToJSON=function(mycsv,separator,jsonObject){var lines=$App[mycsv].split("\n");var result=[];var headers=lines[0].split(separator);for(var i=1;i<lines.length;i++){var obj={};var currentline=lines[i].split(separator);for(var j=0;j<headers.length;j++){obj[headers[j]]=currentline[j];}result.push(obj);}$App[jsonObject]=result;};$scope.CheckInternetConnection=function(url,timeout,successFn,errorFn){$.ajax({url:url,timeout:timeout,cache:false,success:function(){if(successFn!=undefined){successFn();}},error:function(){if(errorFn!=undefined){errorFn();}},});};$scope.SetRelativePosition=function(objectname,vertical,horizontal){$("#"+objectname).css("position","absolute");if(vertical=="top"){$("#"+objectname).css("top","0px");$("#"+objectname).css("bottom","auto");}else if(vertical=="bottom"){$("#"+objectname).css("bottom","0px");$("#"+objectname).css("top","auto");}else{$("#"+objectname).css("bottom","0px");$("#"+objectname).css("top","0px");}if(horizontal=="left"){$("#"+objectname).css("left","0px");$("#"+objectname).css("right","auto");}else if(horizontal=="right"){$("#"+objectname).css("left","auto");$("#"+objectname).css("right","0px");}else{$("#"+objectname).css("left","0px");$("#"+objectname).css("right","0px");}$("#"+objectname).css("margin","auto");};$scope.WatchVar=function(varName,fn){if($App.NAB.$Watches[varName]){if($App.NAB.$Watches[varName].deRegFn)$App.NAB.$Watches[varName].deRegFn();delete $App.NAB.$Watches[varName];};if(fn){$App.NAB.$Watches[varName]={id:varName,deRegFn:undefined};$App.NAB.$Watches[varName].deRegFn=$scope.$watch(varName,function(newVal,oldVal){if(oldVal!==newVal)fn(newVal,oldVal);});};};$scope.TimerStart=function(objId,ms){if($App.NAB.$Timers[objId]){if(!angular.isDefined($App.NAB.$Timers[objId].promise)){$App.NAB.$Timers[objId].stime=Date.now();$App.NAB.$Timers[objId].promise=$interval($App.NAB.$Timers[objId].fn,ms||1000);}}else throw'A timer named "'+objId+'" does not exist.';};$scope.TimerStop=function(objId){if($App.NAB.$Timers[objId]){if(angular.isDefined($App.NAB.$Timers[objId].promise)){$interval.cancel($App.NAB.$Timers[objId].promise);$App.NAB.$Timers[objId].promise=undefined;}}else throw'A timer named "'+objId+'" does not exist.';};$scope._DeleteSound=function(sname){if($App.NAB.$Audio[sname]){$App.NAB.$Audio[sname].player.pause();delete $App.NAB.$Audio[sname].player;delete $App.NAB.$Audio[sname];return true;}return false;};$scope.PlaySound=function(fname,loop){var sname=ExtractFileName(fname).toLowerCase();if($App.NAB.$Audio[sname])throw'A sound named "'+sname+'" is already playing.';var devicePlatform=(typeof device!=='undefined'&&device.platform)?device.platform:null;if(typeof Audio!=="undefined"&&devicePlatform===null){obj={id:sname,kind:"audio",player:new Audio(fname)};obj.player.addEventListener("ended",function(){$scope._DeleteSound(sname);});}else if(devicePlatform){if(devicePlatform==='Android'){if(!IsUrl(fname))fname='/android_asset/www/'+fname;}obj={id:sname,kind:"media",player:new Media(fname,function onSuccess(){$scope._DeleteSound(sname);},function onError(e){console.log("Error playing sound: "+JSON.stringify(e));$scope._DeleteSound(sname);})};}else throw'Sound API unavailable.';$App.NAB.$Audio[sname]=obj;if(obj.kind==="audio"){obj.player.loop=loop;obj.player.play();}else obj.player.play({numberOfLoops:loop});};$scope.StopSound=function(fname){if(!fname||fname.length===0){for(var id in $App.NAB.$Audio)$scope._DeleteSound(id);}else{var sname=ExtractFileName(fname).toLowerCase();if(!$scope._DeleteSound(sname))throw'There is no playing sound named "'+sname+'"';}};$scope.CreateVideoPlayer=function(objId,fname,controls,autoplay,looping,muted){var sname=ExtractFileName(fname).toLowerCase();if(controls){addcontrols="controls";}else{addcontrols="";}if(autoplay){addautoplay="autoplay";}else{addautoplay="";}if(looping){addloop="loop";}else{addloop="";}if(muted){addmuted="muted";}else{addmuted="";}htmlstring='<video id="'+objId+'Video" width="100%" height="100%" '+addcontrols+' '+addautoplay+' '+addloop+' '+addmuted+'><source src="'+fname+'" type="video/mp4"></video>';$("#"+objId).html(htmlstring);};$scope.OnVideoEvent=function(objId,eventName,subroutine){if($App.NAB[objId+"Video"]){$App.NAB[objId+"Video"].on(eventName,subroutine);return;}$("#"+objId+"Video").on(eventName,subroutine);};$scope.CreateAudioPlayer=function(objId,fname,controls,autoplay,looping){var sname=ExtractFileName(fname).toLowerCase();if(controls){addcontrols="controls";}else{addcontrols="";}if(autoplay){addautoplay="autoplay";}else{addautoplay="";}if(looping){addloop="loop";}else{addloop="";}htmlstring='<audio id="'+objId+'Audio" width="100%" height="100%" '+addcontrols+' '+addautoplay+' '+addloop+'><source src="'+fname+'" type="audio/mp3"></audio>';$("#"+objId).html(htmlstring);};$scope.OnAudioEvent=function(objId,eventName,subroutine){if($App.NAB[objId+"Audio"]){$App.NAB[objId+"Audio"].on(eventName,subroutine);return;}$("#"+objId+"Audio").on(eventName,subroutine);};$scope.SoundBeep=function(){var snd=new Audio("data:audio/wav;base64,//uQRAAAAWMSLwUIYAAsYkXgoQwAEaYLWfkWgAI0wWs/ItAAAGDgYtAgAyN+QWaAAihwMWm4G8QQRDiMcCBcH3Cc+CDv/7xA4Tvh9Rz/y8QADBwMWgQAZG/ILNAARQ4GLTcDeIIIhxGOBAuD7hOfBB3/94gcJ3w+o5/5eIAIAAAVwWgQAVQ2ORaIQwEMAJiDg95G4nQL7mQVWI6GwRcfsZAcsKkJvxgxEjzFUgfHoSQ9Qq7KNwqHwuB13MA4a1q/DmBrHgPcmjiGoh//EwC5nGPEmS4RcfkVKOhJf+WOgoxJclFz3kgn//dBA+ya1GhurNn8zb//9NNutNuhz31f////9vt///z+IdAEAAAK4LQIAKobHItEIYCGAExBwe8jcToF9zIKrEdDYIuP2MgOWFSE34wYiR5iqQPj0JIeoVdlG4VD4XA67mAcNa1fhzA1jwHuTRxDUQ//iYBczjHiTJcIuPyKlHQkv/LHQUYkuSi57yQT//uggfZNajQ3Vmz+Zt//+mm3Wm3Q576v////+32///5/EOgAAADVghQAAAAA//uQZAUAB1WI0PZugAAAAAoQwAAAEk3nRd2qAAAAACiDgAAAAAAABCqEEQRLCgwpBGMlJkIz8jKhGvj4k6jzRnqasNKIeoh5gI7BJaC1A1AoNBjJgbyApVS4IDlZgDU5WUAxEKDNmmALHzZp0Fkz1FMTmGFl1FMEyodIavcCAUHDWrKAIA4aa2oCgILEBupZgHvAhEBcZ6joQBxS76AgccrFlczBvKLC0QI2cBoCFvfTDAo7eoOQInqDPBtvrDEZBNYN5xwNwxQRfw8ZQ5wQVLvO8OYU+mHvFLlDh05Mdg7BT6YrRPpCBznMB2r//xKJjyyOh+cImr2/4doscwD6neZjuZR4AgAABYAAAABy1xcdQtxYBYYZdifkUDgzzXaXn98Z0oi9ILU5mBjFANmRwlVJ3/6jYDAmxaiDG3/6xjQQCCKkRb/6kg/wW+kSJ5//rLobkLSiKmqP/0ikJuDaSaSf/6JiLYLEYnW/+kXg1WRVJL/9EmQ1YZIsv/6Qzwy5qk7/+tEU0nkls3/zIUMPKNX/6yZLf+kFgAfgGyLFAUwY//uQZAUABcd5UiNPVXAAAApAAAAAE0VZQKw9ISAAACgAAAAAVQIygIElVrFkBS+Jhi+EAuu+lKAkYUEIsmEAEoMeDmCETMvfSHTGkF5RWH7kz/ESHWPAq/kcCRhqBtMdokPdM7vil7RG98A2sc7zO6ZvTdM7pmOUAZTnJW+NXxqmd41dqJ6mLTXxrPpnV8avaIf5SvL7pndPvPpndJR9Kuu8fePvuiuhorgWjp7Mf/PRjxcFCPDkW31srioCExivv9lcwKEaHsf/7ow2Fl1T/9RkXgEhYElAoCLFtMArxwivDJJ+bR1HTKJdlEoTELCIqgEwVGSQ+hIm0NbK8WXcTEI0UPoa2NbG4y2K00JEWbZavJXkYaqo9CRHS55FcZTjKEk3NKoCYUnSQ0rWxrZbFKbKIhOKPZe1cJKzZSaQrIyULHDZmV5K4xySsDRKWOruanGtjLJXFEmwaIbDLX0hIPBUQPVFVkQkDoUNfSoDgQGKPekoxeGzA4DUvnn4bxzcZrtJyipKfPNy5w+9lnXwgqsiyHNeSVpemw4bWb9psYeq//uQZBoABQt4yMVxYAIAAAkQoAAAHvYpL5m6AAgAACXDAAAAD59jblTirQe9upFsmZbpMudy7Lz1X1DYsxOOSWpfPqNX2WqktK0DMvuGwlbNj44TleLPQ+Gsfb+GOWOKJoIrWb3cIMeeON6lz2umTqMXV8Mj30yWPpjoSa9ujK8SyeJP5y5mOW1D6hvLepeveEAEDo0mgCRClOEgANv3B9a6fikgUSu/DmAMATrGx7nng5p5iimPNZsfQLYB2sDLIkzRKZOHGAaUyDcpFBSLG9MCQALgAIgQs2YunOszLSAyQYPVC2YdGGeHD2dTdJk1pAHGAWDjnkcLKFymS3RQZTInzySoBwMG0QueC3gMsCEYxUqlrcxK6k1LQQcsmyYeQPdC2YfuGPASCBkcVMQQqpVJshui1tkXQJQV0OXGAZMXSOEEBRirXbVRQW7ugq7IM7rPWSZyDlM3IuNEkxzCOJ0ny2ThNkyRai1b6ev//3dzNGzNb//4uAvHT5sURcZCFcuKLhOFs8mLAAEAt4UWAAIABAAAAAB4qbHo0tIjVkUU//uQZAwABfSFz3ZqQAAAAAngwAAAE1HjMp2qAAAAACZDgAAAD5UkTE1UgZEUExqYynN1qZvqIOREEFmBcJQkwdxiFtw0qEOkGYfRDifBui9MQg4QAHAqWtAWHoCxu1Yf4VfWLPIM2mHDFsbQEVGwyqQoQcwnfHeIkNt9YnkiaS1oizycqJrx4KOQjahZxWbcZgztj2c49nKmkId44S71j0c8eV9yDK6uPRzx5X18eDvjvQ6yKo9ZSS6l//8elePK/Lf//IInrOF/FvDoADYAGBMGb7FtErm5MXMlmPAJQVgWta7Zx2go+8xJ0UiCb8LHHdftWyLJE0QIAIsI+UbXu67dZMjmgDGCGl1H+vpF4NSDckSIkk7Vd+sxEhBQMRU8j/12UIRhzSaUdQ+rQU5kGeFxm+hb1oh6pWWmv3uvmReDl0UnvtapVaIzo1jZbf/pD6ElLqSX+rUmOQNpJFa/r+sa4e/pBlAABoAAAAA3CUgShLdGIxsY7AUABPRrgCABdDuQ5GC7DqPQCgbbJUAoRSUj+NIEig0YfyWUho1VBBBA//uQZB4ABZx5zfMakeAAAAmwAAAAF5F3P0w9GtAAACfAAAAAwLhMDmAYWMgVEG1U0FIGCBgXBXAtfMH10000EEEEEECUBYln03TTTdNBDZopopYvrTTdNa325mImNg3TTPV9q3pmY0xoO6bv3r00y+IDGid/9aaaZTGMuj9mpu9Mpio1dXrr5HERTZSmqU36A3CumzN/9Robv/Xx4v9ijkSRSNLQhAWumap82WRSBUqXStV/YcS+XVLnSS+WLDroqArFkMEsAS+eWmrUzrO0oEmE40RlMZ5+ODIkAyKAGUwZ3mVKmcamcJnMW26MRPgUw6j+LkhyHGVGYjSUUKNpuJUQoOIAyDvEyG8S5yfK6dhZc0Tx1KI/gviKL6qvvFs1+bWtaz58uUNnryq6kt5RzOCkPWlVqVX2a/EEBUdU1KrXLf40GoiiFXK///qpoiDXrOgqDR38JB0bw7SoL+ZB9o1RCkQjQ2CBYZKd/+VJxZRRZlqSkKiws0WFxUyCwsKiMy7hUVFhIaCrNQsKkTIsLivwKKigsj8XYlwt/WKi2N4d//uQRCSAAjURNIHpMZBGYiaQPSYyAAABLAAAAAAAACWAAAAApUF/Mg+0aohSIRobBAsMlO//Kk4soosy1JSFRYWaLC4qZBYWFRGZdwqKiwkNBVmoWFSJkWFxX4FFRQWR+LsS4W/rFRb/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////VEFHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU291bmRib3kuZGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjAwNGh0dHA6Ly93d3cuc291bmRib3kuZGUAAAAAAAAAACU=");snd.play();};var fit=function(){"use strict";function t(t){return t.toUpperCase()}function e(t){return"number"==typeof t&&!isNaN(t)}function n(){return(new Date).getTime()}function i(t,e){for(var n=[],i=0,r=t.length;r>i;i++)n[i]=e(t[i]);return n}function r(t,e){for(var n in e)n in t||(t[n]=e[n]);return t}function o(e){if(!d)for(var n,i=H(C.body),r=w,o=0,a=T.length;a>o&&(d=T[o],n=d+r,!(n in i))&&(d=d.replace(/^(\w)/,t),n=d+r,!(n in i));o++);return d+e}function a(t){var e=H(t),n=e[o(w)].replace(/[a-z()]/gi,"").split(",");if(n.length<6)return[1,0,0,1,0,0];for(var i=0;6>i;i++)n[i]=parseFloat(n[i]);return n}function f(t,e){var n=a(e);n[0]=t.scale,n[3]=t.scale,n[4]+=t.tx,n[5]+=t.ty;var r=i(n,function(t){return t.toFixed(6)});e.style[o(m)]="0 0",e.style[o(w)]="matrix("+r.join(",")+")"}function s(t,e){var n=H(e),i=parseFloat(n.left)||0,r=parseFloat(n.top)||0;"static"===n.position&&(e.style.position="relative"),e.style.left=i+t.tx+b,e.style.top=r+t.ty+b,e.style.height=t.height+b,e.style.width=t.width+b}function l(t,e){var n=H(e),i=parseFloat(n.marginLeft)||0,r=parseFloat(n.marginTop)||0;e.style.marginLeft=i+t.tx+b,e.style.marginTop=r+t.ty+b,e.style.height=t.height+b,e.style.width=t.width+b}function h(t,e){e.height*=t.scale,e.width*=t.scale,e.x+=t.tx,e.y+=t.ty}function u(t){if(t.nodeType&&1==t.nodeType){var n=t.getBoundingClientRect();t={height:t.offsetHeight,width:t.offsetWidth,x:n.left,y:n.top}}return!e(t.x)&&e(t.left)&&(t.x=t.left),!e(t.y)&&e(t.top)&&(t.y=t.top),t}function c(){var t=n(),e=t-y;if(x>=e)clearInterval(v),v=setTimeout(c,x-e);else{for(var i=0,r=M.length;r>i;i++)M[i]();y=t}}function g(t,e,n,i,r){var o=u(t),a=u(e),s=0===o.width?R:o.width,l=0===o.height?P:o.height,c=0===a.width?I:a.width,g=0===a.height?P:a.height;R=s,B=l,I=c,P=g;var p=c/s,d=g/l,y=s/l,v=c/g,x=n.cover?d:p,m=n.cover?p:d,w=y>=v?x:m,T=s*w,O=l*w,F=n.hAlign==E?.5*(T-c):n.hAlign==L?T-c:0,b=n.vAlign==E?.5*(O-g):n.vAlign==A?O-g:0;return r=r||{},r.tx=a.x-F-o.x,r.ty=a.y-b-o.y,r.x=a.x-F-o.x*w,r.y=a.y-b-o.y*w,r.height=o.height*w,r.width=o.width*w,r.scale=w,i?i(r,t):n.apply&&(i="undefined"!=typeof HTMLElement&&t instanceof HTMLElement?f:h)(r,t),r}function p(t,e,n,i){if(!t||!e)throw"You must supply a target and a container";"function"==typeof n&&(i=n,n={}),n=r(n||{},N);var o=g(t,e,n,i);return n.watch&&(M.length||(z.addEventListener?(z.addEventListener("resize",c),z.addEventListener("orientationchange",c)):(z.attachEvent("onresize",c),z.attachEvent("onorientationchange",c))),o.trigger=function(){g(t,e,n,i,o)},o.on=function(t){var e=M.indexOf(o.trigger);~e||M.push(o.trigger),t||o.trigger()},o.off=function(){var t=M.indexOf(o.trigger);~t&&M.splice(t,1)},o.on(!0)),o}var d,y,v,x=50,m="TransformOrigin",w="Transform",T="moz ms o webkit".split(" "),E="center",A="bottom",L="right",O="left",F="top",b="px",z=window||self,C=document,H=z.getComputedStyle,M=[],N={hAlign:E,vAlign:E,watch:!1,cover:!1,apply:!0};Array.prototype.indexOf||(Array.prototype.indexOf=function(t){for(var e=0;e<this.length;++e)if(this[e]==t)return e;return-1});var R,B,I,P;return r(p,{watching:M,defaults:N,cssTransform:f,cssPosition:s,cssMargin:l,CENTER:E,BOTTOM:A,RIGHT:L,LEFT:O,TOP:F})}();"undefined"!=typeof exports&&("undefined"!=typeof module&&module.exports&&(exports=module.exports=fit),exports.fit=fit);(function(factory){if(typeof define==="function"&&define.amd){define(["jquery"],function($){return factory($)})}else if(typeof module==="object"&&typeof module.exports==="object"){exports=factory(require("jquery"))}else{factory(jQuery)}})(function($){$.easing.jswing=$.easing.swing;var pow=Math.pow,sqrt=Math.sqrt,sin=Math.sin,cos=Math.cos,PI=Math.PI,c1=1.70158,c2=c1*1.525,c3=c1+1,c4=2*PI/3,c5=2*PI/4.5;function bounceOut(x){var n1=7.5625,d1=2.75;if(x<1/d1){return n1*x*x}else if(x<2/d1){return n1*(x-=1.5/d1)*x+.75}else if(x<2.5/d1){return n1*(x-=2.25/d1)*x+.9375}else{return n1*(x-=2.625/d1)*x+.984375}}$.extend($.easing,{def:"easeOutQuad",swing:function(x){return $.easing[$.easing.def](x)},easeInQuad:function(x){return x*x},easeOutQuad:function(x){return 1-(1-x)*(1-x)},easeInOutQuad:function(x){return x<.5?2*x*x:1-pow(-2*x+2,2)/2},easeInCubic:function(x){return x*x*x},easeOutCubic:function(x){return 1-pow(1-x,3)},easeInOutCubic:function(x){return x<.5?4*x*x*x:1-pow(-2*x+2,3)/2},easeInQuart:function(x){return x*x*x*x},easeOutQuart:function(x){return 1-pow(1-x,4)},easeInOutQuart:function(x){return x<.5?8*x*x*x*x:1-pow(-2*x+2,4)/2},easeInQuint:function(x){return x*x*x*x*x},easeOutQuint:function(x){return 1-pow(1-x,5)},easeInOutQuint:function(x){return x<.5?16*x*x*x*x*x:1-pow(-2*x+2,5)/2},easeInSine:function(x){return 1-cos(x*PI/2)},easeOutSine:function(x){return sin(x*PI/2)},easeInOutSine:function(x){return-(cos(PI*x)-1)/2},easeInExpo:function(x){return x===0?0:pow(2,10*x-10)},easeOutExpo:function(x){return x===1?1:1-pow(2,-10*x)},easeInOutExpo:function(x){return x===0?0:x===1?1:x<.5?pow(2,20*x-10)/2:(2-pow(2,-20*x+10))/2},easeInCirc:function(x){return 1-sqrt(1-pow(x,2))},easeOutCirc:function(x){return sqrt(1-pow(x-1,2))},easeInOutCirc:function(x){return x<.5?(1-sqrt(1-pow(2*x,2)))/2:(sqrt(1-pow(-2*x+2,2))+1)/2},easeInElastic:function(x){return x===0?0:x===1?1:-pow(2,10*x-10)*sin((x*10-10.75)*c4)},easeOutElastic:function(x){return x===0?0:x===1?1:pow(2,-10*x)*sin((x*10-.75)*c4)+1},easeInOutElastic:function(x){return x===0?0:x===1?1:x<.5?-(pow(2,20*x-10)*sin((20*x-11.125)*c5))/2:pow(2,-20*x+10)*sin((20*x-11.125)*c5)/2+1},easeInBack:function(x){return c3*x*x*x-c1*x*x},easeOutBack:function(x){return 1+c3*pow(x-1,3)+c1*pow(x-1,2)},easeInOutBack:function(x){return x<.5?pow(2*x,2)*((c2+1)*2*x-c2)/2:(pow(2*x-2,2)*((c2+1)*(x*2-2)+c2)+2)/2},easeInBounce:function(x){return 1-bounceOut(1-x)},easeOutBounce:bounceOut,easeInOutBounce:function(x){return x<.5?(1-bounceOut(1-2*x))/2:(1+bounceOut(2*x-1))/2}})});function d(c){var b,a;if(!this.length)return this;b=this[0];b.ownerDocument?a=b.ownerDocument:(a=b,b=a.documentElement);if(null==c){if(!a.exitFullscreen&&!a.webkitExitFullscreen&&!a.webkitCancelFullScreen&&!a.msExitFullscreen&&!a.mozCancelFullScreen)return null;c=!!a.fullscreenElement||!!a.msFullscreenElement||!!a.webkitIsFullScreen||!!a.mozFullScreen;return!c?c:a.fullscreenElement||a.webkitFullscreenElement||a.webkitCurrentFullScreenElement||a.msFullscreenElement||a.mozFullScreenElement||c}c?(c=b.requestFullscreen||b.webkitRequestFullscreen||b.webkitRequestFullScreen||b.msRequestFullscreen||b.mozRequestFullScreen)&&c.call(b):(c=a.exitFullscreen||a.webkitExitFullscreen||a.webkitCancelFullScreen||a.msExitFullscreen||a.mozCancelFullScreen)&&c.call(a);return this}jQuery.fn.fullScreen=d;jQuery.fn.toggleFullScreen=function(){return d.call(this,!d.call(this))};var e,f,g;e=document;e.webkitCancelFullScreen?(f="webkitfullscreenchange",g="webkitfullscreenerror"):e.msExitFullscreen?(f="MSFullscreenChange",g="MSFullscreenError"):e.mozCancelFullScreen?(f="mozfullscreenchange",g="mozfullscreenerror"):(f="fullscreenchange",g="fullscreenerror");jQuery(document).bind(f,function(){jQuery(document).trigger(new jQuery.Event("fullscreenchange"))});jQuery(document).bind(g,function(){jQuery(document).trigger(new jQuery.Event("fullscreenerror"))});$scope.EnterFullScreen=function(){$(document).fullScreen(true);};$scope.ExitFullScreen=function(){$(document).fullScreen(false);};$scope.ObjectEnterFullScreen=function(ObjId){$("#"+ObjId).fullScreen(true);};$scope.ObjectExitFullScreen=function(ObjId){$("#"+ObjId).fullScreen(false);};var neoscript;$scope.AppOnKeyDown=function(callbackFn){$("body").keydown(function(evt){callbackFn(evt.which);});};(function(a,b){if("function"==typeof define&&define.amd)define([],b);else if("undefined"!=typeof exports)b();else{b(),a.FileSaver={exports:{}}.exports}})(this,function(){"use strict";function b(a,b){return"undefined"==typeof b?b={autoBom:!1}:"object"!=typeof b&&(console.warn("Depricated: Expected third argument to be a object"),b={autoBom:!b}),b.autoBom&&/^\s*(?:text\/\S*|application\/xml|\S*\/\S*\+xml)\s*;.*charset\s*=\s*utf-8/i.test(a.type)?new Blob(["\uFEFF",a],{type:a.type}):a}function c(b,c,d){var e=new XMLHttpRequest;e.open("GET",b),e.responseType="blob",e.onload=function(){a(e.response,c,d)},e.onerror=function(){console.error("could not download file")},e.send()}function d(a){var b=new XMLHttpRequest;return b.open("HEAD",a,!1),b.send(),200<=b.status&&299>=b.status}function e(a){try{a.dispatchEvent(new MouseEvent("click"))}catch(c){var b=document.createEvent("MouseEvents");b.initMouseEvent("click",!0,!0,window,0,0,0,80,20,!1,!1,!1,!1,0,null),a.dispatchEvent(b)}}var f="object"==typeof window&&window.window===window?window:"object"==typeof self&&self.self===self?self:"object"==typeof global&&global.global===global?global:void 0,a=f.saveAs||"object"!=typeof window||window!==f?function(){}:"download"in HTMLAnchorElement.prototype?function(b,g,h){var i=f.URL||f.webkitURL,j=document.createElement("a");g=g||b.name||"download",j.download=g,j.rel="noopener","string"==typeof b?(j.href=b,j.origin===location.origin?e(j):d(j.href)?c(b,g,h):e(j,j.target="_blank")):(j.href=i.createObjectURL(b),setTimeout(function(){i.revokeObjectURL(j.href)},4E4),setTimeout(function(){e(j)},0))}:"msSaveOrOpenBlob"in navigator?function(f,g,h){if(g=g||f.name||"download","string"!=typeof f)navigator.msSaveOrOpenBlob(b(f,h),g);else if(d(f))c(f,g,h);else{var i=document.createElement("a");i.href=f,i.target="_blank",setTimeout(function(){e(i)})}}:function(a,b,d,e){if(e=e||open("","_blank"),e&&(e.document.title=e.document.body.innerText="downloading..."),"string"==typeof a)return c(a,b,d);var g="application/octet-stream"===a.type,h=/constructor/i.test(f.HTMLElement)||f.safari,i=/CriOS\/[\d]+/.test(navigator.userAgent);if((i||g&&h)&&"object"==typeof FileReader){var j=new FileReader;j.onloadend=function(){var a=j.result;a=i?a:a.replace(/^data:[^;]*;/,"data:attachment/file;"),e?e.location.href=a:location=a,e=null},j.readAsDataURL(a)}else{var k=f.URL||f.webkitURL,l=k.createObjectURL(a);e?e.location=l:location.href=l,e=null,setTimeout(function(){k.revokeObjectURL(l)},4E4)}};f.saveAs=a.saveAs=a,"undefined"!=typeof module&&(module.exports=a)});$scope.VarToFile=function(datavar,filename){var blob=new Blob([datavar],{type:"text/plain;charset=utf-8"});saveAs(blob,filename);};!function(a){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=a();else if("function"==typeof define&&define.amd)define([],a);else{var b;b="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:this,b.mexp=a()}}(function(){return function a(b,c,d){function e(g,h){if(!c[g]){if(!b[g]){var i="function"==typeof require&&require;if(!h&&i)return i(g,!0);if(f)return f(g,!0);var j=new Error("Cannot find module '"+g+"'");throw j.code="MODULE_NOT_FOUND",j}var k=c[g]={exports:{}};b[g][0].call(k.exports,function(a){var c=b[g][1][a];return e(c?c:a)},k,k.exports,a,b,c,d)}return c[g].exports}for(var f="function"==typeof require&&require,g=0;g<d.length;g++)e(d[g]);return e}({1:[function(a,b,c){var d=a("./postfix_evaluator.js");d.prototype.formulaEval=function(){"use strict";for(var a,b,c,d=[],e=this.value,f=0;f<e.length;f++)1===e[f].type||3===e[f].type?d.push({value:3===e[f].type?e[f].show:e[f].value,type:1}):13===e[f].type?d.push({value:e[f].show,type:1}):0===e[f].type?d[d.length-1]={value:e[f].show+("-"!=e[f].show?"(":"")+d[d.length-1].value+("-"!=e[f].show?")":""),type:0}:7===e[f].type?d[d.length-1]={value:(1!=d[d.length-1].type?"(":"")+d[d.length-1].value+(1!=d[d.length-1].type?")":"")+e[f].show,type:7}:10===e[f].type?(a=d.pop(),b=d.pop(),"P"===e[f].show||"C"===e[f].show?d.push({value:"<sup>"+b.value+"</sup>"+e[f].show+"<sub>"+a.value+"</sub>",type:10}):d.push({value:(1!=b.type?"(":"")+b.value+(1!=b.type?")":"")+"<sup>"+a.value+"</sup>",type:1})):2===e[f].type||9===e[f].type?(a=d.pop(),b=d.pop(),d.push({value:(1!=b.type?"(":"")+b.value+(1!=b.type?")":"")+e[f].show+(1!=a.type?"(":"")+a.value+(1!=a.type?")":""),type:e[f].type})):12===e[f].type&&(a=d.pop(),b=d.pop(),c=d.pop(),d.push({value:e[f].show+"("+c.value+","+b.value+","+a.value+")",type:12}));return d[0].value},b.exports=d},{"./postfix_evaluator.js":5}],2:[function(a,b,c){function d(a,b){for(var c=0;c<a.length;c++)a[c]+=b;return a}function e(a,b,c,d){for(var e=0;e<d;e++)if(a[c+e]!==b[e])return!1;return!0}var f=a("./math_function.js"),g=["sin","cos","tan","pi","(",")","P","C","asin","acos","atan","7","8","9","int","cosh","acosh","ln","^","root","4","5","6","/","!","tanh","atanh","Mod","1","2","3","*","sinh","asinh","e","log","0",".","+","-",",","Sigma","n","Pi","pow"],h=["sin","cos","tan","&pi;","(",")","P","C","asin","acos","atan","7","8","9","Int","cosh","acosh"," ln","^","root","4","5","6","&divide;","!","tanh","atanh"," Mod ","1","2","3","&times;","sinh","asinh","e"," log","0",".","+","-",",","&Sigma;","n","&Pi;","pow"],i=[f.math.sin,f.math.cos,f.math.tan,"PI","(",")",f.math.P,f.math.C,f.math.asin,f.math.acos,f.math.atan,"7","8","9",Math.floor,f.math.cosh,f.math.acosh,Math.log,Math.pow,Math.sqrt,"4","5","6",f.math.div,f.math.fact,f.math.tanh,f.math.atanh,f.math.mod,"1","2","3",f.math.mul,f.math.sinh,f.math.asinh,"E",f.math.log,"0",".",f.math.add,f.math.sub,",",f.math.sigma,"n",f.math.Pi,Math.pow],j={0:11,1:0,2:3,3:0,4:0,5:0,6:0,7:11,8:11,9:1,10:10,11:0,12:11,13:0},k=[0,0,0,3,4,5,10,10,0,0,0,1,1,1,0,0,0,0,10,0,1,1,1,2,7,0,0,2,1,1,1,2,0,0,3,0,1,6,9,9,11,12,13,12,8],l={0:!0,1:!0,3:!0,4:!0,6:!0,8:!0,9:!0,12:!0,13:!0},m={0:!0,1:!0,2:!0,3:!0,4:!0,5:!0,6:!0,7:!0,8:!0,9:!0,10:!0,11:!0,12:!0,13:!0},n={0:!0,3:!0,4:!0,8:!0,12:!0,13:!0},o={},p={0:!0,1:!0,3:!0,4:!0,6:!0,8:!0,12:!0,13:!0},q={1:!0},r=[[],["1","2","3","7","8","9","4","5","6","+","-","*","/","(",")","^","!","P","C","e","0",".",",","n"],["pi","ln","Pi"],["sin","cos","tan","Del","int","Mod","log","pow"],["asin","acos","atan","cosh","root","tanh","sinh"],["acosh","atanh","asinh","Sigma"]];f.addToken=function(a){for(var b=0;b<a.length;b++){var c=a[b].token.length,d=-1;if(c<r.length)for(var e=0;e<r[c].length;e++)if(a[b].token===r[c][e]){d=g.indexOf(r[c][e]);break}d===-1?(g.push(a[b].token),k.push(a[b].type),r.length<=a[b].token.length&&(r[a[b].token.length]=[]),r[a[b].token.length].push(a[b].token),i.push(a[b].value),h.push(a[b].show)):(g[d]=a[b].token,k[d]=a[b].type,i[d]=a[b].value,h[d]=a[b].show)}},f.lex=function(a,b){"use strict";var c,s,t,u,v={value:f.math.changeSign,type:0,pre:21,show:"-"},w={value:")",show:")",type:5,pre:0},x={value:"(",type:4,pre:0,show:"("},y=[x],z=[],A=a,B=0,C=l,D=0,E=o,F="";"undefined"!=typeof b&&f.addToken(b);var G={};for(s=0;s<A.length;s++)if(" "!==A[s]){for(c="",t=A.length-s>r.length-2?r.length-1:A.length-s;t>0;t--)for(u=0;u<r[t].length;u++)e(A,r[t][u],s,t)&&(c=r[t][u],u=r[t].length,t=0);if(s+=c.length-1,""===c)throw new f.Exception("Can't understand after "+A.slice(s));var H,I=g.indexOf(c),J=c,K=k[I],L=i[I],M=j[K],N=h[I],O=y[y.length-1];for(H=z.length;H--&&0===z[H];)if([0,2,3,5,9,11,12,13].indexOf(K)!==-1){if(C[K]!==!0)throw new f.Exception(c+" is not allowed after "+F);y.push(w),C=m,E=p,d(z,-1).pop()}if(C[K]!==!0)throw new f.Exception(c+" is not allowed after "+F);if(E[K]===!0&&(K=2,L=f.math.mul,N="&times;",M=3,s-=c.length),G={value:L,type:K,pre:M,show:N},0===K)C=l,E=o,d(z,2).push(2),y.push(G),y.push(x);else if(1===K)1===O.type?(O.value+=L,d(z,1)):y.push(G),C=m,E=n;else if(2===K)C=l,E=o,d(z,2),y.push(G);else if(3===K)y.push(G),C=m,E=p;else if(4===K)B+=z.length,z=[],D++,C=l,E=o,y.push(G);else if(5===K){if(!D)throw new f.Exception("Closing parenthesis are more than opening one, wait What!!!");for(;B--;)y.push(w);B=0,D--,C=m,E=p,y.push(G)}else if(6===K){if(O.hasDec)throw new f.Exception("Two decimals are not allowed in one number");1!==O.type&&(O={value:0,type:1,pre:0},y.push(O),d(z,-1)),C=q,d(z,1),E=o,O.value+=L,O.hasDec=!0}else 7===K&&(C=m,E=p,d(z,1),y.push(G));8===K?(C=l,E=o,d(z,4).push(4),y.push(G),y.push(x)):9===K?(9===O.type?O.value===f.math.add?(O.value=L,O.show=N,d(z,1)):O.value===f.math.sub&&"-"===N&&(O.value=f.math.add,O.show="+",d(z,1)):5!==O.type&&7!==O.type&&1!==O.type&&3!==O.type&&13!==O.type?"-"===J&&(C=l,E=o,d(z,2).push(2),y.push(v),y.push(x)):(y.push(G),d(z,2)),C=l,E=o):10===K?(C=l,E=o,d(z,2),y.push(G)):11===K?(C=l,E=o,y.push(G)):12===K?(C=l,E=o,d(z,6).push(6),y.push(G),y.push(x)):13===K&&(C=m,E=p,y.push(G)),d(z,-1),F=c}for(H=z.length;H--&&0===z[H];)y.push(w),d(z,-1).pop();if(C[5]!==!0)throw new f.Exception("complete the expression");for(;D--;)y.push(w);return y.push(w),new f(y)},b.exports=f},{"./math_function.js":3}],3:[function(a,b,c){var d=function(a){this.value=a};d.math={isDegree:!0,acos:function(a){return d.math.isDegree?180/Math.PI*Math.acos(a):Math.acos(a)},add:function(a,b){return a+b},asin:function(a){return d.math.isDegree?180/Math.PI*Math.asin(a):Math.asin(a)},atan:function(a){return d.math.isDegree?180/Math.PI*Math.atan(a):Math.atan(a)},acosh:function(a){return Math.log(a+Math.sqrt(a*a-1))},asinh:function(a){return Math.log(a+Math.sqrt(a*a+1))},atanh:function(a){return Math.log((1+a)/(1-a))},C:function(a,b){var c=1,e=a-b,f=b;f<e&&(f=e,e=b);for(var g=f+1;g<=a;g++)c*=g;return c/d.math.fact(e)},changeSign:function(a){return-a},cos:function(a){return d.math.isDegree&&(a=d.math.toRadian(a)),Math.cos(a)},cosh:function(a){return(Math.pow(Math.E,a)+Math.pow(Math.E,-1*a))/2},div:function(a,b){return a/b},fact:function(a){if(a%1!==0)return"NaN";for(var b=1,c=2;c<=a;c++)b*=c;return b},inverse:function(a){return 1/a},log:function(a){return Math.log(a)/Math.log(10)},mod:function(a,b){return a%b},mul:function(a,b){return a*b},P:function(a,b){for(var c=1,d=Math.floor(a)-Math.floor(b)+1;d<=Math.floor(a);d++)c*=d;return c},Pi:function(a,b,c){for(var d=1,e=a;e<=b;e++)d*=Number(c.postfixEval({n:e}));return d},pow10x:function(a){for(var b=1;a--;)b*=10;return b},sigma:function(a,b,c){for(var d=0,e=a;e<=b;e++)d+=Number(c.postfixEval({n:e}));return d},sin:function(a){return d.math.isDegree&&(a=d.math.toRadian(a)),Math.sin(a)},sinh:function(a){return(Math.pow(Math.E,a)-Math.pow(Math.E,-1*a))/2},sub:function(a,b){return a-b},tan:function(a){return d.math.isDegree&&(a=d.math.toRadian(a)),Math.tan(a)},tanh:function(a){return d.sinha(a)/d.cosha(a)},toRadian:function(a){return a*Math.PI/180}},d.Exception=function(a){this.message=a},b.exports=d},{}],4:[function(a,b,c){var d=a("./lexer.js");d.prototype.toPostfix=function(){"use strict";for(var a,b,c,e,f,g=[],h=[{value:"(",type:4,pre:0}],i=this.value,j=1;j<i.length;j++)if(1===i[j].type||3===i[j].type||13===i[j].type)1===i[j].type&&(i[j].value=Number(i[j].value)),g.push(i[j]);else if(4===i[j].type)h.push(i[j]);else if(5===i[j].type)for(;4!==(b=h.pop()).type;)g.push(b);else if(11===i[j].type){for(;4!==(b=h.pop()).type;)g.push(b);h.push(b)}else{a=i[j],e=a.pre,f=h[h.length-1],c=f.pre;var k="Math.pow"==f.value&&"Math.pow"==a.value;if(e>c)h.push(a);else{for(;c>=e&&!k||k&&e<c;)b=h.pop(),f=h[h.length-1],g.push(b),c=f.pre,k="Math.pow"==a.value&&"Math.pow"==f.value;h.push(a)}}return new d(g)},b.exports=d},{"./lexer.js":2}],5:[function(a,b,c){var d=a("./postfix.js");d.prototype.postfixEval=function(a){"use strict";a=a||{},a.PI=Math.PI,a.E=Math.E;for(var b,c,e,f=[],g=this.value,h="undefined"!=typeof a.n,i=0;i<g.length;i++)1===g[i].type?f.push({value:g[i].value,type:1}):3===g[i].type?f.push({value:a[g[i].value],type:1}):0===g[i].type?"undefined"==typeof f[f.length-1].type?f[f.length-1].value.push(g[i]):f[f.length-1].value=g[i].value(f[f.length-1].value):7===g[i].type?"undefined"==typeof f[f.length-1].type?f[f.length-1].value.push(g[i]):f[f.length-1].value=g[i].value(f[f.length-1].value):8===g[i].type?(b=f.pop(),c=f.pop(),f.push({type:1,value:g[i].value(c.value,b.value)})):10===g[i].type?(b=f.pop(),c=f.pop(),"undefined"==typeof c.type?(c.value=c.concat(b),c.value.push(g[i]),f.push(c)):"undefined"==typeof b.type?(b.unshift(c),b.push(g[i]),f.push(b)):f.push({type:1,value:g[i].value(c.value,b.value)})):2===g[i].type||9===g[i].type?(b=f.pop(),c=f.pop(),"undefined"==typeof c.type?(console.log(c),c=c.concat(b),c.push(g[i]),f.push(c)):"undefined"==typeof b.type?(b.unshift(c),b.push(g[i]),f.push(b)):f.push({type:1,value:g[i].value(c.value,b.value)})):12===g[i].type?(b=f.pop(),"undefined"!=typeof b.type&&(b=[b]),c=f.pop(),e=f.pop(),f.push({type:1,value:g[i].value(e.value,c.value,new d(b))})):13===g[i].type&&(h?f.push({value:a[g[i].value],type:3}):f.push([g[i]]));if(f.length>1)throw new d.exception("Uncaught Syntax error");return f[0].value>1e15?"Infinity":parseFloat(f[0].value.toFixed(15))},d.eval=function(a,b,c){return"undefined"==typeof b?this.lex(a).toPostfix().postfixEval():"undefined"==typeof c?"undefined"!=typeof b.length?this.lex(a,b).toPostfix().postfixEval():this.lex(a).toPostfix().postfixEval(b):this.lex(a,b).toPostfix().postfixEval(c)},b.exports=d},{"./postfix.js":4}]},{},[1])(1)});$scope.Calculate=function(formula,decimals){var numero=mexp.eval(formula);if(decimals!=-1){potencia=Math.pow(10,decimals);numero=Math.round(numero*potencia)/potencia;}return numero;};$(document).mousemove(function(evt){if($App.NAB.AppScale==0){$App.NAB.AppScale=1;}var x=((evt.pageX-$('body').offset().left)+$(window).scrollLeft())/$App.NAB.AppScale;var y=((evt.pageY-$('body').offset().top)+$(window).scrollTop())/$App.NAB.AppScale;var sx=((evt.pageX+$(window).scrollLeft())/$App.NAB.AppScale);var sy=((evt.pageY+$(window).scrollTop())/$App.NAB.AppScale);$App.NAB.MouseX=Math.round(x);$App.NAB.MouseY=Math.round(y);$App.NAB.MouseScreenX=Math.round(sx);$App.NAB.MouseScreenY=Math.round(sy);});$(document).on("touchmove",function(evt){if($App.NAB.AppScale==0){$App.NAB.AppScale=1;}var x=((evt.touches[0].clientX-$('body').offset().left)+$(window).scrollLeft())/$App.NAB.AppScale;var y=((evt.touches[0].clientY-$('body').offset().top)+$(window).scrollTop())/$App.NAB.AppScale;$App.NAB.TouchX=Math.round(x);$App.NAB.TouchY=Math.round(y);});$(document).on("touchstart",function(evt){if($App.NAB.AppScale==0){$App.NAB.AppScale=1;}var x=((evt.touches[0].clientX-$('body').offset().left)+$(window).scrollLeft())/$App.NAB.AppScale;var y=((evt.touches[0].clientY-$('body').offset().top)+$(window).scrollTop())/$App.NAB.AppScale;$App.NAB.TouchX=Math.round(x);$App.NAB.TouchY=Math.round(y);});
-$App.NAB={PageList:["Temphome","CopyAll","ia01","ia02","ia03","ia04","ia05","ia06","ib01","ib02","ib03","ib04","ib05","ib06","ic01","ic02","ic03","ic04","ic05","ic06","id01","id02","id03","id04","id05","id06","ie01","if01","ig01","ih01","ii01","ij01","ik01","il01","im01","in01","io01","ip01","iq01","ir01","is01","it01","iu01","iv01","iw01","ixy01","iz01","ie02","ie03","ie04","ie05","ie06","Speed01","Speed02","Speed03","Speed04","Speed05","Speed06","Speed07","Speed08","Speed09","Speed10","Speed11","Speed12","Speed13","Speed14","Speed15","Speed16","Speed17","Speed18","Speed19","Speed20","Speed21","Speed22","Speed23","Speed24","HomeTiles","TNeoAppPage11","Health","Homestuff","WorkDesktop","HowToV3","Tentinastorm","fiveyearplan","TILES","Project1","Project1pa","Projectaa","Projectab","Projectac","Projectad","Project1pb","Project1pc","Project1pd","Project1pe","Project1pf","Project1pg","Project1ph","Project1pi","Project1pj","Project1pk","Project1pl","Project1pm","Project1pn","Project1pfo","Project1pp","Project1pq","Project1pr","Project1ps","Project1pft","Project1pu","Project1pv","Project1pw","Project1px","Project2","Projectaa2","Projectab2","Projectac2","Projectad2","Project2pa","Project2pb","Project2pc","Project2pd","Project2pe","Project2pf","Project2pg","Project2ph","Project2pi","Project2pj","Project2pk","Project2pl","Project2pm","Project2pn","C-A-Z","Workstuff-A","Workstuff-B","Workstuff-C","Prayer","Next","DailyReps","Home","Templates","Workstuff-D","VERSION","ResetRules","Resetoverview","ResetNotes","Template001","Template1setup","KeepJIC","ResetNew","Reset","Stages","Lanes","Me"],PageEnterEffect:["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],PageCount:155,PageExitEffect:["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],PageNumber:1,AppScale:1,PageID:"",Hour:"",Hour24:"",Minute:"",Second:"",Time:"",Time24:"",DateShort:"",DateLong:"",DateFull:"",Month:"",MonthNum:"",WeekNum:"",Day:"",DayNum:"",Year:"",ClientWidth:$window.innerWidth,ClientHeight:$window.innerHeight,WindowWidth:$window.outerWidth,WindowHeight:$window.outerHeight,Orientation:$scope.GetOrientation(),OperatingSystem:"",$Watches:{},$Timers:{},$Audio:{}};$scope.__doUpdate=function(){var Now=new Date();$App.NAB.Hour=$filter("date")(Now,"h");$App.NAB.Hour24=$filter("date")(Now,"H");$App.NAB.Minute=$filter("date")(Now,"mm");$App.NAB.Second=$filter("date")(Now,"ss");$App.NAB.Time=$filter("date")(Now,"mediumTime");$App.NAB.Time24=$filter("date")(Now,"H:mm:ss");$App.NAB.DateShort=$filter("date")(Now,"shortDate");$App.NAB.DateLong=$filter("date")(Now,"longDate");$App.NAB.DateFull=$filter("date")(Now,"fullDate");$App.NAB.Month=$filter("date")(Now,"MMMM");$App.NAB.MonthNum=$filter("date")(Now,"M");$App.NAB.WeekNum=$filter("date")(Now,"w");$App.NAB.Day=$filter("date")(Now,"EEEE");$App.NAB.DayNum=$filter("date")(Now,"d");$App.NAB.Year=$filter("date")(Now,"yyyy");};$scope.__doOrientationChange=function(){$App.NAB.Orientation=$scope.GetOrientation();};$scope.__doResize=function(){$App.NAB.ClientWidth=$window.innerWidth;$App.NAB.ClientHeight=$window.innerHeight;$App.NAB.WindowWidth=$window.outerWidth;$App.NAB.WindowHeight=$window.outerHeight;};$scope.__init=function(){angular.element($window).bind("orientationchange.app",function(){$timeout($scope.__doOrientationChange);});angular.element($window).bind("resize.app",function(){$timeout($scope.__doResize);});$interval($scope.__doUpdate,1000);$App.NAB.OperatingSystem=GetPlatform();$scope.__doUpdate();};
-$scope.Temphome_pageenter = function() {$App.VERSION = "v3.746";
+$App.NAB={PageList:["Temphome","Indexwrite","P012-Index-Cards-Read1","P002-Diary-Main1","P003-Prayer-Main1","P004-Reps-Main1","P005-Reps-Main21","P006-Reps-Main31","P007-Health-Main1","P008-Health-Main21","P008-Health-Main31","P009-Project-Main1","P010-Project-Main21","P011-Project-Main31","Landing1","CopyAll","ia01","ia02","ia03","ia04","ia05","ia06","ib01","ib02","ib03","ib04","ib05","ib06","ic01","ic02","ic03","ic04","ic05","ic06","id01","id02","id03","id04","id05","id06","ie01","if01","ig01","ih01","ii01","ij01","ik01","il01","im01","in01","io01","ip01","iq01","ir01","is01","it01","iu01","iv01","iw01","ixy01","iz01","ie02","ie03","ie04","ie05","ie06","Speed01","Speed02","Speed03","Speed04","Speed05","Speed06","Speed07","Speed08","Speed09","Speed10","Speed11","Speed12","Speed13","Speed14","Speed15","Speed16","Speed17","Speed18","Speed19","Speed20","Speed21","Speed22","Speed23","Speed24","Speed25","Speed26","Speed27","Speed28","Speed29","Speed30","Speed31","Speed32","HomeTiles","TNeoAppPage11","Health","Homestuff","WorkDesktop","HowToV3","Tentinastorm","fiveyearplan","TILES","Project1","Project1pa","Projectaa","Projectab","Projectac","Projectad","Project1pb","Project1pc","Project1pd","Project1pe","Project1pf","Project1pg","Project1ph","Project1pi","Project1pj","Project1pk","Project1pl","Project1pm","Project1pn","Project1pfo","Project1pp","Project1pq","Project1pr","Project1ps","Project1pft","Project1pu","Project1pv","Project1pw","Project1px","Project2","Projectaa2","Projectab2","Projectac2","Projectad2","Project2pa","Project2pb","Project2pc","Project2pd","Project2pe","Project2pf","Project2pg","Project2ph","Project2pi","Project2pj","Project2pk","Project2pl","Project2pm","Project2pn","C-A-Z","Workstuff-A","Workstuff-B","Workstuff-C","Prayer","Next","DailyReps","Home","Templates","Workstuff-D","VERSION","ResetRules","Resetoverview","ResetNotes","Template001","Template1setup","KeepJIC","ResetNew","Reset","Stages","Lanes","Me"],PageEnterEffect:["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],PageCount:177,PageExitEffect:["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],PageNumber:1,AppScale:1,PageID:"",Hour:"",Hour24:"",Minute:"",Second:"",Time:"",Time24:"",DateShort:"",DateLong:"",DateFull:"",Month:"",MonthNum:"",WeekNum:"",Day:"",DayNum:"",Year:"",ClientWidth:$window.innerWidth,ClientHeight:$window.innerHeight,WindowWidth:$window.outerWidth,WindowHeight:$window.outerHeight,Orientation:$scope.GetOrientation(),OperatingSystem:"",$Watches:{},$Timers:{},$Audio:{}};$scope.__doUpdate=function(){var Now=new Date();$App.NAB.Hour=$filter("date")(Now,"h");$App.NAB.Hour24=$filter("date")(Now,"H");$App.NAB.Minute=$filter("date")(Now,"mm");$App.NAB.Second=$filter("date")(Now,"ss");$App.NAB.Time=$filter("date")(Now,"mediumTime");$App.NAB.Time24=$filter("date")(Now,"H:mm:ss");$App.NAB.DateShort=$filter("date")(Now,"shortDate");$App.NAB.DateLong=$filter("date")(Now,"longDate");$App.NAB.DateFull=$filter("date")(Now,"fullDate");$App.NAB.Month=$filter("date")(Now,"MMMM");$App.NAB.MonthNum=$filter("date")(Now,"M");$App.NAB.WeekNum=$filter("date")(Now,"w");$App.NAB.Day=$filter("date")(Now,"EEEE");$App.NAB.DayNum=$filter("date")(Now,"d");$App.NAB.Year=$filter("date")(Now,"yyyy");};$scope.__doOrientationChange=function(){$App.NAB.Orientation=$scope.GetOrientation();};$scope.__doResize=function(){$App.NAB.ClientWidth=$window.innerWidth;$App.NAB.ClientHeight=$window.innerHeight;$App.NAB.WindowWidth=$window.outerWidth;$App.NAB.WindowHeight=$window.outerHeight;};$scope.__init=function(){angular.element($window).bind("orientationchange.app",function(){$timeout($scope.__doOrientationChange);});angular.element($window).bind("resize.app",function(){$timeout($scope.__doResize);});$interval($scope.__doUpdate,1000);$App.NAB.OperatingSystem=GetPlatform();$scope.__doUpdate();};
+$scope.Temphome_pageenter = function() {$App.VERSION = "v3.747";
+$App.a1a8 = localStorage.getItem("a1a8");
+$App.a1 = localStorage.getItem("a1");
+$App.a2 = localStorage.getItem("a2");
+$App.a3 = localStorage.getItem("a3");
+$App.a1a2 = localStorage.getItem("a1a2");
+$App.a1a3 = localStorage.getItem("a1a3");
+$App.a1a4 = localStorage.getItem("a1a4");
+$App.a1a5 = localStorage.getItem("a1a5");
+$App.a2a2 = localStorage.getItem("a2a2");
+$App.a2a3 = localStorage.getItem("a2a3");
+$App.a2a4 = localStorage.getItem("a2a4");
+$App.a2a5 = localStorage.getItem("a2a5");
+$App.a3a2 = localStorage.getItem("a3a2");
+$App.a3a3 = localStorage.getItem("a3a3");
+$App.a3a4 = localStorage.getItem("a3a4");
+$App.a3a5 = localStorage.getItem("a3a5");
+$App.a4a2 = localStorage.getItem("a4a2");
+$App.a4a3 = localStorage.getItem("a4a3");
+$App.a4a4 = localStorage.getItem("a4a4");
+$App.a4a5 = localStorage.getItem("a4a5");
+$App.aa1 = localStorage.getItem("aa1");
+$App.aa2 = localStorage.getItem("aa2");
+$App.aa3 = localStorage.getItem("aa3");
+$App.aa1a2 = localStorage.getItem("aa1a2");
+$App.aa1a3 = localStorage.getItem("aa1a3");
+$App.aa1a4 = localStorage.getItem("aa1a4");
+$App.aa1a5 = localStorage.getItem("aa1a5");
+$App.aa2a2 = localStorage.getItem("aa2a2");
+$App.aa2a3 = localStorage.getItem("aa2a3");
+$App.aa2a4 = localStorage.getItem("aa2a4");
+$App.aa2a5 = localStorage.getItem("aa2a5");
+$App.aa3a2 = localStorage.getItem("aa3a2");
+$App.aa3a3 = localStorage.getItem("aa3a3");
+$App.aa3a4 = localStorage.getItem("aa3a4");
+$App.aa3a5 = localStorage.getItem("aa3a5");
+$App.aa4a2 = localStorage.getItem("aa4a2");
+$App.aa4a3 = localStorage.getItem("aa4a3");
+$App.aa4a4 = localStorage.getItem("aa4a4");
+$App.aa4a5 = localStorage.getItem("aa4a5");
+$App.b1 = localStorage.getItem("b1");
+$App.b2 = localStorage.getItem("b2");
+$App.b3 = localStorage.getItem("b3");
+$App.c1 = localStorage.getItem("c1");
+$App.c2 = localStorage.getItem("c2");
+$App.c3 = localStorage.getItem("c3");
+$App.d1 = localStorage.getItem("d1");
+$App.d2 = localStorage.getItem("d2");
+$App.d3 = localStorage.getItem("d3");
+$App.e1 = localStorage.getItem("e1");
+$App.e2 = localStorage.getItem("e2");
+$App.e3 = localStorage.getItem("e3");
+$App.f1 = localStorage.getItem("f1");
+$App.f2 = localStorage.getItem("f2");
+$App.f3 = localStorage.getItem("f3");
+$App.g1 = localStorage.getItem("g1");
+$App.g2 = localStorage.getItem("g2");
+$App.g3 = localStorage.getItem("g3");
+$App.h1 = localStorage.getItem("h1");
+$App.h2 = localStorage.getItem("h2");
+$App.h3 = localStorage.getItem("h3");
+$App.i1 = localStorage.getItem("i1");
+$App.i2 = localStorage.getItem("i2");
+$App.i3 = localStorage.getItem("i3");
+$App.j1 = localStorage.getItem("j1");
+$App.j2 = localStorage.getItem("j2");
+$App.j3 = localStorage.getItem("j3");
+$App.j1 = localStorage.getItem("j1");
+$App.j2 = localStorage.getItem("j2");
+$App.j3 = localStorage.getItem("j3");
+$App.k1 = localStorage.getItem("k1");
+$App.k2 = localStorage.getItem("k2");
+$App.k3 = localStorage.getItem("k3");
+$App.l1 = localStorage.getItem("l1");
+$App.l2 = localStorage.getItem("l2");
+$App.l3 = localStorage.getItem("l3");
+$App.m1 = localStorage.getItem("m1");
+$App.m2 = localStorage.getItem("m2");
+$App.m3 = localStorage.getItem("m3");
+$App.n1 = localStorage.getItem("n1");
+$App.n2 = localStorage.getItem("n2");
+$App.n3 = localStorage.getItem("n3");
+$App.o1 = localStorage.getItem("o1");
+$App.o2 = localStorage.getItem("o2");
+$App.o3 = localStorage.getItem("o3");
+$App.p1 = localStorage.getItem("p1");
+$App.p2 = localStorage.getItem("p2");
+$App.p3 = localStorage.getItem("p3");
+$App.q1 = localStorage.getItem("q1");
+$App.q2 = localStorage.getItem("q2");
+$App.q3 = localStorage.getItem("q3");
+$App.r1 = localStorage.getItem("r1");
+$App.r2 = localStorage.getItem("r2");
+$App.r3 = localStorage.getItem("r3");
+$App.s1 = localStorage.getItem("s1");
+$App.s2 = localStorage.getItem("s2");
+$App.s3 = localStorage.getItem("s3");
+$App.t1 = localStorage.getItem("t1");
+$App.t2 = localStorage.getItem("t2");
+$App.t3 = localStorage.getItem("t3");
+$App.u1 = localStorage.getItem("u1");
+$App.u2 = localStorage.getItem("u2");
+$App.u3 = localStorage.getItem("u3");
+$App.v1 = localStorage.getItem("v1");
+$App.v2 = localStorage.getItem("v2");
+$App.v3 = localStorage.getItem("v3");
+$App.w1 = localStorage.getItem("w1");
+$App.w2 = localStorage.getItem("w2");
+$App.w3 = localStorage.getItem("w3");
+$App.x1 = localStorage.getItem("x1");
+$App.x2 = localStorage.getItem("x2");
+$App.x3 = localStorage.getItem("x3");
+$App.y1 = localStorage.getItem("y1");
+$App.y2 = localStorage.getItem("y2");
+$App.y3 = localStorage.getItem("y3");
+$App.z1 = localStorage.getItem("z1");
+$App.z2 = localStorage.getItem("z2");
+$App.z3 = localStorage.getItem("z3");
 $App.speed1ref = localStorage.getItem("speed1ref");
 $App.speed1refb = localStorage.getItem("speed1refb");
 $App.speed2ref = localStorage.getItem("speed2ref");
@@ -32,6 +149,14 @@ $App.aa21 = localStorage.getItem("aa21");
 $App.aa22 = localStorage.getItem("aa22");
 $App.aa23 = localStorage.getItem("aa23");
 $App.aa24 = localStorage.getItem("aa24");
+$App.aa25 = localStorage.getItem("aa25");
+$App.aa26 = localStorage.getItem("aa26");
+$App.aa27 = localStorage.getItem("aa27");
+$App.aa28 = localStorage.getItem("aa28");
+$App.aa29 = localStorage.getItem("aa29");
+$App.aa30 = localStorage.getItem("aa30");
+$App.aa31 = localStorage.getItem("aa31");
+$App.aa32 = localStorage.getItem("aa32");
 if ($App.aa1 == "r") {
 $scope.SetObjectStyle("Ellipse1","fill","red");
 $scope.SetObjectStyle("Ellipse101","fill","red");
@@ -390,6 +515,126 @@ $scope.SetObjectStyle("Ellipse124","fill","green");
 if ($App.aa24 == "b") {
 $scope.SetObjectStyle("Ellipse24","fill","blue");
 $scope.SetObjectStyle("Ellipse124","fill","blue");
+} else {
+};
+if ($App.aa25 == "r") {
+$scope.SetObjectStyle("Ellipse25","fill","red");
+$scope.SetObjectStyle("Ellipse125","fill","red");
+} else {
+};
+if ($App.aa25 == "g") {
+$scope.SetObjectStyle("Ellipse25","fill","green");
+$scope.SetObjectStyle("Ellipse125","fill","green");
+} else {
+};
+if ($App.aa25 == "b") {
+$scope.SetObjectStyle("Ellipse25","fill","blue");
+$scope.SetObjectStyle("Ellipse125","fill","blue");
+} else {
+};
+if ($App.aa26 == "r") {
+$scope.SetObjectStyle("Ellipse26","fill","red");
+$scope.SetObjectStyle("Ellipse126","fill","red");
+} else {
+};
+if ($App.aa26 == "g") {
+$scope.SetObjectStyle("Ellipse26","fill","green");
+$scope.SetObjectStyle("Ellipse126","fill","green");
+} else {
+};
+if ($App.aa26 == "b") {
+$scope.SetObjectStyle("Ellipse26","fill","blue");
+$scope.SetObjectStyle("Ellipse126","fill","blue");
+} else {
+};
+if ($App.aa27 == "r") {
+$scope.SetObjectStyle("Ellipse27","fill","red");
+$scope.SetObjectStyle("Ellipse127","fill","red");
+} else {
+};
+if ($App.aa27 == "g") {
+$scope.SetObjectStyle("Ellipse27","fill","green");
+$scope.SetObjectStyle("Ellipse127","fill","green");
+} else {
+};
+if ($App.aa27 == "b") {
+$scope.SetObjectStyle("Ellipse27","fill","blue");
+$scope.SetObjectStyle("Ellipse127","fill","blue");
+} else {
+};
+if ($App.aa28 == "r") {
+$scope.SetObjectStyle("Ellipse28","fill","red");
+$scope.SetObjectStyle("Ellipse128","fill","red");
+} else {
+};
+if ($App.aa28 == "g") {
+$scope.SetObjectStyle("Ellipse28","fill","green");
+$scope.SetObjectStyle("Ellipse128","fill","green");
+} else {
+};
+if ($App.aa28 == "b") {
+$scope.SetObjectStyle("Ellipse28","fill","blue");
+$scope.SetObjectStyle("Ellipse128","fill","blue");
+} else {
+};
+if ($App.aa29 == "r") {
+$scope.SetObjectStyle("Ellipse29","fill","red");
+$scope.SetObjectStyle("Ellipse129","fill","red");
+} else {
+};
+if ($App.aa29 == "g") {
+$scope.SetObjectStyle("Ellipse29","fill","green");
+$scope.SetObjectStyle("Ellipse129","fill","green");
+} else {
+};
+if ($App.aa29 == "b") {
+$scope.SetObjectStyle("Ellipse29","fill","blue");
+$scope.SetObjectStyle("Ellipse129","fill","blue");
+} else {
+};
+if ($App.aa30 == "r") {
+$scope.SetObjectStyle("Ellipse30","fill","red");
+$scope.SetObjectStyle("Ellipse130","fill","red");
+} else {
+};
+if ($App.aa30 == "g") {
+$scope.SetObjectStyle("Ellipse30","fill","green");
+$scope.SetObjectStyle("Ellipse130","fill","green");
+} else {
+};
+if ($App.aa30 == "b") {
+$scope.SetObjectStyle("Ellipse30","fill","blue");
+$scope.SetObjectStyle("Ellipse130","fill","blue");
+} else {
+};
+if ($App.aa31 == "r") {
+$scope.SetObjectStyle("Ellipse31","fill","red");
+$scope.SetObjectStyle("Ellipse131","fill","red");
+} else {
+};
+if ($App.aa31 == "g") {
+$scope.SetObjectStyle("Ellipse31","fill","green");
+$scope.SetObjectStyle("Ellipse131","fill","green");
+} else {
+};
+if ($App.aa31 == "b") {
+$scope.SetObjectStyle("Ellipse31","fill","blue");
+$scope.SetObjectStyle("Ellipse131","fill","blue");
+} else {
+};
+if ($App.aa32 == "r") {
+$scope.SetObjectStyle("Ellipse32","fill","red");
+$scope.SetObjectStyle("Ellipse132","fill","red");
+} else {
+};
+if ($App.aa32 == "g") {
+$scope.SetObjectStyle("Ellipse32","fill","green");
+$scope.SetObjectStyle("Ellipse132","fill","green");
+} else {
+};
+if ($App.aa32 == "b") {
+$scope.SetObjectStyle("Ellipse32","fill","blue");
+$scope.SetObjectStyle("Ellipse132","fill","blue");
 } else {
 };
 $App.ia01 = localStorage.getItem("ia01");
@@ -1332,6 +1577,33 @@ $App.main002n = localStorage.getItem("main002n");
 $App.main003n = localStorage.getItem("main003n");
 $App.main004n = localStorage.getItem("main004n");
 $App.Linkslocal = localStorage.getItem("Linkslocal");};
+$scope.Landing1_pageenter = function() {$App.VERSION = "V4.02";
+$App.d0001 = localStorage.getItem("d0001");
+$App.p0001 = localStorage.getItem("p0001");
+$App.r0001 = localStorage.getItem("r0001");
+$App.r0002 = localStorage.getItem("r0002");
+$App.r0003 = localStorage.getItem("r0003");
+$App.pr0001 = localStorage.getItem("pr0001");
+$App.pr0002 = localStorage.getItem("pr0002");
+$App.pr0003 = localStorage.getItem("pr0003");
+$App.a1 = localStorage.getItem("a1");
+$App.a2 = localStorage.getItem("a2");
+$App.a3 = localStorage.getItem("a3");
+$App.b1 = localStorage.getItem("b1");
+$App.b2 = localStorage.getItem("b2");
+$App.b3 = localStorage.getItem("b3");
+$App.c1 = localStorage.getItem("c1");
+$App.c2 = localStorage.getItem("c2");
+$App.c3 = localStorage.getItem("c3");
+$App.i10001 = localStorage.getItem("i10001");
+$App.i10002 = localStorage.getItem("i10002");
+$App.i10003 = localStorage.getItem("i10003");
+$App.i10004 = localStorage.getItem("i10004");
+$App.i10005 = localStorage.getItem("i10005");
+$App.i10006 = localStorage.getItem("i10006");
+$App.i10007 = localStorage.getItem("i10007");
+$App.i10008 = localStorage.getItem("i10008");
+$App.i10009 = localStorage.getItem("i10009");};
 $scope.HomeTiles_pageenter = function() {$App.VERSION = "v3.6";
 $App.rversion = "V6.7";};
 $scope.TNeoAppPage11_pageenter = function() {$('#'+"TextInputDate1").mask("0000-00-00");
@@ -1843,9 +2115,9 @@ $App.main002n = localStorage.getItem("main002n");
 $App.main003n = localStorage.getItem("main003n");
 $App.main004n = localStorage.getItem("main004n");};
 $scope.KeepJIC_pageenter = function() {localStorage.setItem("RecData",$App.RecData);};
-$scope.ResetNew_pageexit = function() {localStorage.setItem("S1",$App.S1);
-localStorage.setItem("S2",$App.S2);
-localStorage.setItem("S3",$App.S3);
+$scope.ResetNew_pageexit = function() {localStorage.setItem("S1",$App.s1);
+localStorage.setItem("S2",$App.s2);
+localStorage.setItem("S3",$App.s3);
 localStorage.setItem("S4",$App.S4);
 localStorage.setItem("S5",$App.S5);
 localStorage.setItem("S6",$App.S6);
@@ -1868,9 +2140,9 @@ localStorage.setItem("S22",$App.S22);
 localStorage.setItem("S23",$App.S23);
 localStorage.setItem("S24",$App.S24);
 localStorage.setItem("S25",$App.S25);
-localStorage.setItem("M1",$App.M1);
-localStorage.setItem("M2",$App.M2);
-localStorage.setItem("M3",$App.M3);
+localStorage.setItem("M1",$App.m1);
+localStorage.setItem("M2",$App.m2);
+localStorage.setItem("M3",$App.m3);
 localStorage.setItem("M4",$App.M4);
 localStorage.setItem("M5",$App.M5);
 localStorage.setItem("M6",$App.M5);
@@ -1905,6 +2177,14 @@ function debounce(func,wait,immediate){var timeout;return function(){var context
 NeoApp.controller("Temphome_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 1;
 $App.NAB.PageID = "Temphome";
+$scope.Headline75_click = function() {neoTalkSpeak($App.Speed26a, "", $App.Read1, $App.Read2);};
+$scope.Headline77_click = function() {neoTalkSpeak($App.Speed27a, "", $App.Read1, $App.Read2);};
+$scope.Headline78_click = function() {neoTalkSpeak($App.Speed28a, "", $App.Read1, $App.Read2);};
+$scope.Headline322_click = function() {neoTalkSpeak($App.Speed25a, "", $App.Read1, $App.Read2);};
+$scope.Headline323_click = function() {neoTalkSpeak($App.Speed30a, "", $App.Read1, $App.Read2);};
+$scope.Headline334_click = function() {neoTalkSpeak($App.Speed31a, "", $App.Read1, $App.Read2);};
+$scope.Headline335_click = function() {neoTalkSpeak($App.Speed32a, "", $App.Read1, $App.Read2);};
+$scope.Headline336_click = function() {neoTalkSpeak($App.Speed29a, "", $App.Read1, $App.Read2);};
 $scope.Headline341_click = function() {neoTalkSpeak($App.speed10a, "", $App.Read1, $App.Read2);};
 $scope.Headline344_click = function() {neoTalkSpeak($App.speed09a, "", $App.Read1, $App.Read2);};
 $scope.Headline474_click = function() {neoTalkSpeak($App.speed07a, "", $App.Read1, $App.Read2);};
@@ -1951,6 +2231,7 @@ $scope.PushButton387_click = function() {$scope.GotoPage( "Project1" );};
 $scope.PushButton391_click = function() {$scope.GotoPage( "TILES" );};
 $scope.PushButton395_click = function() {$scope.GotoPage( "Project2" );};
 $scope.PushButton400_click = function() {$scope.GotoPage( "Tentinastorm" );};
+$scope.TextInput447_change = function() {localStorage.setItem("ToDo",$App.ToDo);};
 $scope.SVGicon1_click = function() {neoTalkPauseSpeech();};
 $scope.SVGicon2_click = function() {neoTalkResumeSpeech();};
 $scope.SVGicon3_click = function() {neoTalkCancelSpeech();};
@@ -1984,33 +2265,8 @@ $scope.PushButton458_click = function() {$scope.GotoPage( "Speed13" );};
 $scope.PushButton462_click = function() {$scope.GotoPage( "Speed14" );};
 $scope.PushButton466_click = function() {$scope.GotoPage( "Speed15" );};
 $scope.PushButton470_click = function() {$scope.GotoPage( "Speed16" );};
-$scope.PushButton577_click = function() {$scope.GotoPage( "ia01" );};
 $scope.Pager81_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager81_nextclick = function() {$scope.GotoNextPage();};
-$scope.PushButton588_click = function() {$scope.GotoPage( "ib01" );};
-$scope.PushButton613_click = function() {$scope.GotoPage( "ic01" );};
-$scope.PushButton614_click = function() {$scope.GotoPage( "id01" );};
-$scope.PushButton627_click = function() {$scope.GotoPage( "ie01" );};
-$scope.PushButton640_click = function() {$scope.GotoPage( "if01" );};
-$scope.PushButton641_click = function() {$scope.GotoPage( "ig01" );};
-$scope.PushButton642_click = function() {$scope.GotoPage( "ih01" );};
-$scope.PushButton643_click = function() {$scope.GotoPage( "ii01" );};
-$scope.PushButton644_click = function() {$scope.GotoPage( "ij01" );};
-$scope.PushButton645_click = function() {$scope.GotoPage( "ik01" );};
-$scope.PushButton646_click = function() {$scope.GotoPage( "il01" );};
-$scope.PushButton647_click = function() {$scope.GotoPage( "im01" );};
-$scope.PushButton648_click = function() {$scope.GotoPage( "in01" );};
-$scope.PushButton649_click = function() {$scope.GotoPage( "io01" );};
-$scope.PushButton650_click = function() {$scope.GotoPage( "ip01" );};
-$scope.PushButton651_click = function() {$scope.GotoPage( "iq01" );};
-$scope.PushButton652_click = function() {$scope.GotoPage( "ir01" );};
-$scope.PushButton653_click = function() {$scope.GotoPage( "is01" );};
-$scope.PushButton654_click = function() {$scope.GotoPage( "it01" );};
-$scope.PushButton655_click = function() {$scope.GotoPage( "iu01" );};
-$scope.PushButton656_click = function() {$scope.GotoPage( "iv01" );};
-$scope.PushButton657_click = function() {$scope.GotoPage( "iw01" );};
-$scope.PushButton658_click = function() {$scope.GotoPage( "ixy01" );};
-$scope.PushButton659_click = function() {$scope.GotoPage( "iz01" );};
 $scope.Headline459_click = function() {neoTalkSpeak($App.speed19a, "", $App.Read1, $App.Read2);};
 $scope.Headline460_click = function() {neoTalkSpeak($App.speed20a, "", $App.Read1, $App.Read2);};
 $scope.Headline461_click = function() {neoTalkSpeak($App.speed17a, "", $App.Read1, $App.Read2);};
@@ -2028,16 +2284,355 @@ $scope.PushButton706_click = function() {$scope.GotoPage( "Speed23" );};
 $scope.PushButton707_click = function() {$scope.GotoPage( "Speed24" );};
 $scope.Headline476_click = function() {neoTalkSpeak($App.speed10a, "", $App.Read1, $App.Read2);};
 $scope.Headline458_click = function() {neoTalkSpeak($App.speed17a, "", $App.Read1, $App.Read2);};
+$scope.PushButton577_click = function() {$scope.GotoPage( "Speed25" );};
+$scope.PushButton588_click = function() {$scope.GotoPage( "Speed26" );};
+$scope.PushButton613_click = function() {$scope.GotoPage( "Speed27" );};
+$scope.PushButton614_click = function() {$scope.GotoPage( "Speed28" );};
+$scope.PushButton627_click = function() {$scope.GotoPage( "Speed29" );};
+$scope.PushButton640_click = function() {$scope.GotoPage( "Speed30" );};
+$scope.PushButton641_click = function() {$scope.GotoPage( "Speed31" );};
+$scope.PushButton642_click = function() {$scope.GotoPage( "Speed32" );};
+$scope.PushButton980_click = function() {$scope.GotoPage( "Landing1" );};
+$scope.PushButton906_click = function() {$scope.GotoPage( "Indexwrite" );};
+});
+NeoApp.controller("Indexwrite_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 2;
+$App.NAB.PageID = "Indexwrite";
+$scope.Headline831_click = function() {$scope.GotoPage( "Temphome" );};
+$scope.Pager142_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager142_nextclick = function() {$scope.GotoNextPage();};
+$scope.Combobox3_change = function() {$scope.ObjectToFront("blanc");
+Delay(500);
+$scope.ObjectToBack("blanc");
+if ($App.letter == "a") {
+$scope.ObjectToFront("Container-A");
+$scope.ObjectToFront("Comboboxa");
+} else {
+};
+if ($App.letter == "b") {
+$scope.ObjectToFront("Container-B");
+$scope.ObjectToFront("Comboboxb");
+} else {
+};
+if ($App.letter == "c") {
+$scope.ObjectToFront("Container-C");
+$scope.ObjectToFront("Comboboxc");
+} else {
+};
+if ($App.letter == "d") {
+$scope.ObjectToFront("Container-D");
+$scope.ObjectToFront("Comboboxd");
+} else {
+};
+if ($App.letter == "e") {
+$scope.ObjectToFront("Container-E");
+$scope.ObjectToFront("Comboboxe");
+} else {
+};
+if ($App.letter == "f") {
+$scope.ObjectToFront("Container-F");
+$scope.ObjectToFront("Comboboxf");
+} else {
+};
+if ($App.letter == "g") {
+$scope.ObjectToFront("Container-G");
+$scope.ObjectToFront("Comboboxg");
+} else {
+};
+if ($App.letter == "h") {
+$scope.ObjectToFront("Container-H");
+$scope.ObjectToFront("Comboboxh");
+} else {
+};
+if ($App.letter == "i") {
+$scope.ObjectToFront("Container-I");
+$scope.ObjectToFront("Comboboxi");
+} else {
+};
+if ($App.letter == "j") {
+$scope.ObjectToFront("Container-J");
+$scope.ObjectToFront("Comboboxj");
+} else {
+};
+if ($App.letter == "k") {
+$scope.ObjectToFront("Container-K");
+$scope.ObjectToFront("Comboboxk");
+} else {
+};
+if ($App.letter == "l") {
+$scope.ObjectToFront("Container-L");
+$scope.ObjectToFront("Comboboxl");
+} else {
+};
+if ($App.letter == "m") {
+$scope.ObjectToFront("Container-M");
+$scope.ObjectToFront("Comboboxm");
+} else {
+};
+if ($App.letter == "n") {
+$scope.ObjectToFront("Container-N");
+$scope.ObjectToFront("Comboboxn");
+} else {
+};
+if ($App.letter == "o") {
+$scope.ObjectToFront("Container-O");
+$scope.ObjectToFront("Comboboxo");
+} else {
+};
+if ($App.letter == "p") {
+$scope.ObjectToFront("Container-P");
+$scope.ObjectToFront("Comboboxp");
+} else {
+};
+if ($App.letter == "q") {
+$scope.ObjectToFront("Container-Q");
+$scope.ObjectToFront("Comboboxq");
+} else {
+};
+if ($App.letter == "r") {
+$scope.ObjectToFront("Container-R");
+$scope.ObjectToFront("Comboboxr");
+} else {
+};
+if ($App.letter == "s") {
+$scope.ObjectToFront("Container-S");
+$scope.ObjectToFront("Comboboxs");
+} else {
+};
+if ($App.letter == "t") {
+$scope.ObjectToFront("Container-T");
+$scope.ObjectToFront("Comboboxt");
+} else {
+};
+if ($App.letter == "u") {
+$scope.ObjectToFront("Container-U");
+$scope.ObjectToFront("Comboboxu");
+} else {
+};
+if ($App.letter == "v") {
+$scope.ObjectToFront("Container-V");
+$scope.ObjectToFront("Comboboxv");
+} else {
+};
+if ($App.letter == "w") {
+$scope.ObjectToFront("Container-W");
+$scope.ObjectToFront("Comboboxw");
+} else {
+};
+if ($App.letter == "x") {
+$scope.ObjectToFront("Container-X");
+$scope.ObjectToFront("Comboboxx");
+} else {
+};
+if ($App.letter == "y") {
+$scope.ObjectToFront("Container-Y");
+$scope.ObjectToFront("Comboboxy");
+} else {
+};
+if ($App.letter == "z") {
+$scope.ObjectToFront("Container-Z");
+$scope.ObjectToFront("Comboboxz");
+} else {
+};};
+$scope.TextInput459_change = function() {localStorage.setItem("a1",$App.a1);};
+$scope.TextArea456_change = function() {localStorage.setItem("a1a2",$App.a1a2);};
+$scope.TextArea458_change = function() {localStorage.setItem("a1a3",$App.a1a3);};
+$scope.TextInput460_change = function() {localStorage.setItem("a1a4",$App.a1a4);};
+$scope.TextInput461_change = function() {localStorage.setItem("a1a5",$App.a1a5);};
+$scope.TextInput456_change = function() {localStorage.setItem("a2",$App.a2);};
+$scope.TextArea455_change = function() {localStorage.setItem("a2a2",$App.a2a2);};
+$scope.TextArea459_change = function() {localStorage.setItem("a2a3",$App.a2a3);};
+$scope.TextInput457_change = function() {localStorage.setItem("a2a4",$App.a2a4);};
+$scope.TextInput458_change = function() {localStorage.setItem("a2a5",$App.a2a5);};
+$scope.TextInput462_change = function() {localStorage.setItem("a3",$App.a3);};
+$scope.TextArea460_change = function() {localStorage.setItem("a3a2",$App.a3a2);};
+$scope.TextArea461_change = function() {localStorage.setItem("a3a3",$App.a3a3);};
+$scope.TextInput463_change = function() {localStorage.setItem("a3a4",$App.a3a4);};
+$scope.TextInput464_change = function() {localStorage.setItem("a3a5",$App.a3a5);};
+$scope.TextInput465_change = function() {localStorage.setItem("a4",$App.a4);};
+$scope.TextArea462_change = function() {localStorage.setItem("a4a2",$App.a4a2);};
+$scope.TextArea463_change = function() {localStorage.setItem("a4a3",$App.a4a3);};
+$scope.TextInput466_change = function() {localStorage.setItem("a4a4",$App.a4a4);};
+$scope.TextInput467_change = function() {localStorage.setItem("a4a5",$App.a4a5);};
+$scope.TextArea457_change = function() {localStorage.setItem("i10002",$App.i10002);};
+$scope.TextInput468_change = function() {localStorage.setItem("aa1",$App.aa1);};
+$scope.TextArea464_change = function() {localStorage.setItem("aa1a2",$App.aa1a2);};
+$scope.TextArea465_change = function() {localStorage.setItem("aa1a3",$App.aa1a3);};
+$scope.TextInput469_change = function() {localStorage.setItem("aa1a4",$App.aa1a4);};
+$scope.TextInput470_change = function() {localStorage.setItem("aa1a5",$App.aa1a5);};
+$scope.TextInput471_change = function() {localStorage.setItem("aa2",$App.aa2);};
+$scope.TextArea466_change = function() {localStorage.setItem("aa2a2",$App.aa2a2);};
+$scope.TextArea467_change = function() {localStorage.setItem("aa2a3",$App.aa2a3);};
+$scope.TextInput472_change = function() {localStorage.setItem("aa2a4",$App.aa2a4);};
+$scope.TextInput473_change = function() {localStorage.setItem("aa2a5",$App.aa2a5);};
+$scope.TextInput474_change = function() {localStorage.setItem("aa3",$App.aa3);};
+$scope.TextArea468_change = function() {localStorage.setItem("aa3a2",$App.aa3a2);};
+$scope.TextArea469_change = function() {localStorage.setItem("aa3a3",$App.aa3a3);};
+$scope.TextInput475_change = function() {localStorage.setItem("aa3a4",$App.aa3a4);};
+$scope.TextInput476_change = function() {localStorage.setItem("aa3a5",$App.aa3a5);};
+$scope.TextInput477_change = function() {localStorage.setItem("aa4",$App.aa4);};
+$scope.TextArea470_change = function() {localStorage.setItem("aa4a2",$App.aa4a2);};
+$scope.TextArea471_change = function() {localStorage.setItem("aa4a3",$App.aa4a3);};
+$scope.TextInput478_change = function() {localStorage.setItem("aa4a4",$App.aa4a4);};
+$scope.TextInput479_change = function() {localStorage.setItem("aa4a5",$App.aa4a5);};
+$scope.Headline921_click = function() {$scope.GotoPage( "Temphome" );};
+});
+NeoApp.controller("P012-Index-Cards-Read1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 3;
+$App.NAB.PageID = "P012-Index-Cards-Read1";
+$scope.TextArea454_change = function() {localStorage.setItem("i0001",$App.i0001);};
+$scope.Headline527_click = function() {neoTalkSpeak($App.i0001, "", $App.Read1, $App.Read2);};
+$scope.Pager141_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager141_nextclick = function() {$scope.GotoNextPage();};
+$scope.PushButton918_click = function() {$scope.GotoPage( "ia01" );};
+$scope.PushButton919_click = function() {$scope.GotoPage( "ib01" );};
+$scope.PushButton920_click = function() {$scope.GotoPage( "ic01" );};
+$scope.PushButton921_click = function() {$scope.GotoPage( "id01" );};
+$scope.PushButton922_click = function() {$scope.GotoPage( "ie01" );};
+$scope.PushButton923_click = function() {$scope.GotoPage( "if01" );};
+$scope.PushButton924_click = function() {$scope.GotoPage( "ig01" );};
+$scope.PushButton925_click = function() {$scope.GotoPage( "ih01" );};
+$scope.PushButton926_click = function() {$scope.GotoPage( "ii01" );};
+$scope.PushButton927_click = function() {$scope.GotoPage( "ij01" );};
+$scope.PushButton928_click = function() {$scope.GotoPage( "ik01" );};
+$scope.PushButton929_click = function() {$scope.GotoPage( "il01" );};
+$scope.PushButton930_click = function() {$scope.GotoPage( "im01" );};
+$scope.PushButton931_click = function() {$scope.GotoPage( "in01" );};
+$scope.PushButton932_click = function() {$scope.GotoPage( "io01" );};
+$scope.PushButton933_click = function() {$scope.GotoPage( "ip01" );};
+$scope.PushButton934_click = function() {$scope.GotoPage( "iq01" );};
+$scope.PushButton935_click = function() {$scope.GotoPage( "ir01" );};
+$scope.PushButton936_click = function() {$scope.GotoPage( "is01" );};
+$scope.PushButton937_click = function() {$scope.GotoPage( "it01" );};
+$scope.PushButton938_click = function() {$scope.GotoPage( "iu01" );};
+$scope.PushButton939_click = function() {$scope.GotoPage( "iv01" );};
+$scope.PushButton940_click = function() {$scope.GotoPage( "iw01" );};
+$scope.PushButton941_click = function() {$scope.GotoPage( "ixy01" );};
+$scope.PushButton942_click = function() {$scope.GotoPage( "iz01" );};
+$scope.Headline830_click = function() {$scope.GotoPage( "Temphome" );};
+});
+NeoApp.controller("P002-Diary-Main1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 4;
+$App.NAB.PageID = "P002-Diary-Main1";
+$scope.TextArea443_change = function() {localStorage.setItem("d0001",$App.d0001);};
+$scope.Headline494_click = function() {neoTalkSpeak($App.d0001, "", $App.Read1, $App.Read2);};
+$scope.Pager130_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager130_nextclick = function() {$scope.GotoNextPage();};
+$scope.Headline832_click = function() {$scope.GotoPage( "Temphome" );};
+});
+NeoApp.controller("P003-Prayer-Main1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 5;
+$App.NAB.PageID = "P003-Prayer-Main1";
+$scope.TextArea444_change = function() {localStorage.setItem("p0001",$App.p0001);};
+$scope.Headline497_click = function() {neoTalkSpeak($App.p0001, "", $App.Read1, $App.Read2);};
+$scope.Pager132_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager132_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("P004-Reps-Main1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 6;
+$App.NAB.PageID = "P004-Reps-Main1";
+$scope.TextArea445_change = function() {localStorage.setItem("r0001",$App.r0001);};
+$scope.Headline500_click = function() {neoTalkSpeak($App.p0001, "", $App.Read1, $App.Read2);};
+$scope.Pager131_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager131_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("P005-Reps-Main21_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 7;
+$App.NAB.PageID = "P005-Reps-Main21";
+$scope.TextArea446_change = function() {localStorage.setItem("r0002",$App.r0002);};
+$scope.Headline503_click = function() {neoTalkSpeak($App.p0002, "", $App.Read1, $App.Read2);};
+$scope.Pager133_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager133_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("P006-Reps-Main31_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 8;
+$App.NAB.PageID = "P006-Reps-Main31";
+$scope.TextArea447_change = function() {localStorage.setItem("r0003",$App.r0003);};
+$scope.Headline506_click = function() {neoTalkSpeak($App.p0001, "", $App.Read1, $App.Read2);};
+$scope.Pager134_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager134_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("P007-Health-Main1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 9;
+$App.NAB.PageID = "P007-Health-Main1";
+$scope.TextArea448_change = function() {localStorage.setItem("h0001",$App.h0001);};
+$scope.Headline509_click = function() {neoTalkSpeak($App.h0001, "", $App.Read1, $App.Read2);};
+$scope.Pager135_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager135_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("P008-Health-Main21_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 10;
+$App.NAB.PageID = "P008-Health-Main21";
+$scope.TextArea449_change = function() {localStorage.setItem("h0002",$App.h0002);};
+$scope.Headline512_click = function() {neoTalkSpeak($App.h0002, "", $App.Read1, $App.Read2);};
+$scope.Pager136_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager136_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("P008-Health-Main31_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 11;
+$App.NAB.PageID = "P008-Health-Main31";
+$scope.TextArea450_change = function() {localStorage.setItem("h0002",$App.h0002);};
+$scope.Headline515_click = function() {neoTalkSpeak($App.h0003, "", $App.Read1, $App.Read2);};
+$scope.Pager137_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager137_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("P009-Project-Main1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 12;
+$App.NAB.PageID = "P009-Project-Main1";
+$scope.TextArea451_change = function() {localStorage.setItem("pr0001",$App.pr0001);};
+$scope.Headline518_click = function() {neoTalkSpeak($App.pr0001, "", $App.Read1, $App.Read2);};
+$scope.Pager138_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager138_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("P010-Project-Main21_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 13;
+$App.NAB.PageID = "P010-Project-Main21";
+$scope.TextArea452_change = function() {localStorage.setItem("pr0002",$App.pr0002);};
+$scope.Headline521_click = function() {neoTalkSpeak($App.pr0002, "", $App.Read1, $App.Read2);};
+$scope.Pager139_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager139_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("P011-Project-Main31_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 14;
+$App.NAB.PageID = "P011-Project-Main31";
+$scope.TextArea453_change = function() {localStorage.setItem("pr0003",$App.pr0003);};
+$scope.Headline524_click = function() {neoTalkSpeak($App.pr0003, "", $App.Read1, $App.Read2);};
+$scope.Pager140_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager140_nextclick = function() {$scope.GotoNextPage();};
+});
+NeoApp.controller("Landing1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 15;
+$App.NAB.PageID = "Landing1";
+$scope.Headline484_click = function() {$scope.GotoPage( "P001-Page-Index" );};
+$scope.Headline485_click = function() {$scope.GotoPage( "P002-Diary-Main1" );};
+$scope.Headline486_click = function() {$scope.GotoPage( "P003-Prayer-Main1" );};
+$scope.Headline487_click = function() {$scope.GotoPage( "P004-Reps-Main1" );};
+$scope.Headline488_click = function() {$scope.GotoPage( "P007-Health-Main1" );};
+$scope.Headline489_click = function() {$scope.GotoPage( "P009-Project-Main1" );};
+$scope.Headline490_click = function() {$scope.GotoPage( "P012-Index-Cards-Read1" );};
+$scope.Pager129_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager129_nextclick = function() {$scope.GotoNextPage();};
+$scope.Ellipse33_click = function() {neoTalkSpeak($App.d0001, "", $App.Read1, $App.Read2);};
+$scope.Ellipse34_click = function() {neoTalkSpeak($App.p0001, "", $App.Read1, $App.Read2);};
+$scope.Ellipse35_click = function() {neoTalkSpeak($App.r0001, "", $App.Read1, $App.Read2);};
+$scope.Ellipse36_click = function() {neoTalkSpeak($App.h0001, "", $App.Read1, $App.Read2);};
+$scope.Ellipse37_click = function() {neoTalkSpeak($App.pr0001, "", $App.Read1, $App.Read2);};
+$scope.PushButton905_click = function() {window.document.location.reload();};
+$scope.SVGicon4_click = function() {neoTalkPauseSpeech();};
+$scope.SVGicon5_click = function() {neoTalkResumeSpeech();};
+$scope.SVGicon6_click = function() {neoTalkCancelSpeech();};
+$scope.Headline491_click = function() {$scope.GotoPage( "P013-Index-Cards-Write1" );};
+$scope.Headline833_click = function() {$scope.GotoPage( "Temphome" );};
 });
 NeoApp.controller("CopyAll_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 2;
+$App.NAB.PageNumber = 16;
 $App.NAB.PageID = "CopyAll";
 $scope.PushButton100_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton774_click = function() {navigator.clipboard.writeText($App.export);
 $scope.VarToFile($App.export,"export.txt");};
 });
 NeoApp.controller("ia01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 3;
+$App.NAB.PageNumber = 17;
 $App.NAB.PageID = "ia01";
 $scope.PushButton575_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea288_change = function() {localStorage.setItem("ia01a",$App.ia01a);};
@@ -2047,7 +2642,7 @@ $scope.Pager80_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager80_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ia02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 4;
+$App.NAB.PageNumber = 18;
 $App.NAB.PageID = "ia02";
 $scope.PushButton578_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea289_change = function() {localStorage.setItem("ia02a",$App.ia02a);};
@@ -2057,7 +2652,7 @@ $scope.Pager79_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager79_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ia03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 5;
+$App.NAB.PageNumber = 19;
 $App.NAB.PageID = "ia03";
 $scope.PushButton580_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea290_change = function() {localStorage.setItem("ia03a",$App.ia03a);};
@@ -2067,7 +2662,7 @@ $scope.Pager78_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager78_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ia04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 6;
+$App.NAB.PageNumber = 20;
 $App.NAB.PageID = "ia04";
 $scope.PushButton582_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea291_change = function() {localStorage.setItem("ia04a",$App.ia04a);};
@@ -2077,7 +2672,7 @@ $scope.Pager82_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager82_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ia05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 7;
+$App.NAB.PageNumber = 21;
 $App.NAB.PageID = "ia05";
 $scope.PushButton584_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea292_change = function() {localStorage.setItem("ia05a",$App.ia05a);};
@@ -2087,7 +2682,7 @@ $scope.Pager83_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager83_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ia06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 8;
+$App.NAB.PageNumber = 22;
 $App.NAB.PageID = "ia06";
 $scope.PushButton586_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea293_change = function() {localStorage.setItem("ia06a",$App.ia06a);};
@@ -2097,7 +2692,7 @@ $scope.Pager84_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager84_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ib01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 9;
+$App.NAB.PageNumber = 23;
 $App.NAB.PageID = "ib01";
 $scope.PushButton589_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea294_change = function() {localStorage.setItem("ib01a",$App.ib01a);};
@@ -2107,7 +2702,7 @@ $scope.Pager85_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager85_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ib02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 10;
+$App.NAB.PageNumber = 24;
 $App.NAB.PageID = "ib02";
 $scope.PushButton591_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea295_change = function() {localStorage.setItem("ib02a",$App.ib02a);};
@@ -2117,7 +2712,7 @@ $scope.Pager86_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager86_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ib03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 11;
+$App.NAB.PageNumber = 25;
 $App.NAB.PageID = "ib03";
 $scope.PushButton593_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea296_change = function() {localStorage.setItem("ib03a",$App.ib03a);};
@@ -2127,7 +2722,7 @@ $scope.Pager87_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager87_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ib04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 12;
+$App.NAB.PageNumber = 26;
 $App.NAB.PageID = "ib04";
 $scope.PushButton595_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea297_change = function() {localStorage.setItem("ib04a",$App.ib04a);};
@@ -2137,7 +2732,7 @@ $scope.Pager88_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager88_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ib05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 13;
+$App.NAB.PageNumber = 27;
 $App.NAB.PageID = "ib05";
 $scope.PushButton597_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea298_change = function() {localStorage.setItem("ib05a",$App.ib05a);};
@@ -2147,7 +2742,7 @@ $scope.Pager89_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager89_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ib06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 14;
+$App.NAB.PageNumber = 28;
 $App.NAB.PageID = "ib06";
 $scope.PushButton599_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea299_change = function() {localStorage.setItem("ib06a",$App.ib06a);};
@@ -2157,7 +2752,7 @@ $scope.Pager90_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager90_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ic01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 15;
+$App.NAB.PageNumber = 29;
 $App.NAB.PageID = "ic01";
 $scope.PushButton601_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea300_change = function() {localStorage.setItem("ic01a",$App.ic01a);};
@@ -2167,7 +2762,7 @@ $scope.Pager91_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager91_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ic02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 16;
+$App.NAB.PageNumber = 30;
 $App.NAB.PageID = "ic02";
 $scope.PushButton603_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea301_change = function() {localStorage.setItem("ic02a",$App.ic02a);};
@@ -2177,7 +2772,7 @@ $scope.Pager92_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager92_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ic03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 17;
+$App.NAB.PageNumber = 31;
 $App.NAB.PageID = "ic03";
 $scope.PushButton605_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea302_change = function() {localStorage.setItem("ic03a",$App.ic03a);};
@@ -2187,7 +2782,7 @@ $scope.Pager93_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager93_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ic04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 18;
+$App.NAB.PageNumber = 32;
 $App.NAB.PageID = "ic04";
 $scope.PushButton607_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea303_change = function() {localStorage.setItem("ic04a",$App.ic04a);};
@@ -2197,7 +2792,7 @@ $scope.Pager94_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager94_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ic05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 19;
+$App.NAB.PageNumber = 33;
 $App.NAB.PageID = "ic05";
 $scope.PushButton609_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea304_change = function() {localStorage.setItem("ic05a",$App.ic05a);};
@@ -2207,7 +2802,7 @@ $scope.Pager95_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager95_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ic06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 20;
+$App.NAB.PageNumber = 34;
 $App.NAB.PageID = "ic06";
 $scope.PushButton611_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea305_change = function() {localStorage.setItem("ic06a",$App.ic06a);};
@@ -2217,7 +2812,7 @@ $scope.Pager96_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager96_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("id01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 21;
+$App.NAB.PageNumber = 35;
 $App.NAB.PageID = "id01";
 $scope.PushButton615_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea306_change = function() {localStorage.setItem("id01a",$App.id01a);};
@@ -2227,7 +2822,7 @@ $scope.Pager97_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager97_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("id02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 22;
+$App.NAB.PageNumber = 36;
 $App.NAB.PageID = "id02";
 $scope.PushButton617_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea307_change = function() {localStorage.setItem("id02a",$App.id02a);};
@@ -2237,7 +2832,7 @@ $scope.Pager98_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager98_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("id03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 23;
+$App.NAB.PageNumber = 37;
 $App.NAB.PageID = "id03";
 $scope.PushButton619_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea308_change = function() {localStorage.setItem("id03a",$App.id03a);};
@@ -2247,7 +2842,7 @@ $scope.Pager99_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager99_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("id04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 24;
+$App.NAB.PageNumber = 38;
 $App.NAB.PageID = "id04";
 $scope.PushButton621_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea309_change = function() {localStorage.setItem("id04a",$App.id04a);};
@@ -2257,7 +2852,7 @@ $scope.Pager100_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager100_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("id05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 25;
+$App.NAB.PageNumber = 39;
 $App.NAB.PageID = "id05";
 $scope.PushButton623_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea310_change = function() {localStorage.setItem("id05a",$App.id05a);};
@@ -2267,7 +2862,7 @@ $scope.Pager101_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager101_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("id06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 26;
+$App.NAB.PageNumber = 40;
 $App.NAB.PageID = "id06";
 $scope.PushButton625_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea311_change = function() {localStorage.setItem("id06a",$App.id06a);};
@@ -2277,7 +2872,7 @@ $scope.Pager102_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager102_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ie01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 27;
+$App.NAB.PageNumber = 41;
 $App.NAB.PageID = "ie01";
 $scope.PushButton628_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea312_change = function() {localStorage.setItem("ie01a",$App.ie01a);};
@@ -2287,7 +2882,7 @@ $scope.Pager103_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager103_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("if01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 28;
+$App.NAB.PageNumber = 42;
 $App.NAB.PageID = "if01";
 $scope.PushButton660_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea318_change = function() {localStorage.setItem("if01a",$App.if01a);};
@@ -2297,7 +2892,7 @@ $scope.Pager109_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager109_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ig01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 29;
+$App.NAB.PageNumber = 43;
 $App.NAB.PageID = "ig01";
 $scope.PushButton662_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea319_change = function() {localStorage.setItem("ig01a",$App.ig01a);};
@@ -2307,7 +2902,7 @@ $scope.Pager110_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager110_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ih01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 30;
+$App.NAB.PageNumber = 44;
 $App.NAB.PageID = "ih01";
 $scope.PushButton664_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea320_change = function() {localStorage.setItem("ih01a",$App.ih01a);};
@@ -2317,7 +2912,7 @@ $scope.Pager111_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager111_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ii01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 31;
+$App.NAB.PageNumber = 45;
 $App.NAB.PageID = "ii01";
 $scope.PushButton666_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea321_change = function() {localStorage.setItem("ii01a",$App.ii01a);};
@@ -2327,7 +2922,7 @@ $scope.Pager112_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager112_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ij01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 32;
+$App.NAB.PageNumber = 46;
 $App.NAB.PageID = "ij01";
 $scope.PushButton694_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea335_change = function() {localStorage.setItem("ij01a",$App.ij01a);};
@@ -2337,7 +2932,7 @@ $scope.Pager126_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager126_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ik01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 33;
+$App.NAB.PageNumber = 47;
 $App.NAB.PageID = "ik01";
 $scope.PushButton668_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea322_change = function() {localStorage.setItem("ik01a",$App.ik01a);};
@@ -2347,7 +2942,7 @@ $scope.Pager113_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager113_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("il01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 34;
+$App.NAB.PageNumber = 48;
 $App.NAB.PageID = "il01";
 $scope.PushButton670_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea323_change = function() {localStorage.setItem("il01a",$App.il01a);};
@@ -2357,7 +2952,7 @@ $scope.Pager114_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager114_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("im01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 35;
+$App.NAB.PageNumber = 49;
 $App.NAB.PageID = "im01";
 $scope.PushButton672_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea324_change = function() {localStorage.setItem("im01a",$App.im01a);};
@@ -2367,7 +2962,7 @@ $scope.Pager115_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager115_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("in01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 36;
+$App.NAB.PageNumber = 50;
 $App.NAB.PageID = "in01";
 $scope.PushButton674_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea325_change = function() {localStorage.setItem("in01a",$App.in01a);};
@@ -2377,7 +2972,7 @@ $scope.Pager116_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager116_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("io01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 37;
+$App.NAB.PageNumber = 51;
 $App.NAB.PageID = "io01";
 $scope.PushButton676_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea326_change = function() {localStorage.setItem("io01a",$App.io01a);};
@@ -2387,7 +2982,7 @@ $scope.Pager117_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager117_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ip01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 38;
+$App.NAB.PageNumber = 52;
 $App.NAB.PageID = "ip01";
 $scope.PushButton678_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea327_change = function() {localStorage.setItem("ip01a",$App.ip01a);};
@@ -2397,7 +2992,7 @@ $scope.Pager118_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager118_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("iq01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 39;
+$App.NAB.PageNumber = 53;
 $App.NAB.PageID = "iq01";
 $scope.PushButton696_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea336_change = function() {localStorage.setItem("iq01a",$App.iq01a);};
@@ -2407,7 +3002,7 @@ $scope.Pager127_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager127_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ir01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 40;
+$App.NAB.PageNumber = 54;
 $App.NAB.PageID = "ir01";
 $scope.PushButton680_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea328_change = function() {localStorage.setItem("ir01a",$App.ir01a);};
@@ -2417,7 +3012,7 @@ $scope.Pager119_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager119_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("is01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 41;
+$App.NAB.PageNumber = 55;
 $App.NAB.PageID = "is01";
 $scope.PushButton682_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea329_change = function() {localStorage.setItem("is01a",$App.is01a);};
@@ -2427,7 +3022,7 @@ $scope.Pager120_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager120_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("it01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 42;
+$App.NAB.PageNumber = 56;
 $App.NAB.PageID = "it01";
 $scope.PushButton684_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea330_change = function() {localStorage.setItem("it01a",$App.it01a);};
@@ -2437,7 +3032,7 @@ $scope.Pager121_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager121_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("iu01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 43;
+$App.NAB.PageNumber = 57;
 $App.NAB.PageID = "iu01";
 $scope.PushButton686_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea331_change = function() {localStorage.setItem("iu01a",$App.iu01a);};
@@ -2447,7 +3042,7 @@ $scope.Pager122_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager122_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("iv01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 44;
+$App.NAB.PageNumber = 58;
 $App.NAB.PageID = "iv01";
 $scope.PushButton698_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea337_change = function() {localStorage.setItem("iv01a",$App.iv01a);};
@@ -2457,7 +3052,7 @@ $scope.Pager128_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager128_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("iw01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 45;
+$App.NAB.PageNumber = 59;
 $App.NAB.PageID = "iw01";
 $scope.PushButton688_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea332_change = function() {localStorage.setItem("iw01a",$App.iw01a);};
@@ -2467,7 +3062,7 @@ $scope.Pager123_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager123_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ixy01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 46;
+$App.NAB.PageNumber = 60;
 $App.NAB.PageID = "ixy01";
 $scope.PushButton690_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea333_change = function() {localStorage.setItem("ixy01a",$App.ixy01a);};
@@ -2477,7 +3072,7 @@ $scope.Pager124_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager124_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("iz01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 47;
+$App.NAB.PageNumber = 61;
 $App.NAB.PageID = "iz01";
 $scope.PushButton692_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea334_change = function() {localStorage.setItem("iz01a",$App.iz01a);};
@@ -2487,7 +3082,7 @@ $scope.Pager125_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager125_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ie02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 48;
+$App.NAB.PageNumber = 62;
 $App.NAB.PageID = "ie02";
 $scope.PushButton630_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea313_change = function() {localStorage.setItem("ie02a",$App.ie02a);};
@@ -2497,7 +3092,7 @@ $scope.Pager104_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager104_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ie03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 49;
+$App.NAB.PageNumber = 63;
 $App.NAB.PageID = "ie03";
 $scope.PushButton632_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea314_change = function() {localStorage.setItem("ie03a",$App.ie03a);};
@@ -2507,7 +3102,7 @@ $scope.Pager105_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager105_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ie04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 50;
+$App.NAB.PageNumber = 64;
 $App.NAB.PageID = "ie04";
 $scope.PushButton634_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea315_change = function() {localStorage.setItem("ie04a",$App.ie04a);};
@@ -2517,7 +3112,7 @@ $scope.Pager106_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager106_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ie05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 51;
+$App.NAB.PageNumber = 65;
 $App.NAB.PageID = "ie05";
 $scope.PushButton636_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea316_change = function() {localStorage.setItem("ie05a",$App.ie05a);};
@@ -2527,7 +3122,7 @@ $scope.Pager107_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager107_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("ie06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 52;
+$App.NAB.PageNumber = 66;
 $App.NAB.PageID = "ie06";
 $scope.PushButton638_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea317_change = function() {localStorage.setItem("ie06a",$App.ie06a);};
@@ -2537,7 +3132,7 @@ $scope.Pager108_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager108_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Speed01_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 53;
+$App.NAB.PageNumber = 67;
 $App.NAB.PageID = "Speed01";
 $scope.PushButton34_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton72_click = function() {neoTalkSpeak($App.speed01a, "", $App.Read1, $App.Read2);};
@@ -2565,7 +3160,7 @@ $scope.TextInput444_change = function() {localStorage.setItem("speed1refb",$App.
 $scope.PushButton847_click = function() {window.open($App.speed1refb, "_blank");};
 });
 NeoApp.controller("Speed02_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 54;
+$App.NAB.PageNumber = 68;
 $App.NAB.PageID = "Speed02";
 $scope.PushButton148_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea224_change = function() {localStorage.setItem("speed02a",$App.speed02a);};
@@ -2594,7 +3189,7 @@ $scope.TextInput446_change = function() {localStorage.setItem("speed2refb",$App.
 $scope.PushButton848_click = function() {window.open($App.speed2refb, "_blank");};
 });
 NeoApp.controller("Speed03_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 55;
+$App.NAB.PageNumber = 69;
 $App.NAB.PageID = "Speed03";
 $scope.PushButton189_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea226_change = function() {localStorage.setItem("speed03a",$App.speed03a);};
@@ -2619,7 +3214,7 @@ $scope.SetObjectStyle("Ellipse103","fill","blue");
 localStorage.setItem("aa3","b");};
 });
 NeoApp.controller("Speed04_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 56;
+$App.NAB.PageNumber = 70;
 $App.NAB.PageID = "Speed04";
 $scope.PushButton194_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea228_change = function() {localStorage.setItem("speed04a",$App.speed04a);};
@@ -2644,7 +3239,7 @@ $scope.SetObjectStyle("Ellipse104","fill","blue");
 localStorage.setItem("aa4","b");};
 });
 NeoApp.controller("Speed05_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 57;
+$App.NAB.PageNumber = 71;
 $App.NAB.PageID = "Speed05";
 $scope.PushButton204_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea222_change = function() {localStorage.setItem("speed05a",$App.speed05a);};
@@ -2669,7 +3264,7 @@ $scope.SetObjectStyle("Ellipse105","fill","blue");
 localStorage.setItem("aa5","b");};
 });
 NeoApp.controller("Speed06_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 58;
+$App.NAB.PageNumber = 72;
 $App.NAB.PageID = "Speed06";
 $scope.PushButton206_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton209_click = function() {neoTalkSpeak($App.speed06b, "", $App.Read1, $App.Read2);};
@@ -2694,7 +3289,7 @@ $scope.SetObjectStyle("Ellipse106","fill","blue");
 localStorage.setItem("aa6","b");};
 });
 NeoApp.controller("Speed07_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 59;
+$App.NAB.PageNumber = 73;
 $App.NAB.PageID = "Speed07";
 $scope.PushButton211_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton214_click = function() {neoTalkSpeak($App.speed07b, "", $App.Read1, $App.Read2);};
@@ -2719,7 +3314,7 @@ $scope.SetObjectStyle("Ellipse107","fill","green");
 localStorage.setItem("aa7","g");};
 });
 NeoApp.controller("Speed08_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 60;
+$App.NAB.PageNumber = 74;
 $App.NAB.PageID = "Speed08";
 $scope.PushButton217_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton218_click = function() {$scope.GotoPage( "Temphome" );};
@@ -2745,7 +3340,7 @@ $scope.SetObjectStyle("Ellipse108","fill","green");
 localStorage.setItem("aa8","g");};
 });
 NeoApp.controller("Speed09_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 61;
+$App.NAB.PageNumber = 75;
 $App.NAB.PageID = "Speed09";
 $scope.PushButton474_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea248_change = function() {localStorage.setItem("speed09a",$App.speed09a);};
@@ -2770,7 +3365,7 @@ $scope.SetObjectStyle("Ellipse109","fill","green");
 localStorage.setItem("aa9","g");};
 });
 NeoApp.controller("Speed10_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 62;
+$App.NAB.PageNumber = 76;
 $App.NAB.PageID = "Speed10";
 $scope.PushButton498_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea253_change = function() {localStorage.setItem("speed10a",$App.speed10a);};
@@ -2795,7 +3390,7 @@ $scope.SetObjectStyle("Ellipse110","fill","green");
 localStorage.setItem("aa10","g");};
 });
 NeoApp.controller("Speed11_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 63;
+$App.NAB.PageNumber = 77;
 $App.NAB.PageID = "Speed11";
 $scope.PushButton522_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea258_change = function() {localStorage.setItem("speed11a",$App.speed11a);};
@@ -2820,7 +3415,7 @@ $scope.SetObjectStyle("Ellipse111","fill","green");
 localStorage.setItem("aa11","g");};
 });
 NeoApp.controller("Speed12_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 64;
+$App.NAB.PageNumber = 78;
 $App.NAB.PageID = "Speed12";
 $scope.PushButton530_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea263_change = function() {localStorage.setItem("speed12a",$App.speed12a);};
@@ -2845,7 +3440,7 @@ $scope.SetObjectStyle("Ellipse112","fill","green");
 localStorage.setItem("aa12","g");};
 });
 NeoApp.controller("Speed13_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 65;
+$App.NAB.PageNumber = 79;
 $App.NAB.PageID = "Speed13";
 $scope.PushButton537_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea268_change = function() {localStorage.setItem("speed13a",$App.speed13a);};
@@ -2870,7 +3465,7 @@ $scope.SetObjectStyle("Ellipse113","fill","blue");
 localStorage.setItem("aa13","b");};
 });
 NeoApp.controller("Speed14_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 66;
+$App.NAB.PageNumber = 80;
 $App.NAB.PageID = "Speed14";
 $scope.PushButton556_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea273_change = function() {localStorage.setItem("speed14a",$App.speed14a);};
@@ -2895,7 +3490,7 @@ $scope.SetObjectStyle("Ellipse114","fill","blue");
 localStorage.setItem("aa14","b");};
 });
 NeoApp.controller("Speed15_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 67;
+$App.NAB.PageNumber = 81;
 $App.NAB.PageID = "Speed15";
 $scope.PushButton563_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea278_change = function() {localStorage.setItem("speed15a",$App.speed15a);};
@@ -2920,7 +3515,7 @@ $scope.SetObjectStyle("Ellipse115","fill","blue");
 localStorage.setItem("aa15","b");};
 });
 NeoApp.controller("Speed16_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 68;
+$App.NAB.PageNumber = 82;
 $App.NAB.PageID = "Speed16";
 $scope.PushButton569_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea283_change = function() {localStorage.setItem("speed16a",$App.speed16a);};
@@ -2945,7 +3540,7 @@ $scope.SetObjectStyle("Ellipse116","fill","blue");
 localStorage.setItem("aa16","b");};
 });
 NeoApp.controller("Speed17_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 69;
+$App.NAB.PageNumber = 83;
 $App.NAB.PageID = "Speed17";
 $scope.PushButton708_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea338_change = function() {localStorage.setItem("speed17a",$App.speed17a);};
@@ -2970,7 +3565,7 @@ $scope.SetObjectStyle("Ellipse117","fill","blue");
 localStorage.setItem("aa17","b");};
 });
 NeoApp.controller("Speed18_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 70;
+$App.NAB.PageNumber = 84;
 $App.NAB.PageID = "Speed18";
 $scope.PushButton714_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea343_change = function() {localStorage.setItem("speed18a",$App.speed18a);};
@@ -2995,7 +3590,7 @@ $scope.SetObjectStyle("Ellipse118","fill","blue");
 localStorage.setItem("aa18","b");};
 });
 NeoApp.controller("Speed19_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 71;
+$App.NAB.PageNumber = 85;
 $App.NAB.PageID = "Speed19";
 $scope.PushButton720_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea348_change = function() {localStorage.setItem("speed19a",$App.speed19a);};
@@ -3020,7 +3615,7 @@ $scope.SetObjectStyle("Ellipse119","fill","blue");
 localStorage.setItem("aa19","b");};
 });
 NeoApp.controller("Speed20_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 72;
+$App.NAB.PageNumber = 86;
 $App.NAB.PageID = "Speed20";
 $scope.PushButton726_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea353_change = function() {localStorage.setItem("speed20a",$App.speed20a);};
@@ -3045,7 +3640,7 @@ $scope.SetObjectStyle("Ellipse120","fill","blue");
 localStorage.setItem("aa20","b");};
 });
 NeoApp.controller("Speed21_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 73;
+$App.NAB.PageNumber = 87;
 $App.NAB.PageID = "Speed21";
 $scope.PushButton732_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea358_change = function() {localStorage.setItem("speed21a",$App.speed21a);};
@@ -3070,7 +3665,7 @@ $scope.SetObjectStyle("Ellipse121","fill","blue");
 localStorage.setItem("aa21","b");};
 });
 NeoApp.controller("Speed22_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 74;
+$App.NAB.PageNumber = 88;
 $App.NAB.PageID = "Speed22";
 $scope.PushButton744_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea368_change = function() {localStorage.setItem("speed22a",$App.speed22a);};
@@ -3095,7 +3690,7 @@ $scope.SetObjectStyle("Ellipse122","fill","blue");
 localStorage.setItem("aa22","b");};
 });
 NeoApp.controller("Speed23_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 75;
+$App.NAB.PageNumber = 89;
 $App.NAB.PageID = "Speed23";
 $scope.PushButton750_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea373_change = function() {localStorage.setItem("speed23a",$App.speed23a);};
@@ -3120,7 +3715,7 @@ $scope.SetObjectStyle("Ellipse123","fill","blue");
 localStorage.setItem("aa23","b");};
 });
 NeoApp.controller("Speed24_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 76;
+$App.NAB.PageNumber = 90;
 $App.NAB.PageID = "Speed24";
 $scope.PushButton738_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea363_change = function() {localStorage.setItem("speed24a",$App.speed24a);};
@@ -3144,13 +3739,213 @@ $scope.PushButton846_click = function() {$scope.SetObjectStyle("Ellipse24","fill
 $scope.SetObjectStyle("Ellipse124","fill","blue");
 localStorage.setItem("aa24","b");};
 });
+NeoApp.controller("Speed25_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 91;
+$App.NAB.PageID = "Speed25";
+$scope.PushButton643_click = function() {$scope.GotoPage( "Temphome" );};
+$scope.TextArea403_change = function() {localStorage.setItem("speed25a",$App.Speed25a);};
+$scope.PushButton644_click = function() {neoTalkSpeak($App.Speed25a, "", $App.Read1, $App.Read2);};
+$scope.TextInput448_change = function() {localStorage.setItem("speed25",$App.speed25);};
+$scope.PushButton645_click = function() {neoTalkSpeak($App.speed25b, "", $App.Read1, $App.Read2);};
+$scope.TextArea404_change = function() {localStorage.setItem("speed25b",$App.speed25b);};
+$scope.PushButton646_click = function() {neoTalkSpeak($App.speed25c, "", $App.Read1, $App.Read2);};
+$scope.TextArea405_change = function() {localStorage.setItem("speed25c",$App.speed25c);};
+$scope.PushButton647_click = function() {neoTalkSpeak($App.speed25d, "", $App.Read1, $App.Read2);};
+$scope.TextArea406_change = function() {localStorage.setItem("speed25d",$App.speed25d);};
+$scope.PushButton648_click = function() {neoTalkSpeak($App.speed25e, "", $App.Read1, $App.Read2);};
+$scope.TextArea407_change = function() {localStorage.setItem("speed25e",$App.speed25e);};
+$scope.PushButton649_click = function() {$scope.SetObjectStyle("Ellipse25","fill","red");
+$scope.SetObjectStyle("Ellipse125","fill","red");
+localStorage.setItem("aa25","r");};
+$scope.PushButton650_click = function() {$scope.SetObjectStyle("Ellipse25","fill","green");
+$scope.SetObjectStyle("Ellipse125","fill","green");
+localStorage.setItem("aa25","g");};
+$scope.PushButton651_click = function() {$scope.SetObjectStyle("Ellipse25","fill","blue");
+$scope.SetObjectStyle("Ellipse125","fill","blue");
+localStorage.setItem("aa25","b");};
+});
+NeoApp.controller("Speed26_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 92;
+$App.NAB.PageID = "Speed26";
+$scope.PushButton652_click = function() {$scope.GotoPage( "Temphome" );};
+$scope.TextArea408_change = function() {localStorage.setItem("speed26a",$App.Speed26a);};
+$scope.PushButton653_click = function() {neoTalkSpeak($App.Speed26a, "", $App.Read1, $App.Read2);};
+$scope.TextInput449_change = function() {localStorage.setItem("speed26",$App.speed26);};
+$scope.PushButton654_click = function() {neoTalkSpeak($App.speed26b, "", $App.Read1, $App.Read2);};
+$scope.TextArea409_change = function() {localStorage.setItem("speed26b",$App.speed26b);};
+$scope.PushButton655_click = function() {neoTalkSpeak($App.speed26c, "", $App.Read1, $App.Read2);};
+$scope.TextArea410_change = function() {localStorage.setItem("speed26c",$App.speed26c);};
+$scope.PushButton656_click = function() {neoTalkSpeak($App.speed26d, "", $App.Read1, $App.Read2);};
+$scope.TextArea411_change = function() {localStorage.setItem("speed26d",$App.speed26d);};
+$scope.PushButton657_click = function() {neoTalkSpeak($App.speed26e, "", $App.Read1, $App.Read2);};
+$scope.TextArea412_change = function() {localStorage.setItem("speed26e",$App.speed26e);};
+$scope.PushButton658_click = function() {$scope.SetObjectStyle("Ellipse26","fill","red");
+$scope.SetObjectStyle("Ellipse126","fill","red");
+localStorage.setItem("aa26","r");};
+$scope.PushButton659_click = function() {$scope.SetObjectStyle("Ellipse26","fill","green");
+$scope.SetObjectStyle("Ellipse126","fill","green");
+localStorage.setItem("aa26","g");};
+$scope.PushButton849_click = function() {$scope.SetObjectStyle("Ellipse26","fill","blue");
+$scope.SetObjectStyle("Ellipse126","fill","blue");
+localStorage.setItem("aa26","b");};
+});
+NeoApp.controller("Speed27_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 93;
+$App.NAB.PageID = "Speed27";
+$scope.PushButton850_click = function() {$scope.GotoPage( "Temphome" );};
+$scope.TextArea413_change = function() {localStorage.setItem("speed27a",$App.Speed27a);};
+$scope.PushButton851_click = function() {neoTalkSpeak($App.Speed27a, "", $App.Read1, $App.Read2);};
+$scope.TextInput450_change = function() {localStorage.setItem("speed27",$App.speed26);};
+$scope.PushButton852_click = function() {neoTalkSpeak($App.speed27b, "", $App.Read1, $App.Read2);};
+$scope.TextArea414_change = function() {localStorage.setItem("speed27b",$App.speed27b);};
+$scope.PushButton853_click = function() {neoTalkSpeak($App.speed27c, "", $App.Read1, $App.Read2);};
+$scope.TextArea415_change = function() {localStorage.setItem("speed27c",$App.speed27c);};
+$scope.PushButton854_click = function() {neoTalkSpeak($App.speed27d, "", $App.Read1, $App.Read2);};
+$scope.TextArea416_change = function() {localStorage.setItem("speed27d",$App.speed27d);};
+$scope.PushButton855_click = function() {neoTalkSpeak($App.speed27e, "", $App.Read1, $App.Read2);};
+$scope.TextArea417_change = function() {localStorage.setItem("speed27e",$App.speed27e);};
+$scope.PushButton856_click = function() {$scope.SetObjectStyle("Ellipse27","fill","red");
+$scope.SetObjectStyle("Ellipse127","fill","red");
+localStorage.setItem("aa27","r");};
+$scope.PushButton857_click = function() {$scope.SetObjectStyle("Ellipse27","fill","green");
+$scope.SetObjectStyle("Ellipse127","fill","green");
+localStorage.setItem("aa27","g");};
+$scope.PushButton858_click = function() {$scope.SetObjectStyle("Ellipse27","fill","blue");
+$scope.SetObjectStyle("Ellipse127","fill","blue");
+localStorage.setItem("aa27","b");};
+});
+NeoApp.controller("Speed28_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 94;
+$App.NAB.PageID = "Speed28";
+$scope.PushButton859_click = function() {$scope.GotoPage( "Temphome" );};
+$scope.TextArea418_change = function() {localStorage.setItem("speed28a",$App.Speed28a);};
+$scope.PushButton860_click = function() {neoTalkSpeak($App.Speed28a, "", $App.Read1, $App.Read2);};
+$scope.TextInput451_change = function() {localStorage.setItem("speed28",$App.speed28);};
+$scope.PushButton861_click = function() {neoTalkSpeak($App.speed28b, "", $App.Read1, $App.Read2);};
+$scope.TextArea419_change = function() {localStorage.setItem("speed28b",$App.speed28b);};
+$scope.PushButton862_click = function() {neoTalkSpeak($App.speed28c, "", $App.Read1, $App.Read2);};
+$scope.TextArea420_change = function() {localStorage.setItem("speed28c",$App.speed28c);};
+$scope.PushButton863_click = function() {neoTalkSpeak($App.speed28d, "", $App.Read1, $App.Read2);};
+$scope.TextArea421_change = function() {localStorage.setItem("speed28d",$App.speed28d);};
+$scope.PushButton864_click = function() {neoTalkSpeak($App.speed28e, "", $App.Read1, $App.Read2);};
+$scope.TextArea422_change = function() {localStorage.setItem("speed28e",$App.speed28e);};
+$scope.PushButton865_click = function() {$scope.SetObjectStyle("Ellipse28","fill","red");
+$scope.SetObjectStyle("Ellipse128","fill","red");
+localStorage.setItem("aa28","r");};
+$scope.PushButton866_click = function() {$scope.SetObjectStyle("Ellipse28","fill","green");
+$scope.SetObjectStyle("Ellipse128","fill","green");
+localStorage.setItem("aa28","g");};
+$scope.PushButton867_click = function() {$scope.SetObjectStyle("Ellipse28","fill","blue");
+$scope.SetObjectStyle("Ellipse128","fill","blue");
+localStorage.setItem("aa28","b");};
+});
+NeoApp.controller("Speed29_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 95;
+$App.NAB.PageID = "Speed29";
+$scope.PushButton868_click = function() {$scope.GotoPage( "Temphome" );};
+$scope.TextArea423_change = function() {localStorage.setItem("speed29a",$App.Speed29a);};
+$scope.PushButton869_click = function() {neoTalkSpeak($App.Speed29a, "", $App.Read1, $App.Read2);};
+$scope.TextInput452_change = function() {localStorage.setItem("speed29",$App.speed29);};
+$scope.PushButton870_click = function() {neoTalkSpeak($App.speed29b, "", $App.Read1, $App.Read2);};
+$scope.TextArea424_change = function() {localStorage.setItem("speed29b",$App.speed29b);};
+$scope.PushButton871_click = function() {neoTalkSpeak($App.speed29c, "", $App.Read1, $App.Read2);};
+$scope.TextArea425_change = function() {localStorage.setItem("speed29c",$App.speed29c);};
+$scope.PushButton872_click = function() {neoTalkSpeak($App.speed29d, "", $App.Read1, $App.Read2);};
+$scope.TextArea426_change = function() {localStorage.setItem("speed29d",$App.speed29d);};
+$scope.PushButton873_click = function() {neoTalkSpeak($App.speed29e, "", $App.Read1, $App.Read2);};
+$scope.TextArea427_change = function() {localStorage.setItem("speed29e",$App.speed29e);};
+$scope.PushButton874_click = function() {$scope.SetObjectStyle("Ellipse29","fill","red");
+$scope.SetObjectStyle("Ellipse129","fill","red");
+localStorage.setItem("aa29","r");};
+$scope.PushButton875_click = function() {$scope.SetObjectStyle("Ellipse29","fill","green");
+$scope.SetObjectStyle("Ellipse129","fill","green");
+localStorage.setItem("aa29","g");};
+$scope.PushButton876_click = function() {$scope.SetObjectStyle("Ellipse29","fill","blue");
+$scope.SetObjectStyle("Ellipse129","fill","blue");
+localStorage.setItem("aa29","b");};
+});
+NeoApp.controller("Speed30_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 96;
+$App.NAB.PageID = "Speed30";
+$scope.PushButton877_click = function() {$scope.GotoPage( "Temphome" );};
+$scope.TextArea428_change = function() {localStorage.setItem("speed30a",$App.Speed30a);};
+$scope.PushButton878_click = function() {neoTalkSpeak($App.Speed30a, "", $App.Read1, $App.Read2);};
+$scope.TextInput453_change = function() {localStorage.setItem("speed30",$App.speed30);};
+$scope.PushButton879_click = function() {neoTalkSpeak($App.speed30b, "", $App.Read1, $App.Read2);};
+$scope.TextArea429_change = function() {localStorage.setItem("speed30b",$App.speed30b);};
+$scope.PushButton880_click = function() {neoTalkSpeak($App.speed30c, "", $App.Read1, $App.Read2);};
+$scope.TextArea430_change = function() {localStorage.setItem("speed30c",$App.speed30c);};
+$scope.PushButton881_click = function() {neoTalkSpeak($App.speed30d, "", $App.Read1, $App.Read2);};
+$scope.TextArea431_change = function() {localStorage.setItem("speed30d",$App.speed30d);};
+$scope.PushButton882_click = function() {neoTalkSpeak($App.speed30e, "", $App.Read1, $App.Read2);};
+$scope.TextArea432_change = function() {localStorage.setItem("speed30e",$App.speed30e);};
+$scope.PushButton883_click = function() {$scope.SetObjectStyle("Ellipse30","fill","red");
+$scope.SetObjectStyle("Ellipse130","fill","red");
+localStorage.setItem("aa30","r");};
+$scope.PushButton884_click = function() {$scope.SetObjectStyle("Ellipse30","fill","green");
+$scope.SetObjectStyle("Ellipse130","fill","green");
+localStorage.setItem("aa30","g");};
+$scope.PushButton885_click = function() {$scope.SetObjectStyle("Ellipse30","fill","blue");
+$scope.SetObjectStyle("Ellipse130","fill","blue");
+localStorage.setItem("aa30","b");};
+});
+NeoApp.controller("Speed31_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 97;
+$App.NAB.PageID = "Speed31";
+$scope.PushButton886_click = function() {$scope.GotoPage( "Temphome" );};
+$scope.TextArea433_change = function() {localStorage.setItem("speed31a",$App.Speed31a);};
+$scope.PushButton887_click = function() {neoTalkSpeak($App.Speed31a, "", $App.Read1, $App.Read2);};
+$scope.TextInput454_change = function() {localStorage.setItem("speed31",$App.speed31);};
+$scope.PushButton888_click = function() {neoTalkSpeak($App.speed31b, "", $App.Read1, $App.Read2);};
+$scope.TextArea434_change = function() {localStorage.setItem("speed31b",$App.speed31b);};
+$scope.PushButton889_click = function() {neoTalkSpeak($App.speed31c, "", $App.Read1, $App.Read2);};
+$scope.TextArea435_change = function() {localStorage.setItem("speed31c",$App.speed31c);};
+$scope.PushButton890_click = function() {neoTalkSpeak($App.speed31d, "", $App.Read1, $App.Read2);};
+$scope.TextArea436_change = function() {localStorage.setItem("speed31d",$App.speed31d);};
+$scope.PushButton891_click = function() {neoTalkSpeak($App.speed31e, "", $App.Read1, $App.Read2);};
+$scope.TextArea437_change = function() {localStorage.setItem("speed31e",$App.speed31e);};
+$scope.PushButton892_click = function() {$scope.SetObjectStyle("Ellipse31","fill","red");
+$scope.SetObjectStyle("Ellipse131","fill","red");
+localStorage.setItem("aa31","r");};
+$scope.PushButton893_click = function() {$scope.SetObjectStyle("Ellipse31","fill","green");
+$scope.SetObjectStyle("Ellipse131","fill","green");
+localStorage.setItem("aa31","g");};
+$scope.PushButton894_click = function() {$scope.SetObjectStyle("Ellipse31","fill","blue");
+$scope.SetObjectStyle("Ellipse131","fill","blue");
+localStorage.setItem("aa31","b");};
+});
+NeoApp.controller("Speed32_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
+$App.NAB.PageNumber = 98;
+$App.NAB.PageID = "Speed32";
+$scope.PushButton895_click = function() {$scope.GotoPage( "Temphome" );};
+$scope.TextArea438_change = function() {localStorage.setItem("speed32a",$App.Speed32a);};
+$scope.PushButton896_click = function() {neoTalkSpeak($App.Speed32a, "", $App.Read1, $App.Read2);};
+$scope.TextInput455_change = function() {localStorage.setItem("speed32",$App.speed32);};
+$scope.PushButton897_click = function() {neoTalkSpeak($App.speed32b, "", $App.Read1, $App.Read2);};
+$scope.TextArea439_change = function() {localStorage.setItem("speed32b",$App.speed32b);};
+$scope.PushButton898_click = function() {neoTalkSpeak($App.speed32c, "", $App.Read1, $App.Read2);};
+$scope.TextArea440_change = function() {localStorage.setItem("speed32c",$App.speed32c);};
+$scope.PushButton899_click = function() {neoTalkSpeak($App.speed32d, "", $App.Read1, $App.Read2);};
+$scope.TextArea441_change = function() {localStorage.setItem("speed32d",$App.speed32d);};
+$scope.PushButton900_click = function() {neoTalkSpeak($App.speed32e, "", $App.Read1, $App.Read2);};
+$scope.TextArea442_change = function() {localStorage.setItem("speed32e",$App.speed32e);};
+$scope.PushButton901_click = function() {$scope.SetObjectStyle("Ellipse32","fill","red");
+$scope.SetObjectStyle("Ellipse132","fill","red");
+localStorage.setItem("aa32","r");};
+$scope.PushButton902_click = function() {$scope.SetObjectStyle("Ellipse32","fill","green");
+$scope.SetObjectStyle("Ellipse132","fill","green");
+localStorage.setItem("aa32","g");};
+$scope.PushButton903_click = function() {$scope.SetObjectStyle("Ellipse32","fill","blue");
+$scope.SetObjectStyle("Ellipse132","fill","blue");
+localStorage.setItem("aa32","b");};
+});
 NeoApp.controller("HomeTiles_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 77;
+$App.NAB.PageNumber = 99;
 $App.NAB.PageID = "HomeTiles";
 $scope.PushButton226_click = function() {$scope.GotoPage( "Temphome" );};
-$scope.PushButton227_click = function() {$App.S1 = localStorage.getItem("S1");
-$App.S2 = localStorage.getItem("S2");
-$App.S3 = localStorage.getItem("S3");
+$scope.PushButton227_click = function() {$App.s1 = localStorage.getItem("S1");
+$App.s2 = localStorage.getItem("S2");
+$App.s3 = localStorage.getItem("S3");
 $App.S4 = localStorage.getItem("S4");
 $App.S5 = localStorage.getItem("S5");
 $App.S6 = localStorage.getItem("S6");
@@ -3173,12 +3968,12 @@ $App.S22 = localStorage.getItem("S22");
 $App.S23 = localStorage.getItem("S23");
 $App.S24 = localStorage.getItem("S24");
 $App.S25 = localStorage.getItem("S25");
-$App.M1 = localStorage.getItem("M1");
-$App.M2 = localStorage.getItem("M2");
-$App.M3 = localStorage.getItem("M3");
+$App.m1 = localStorage.getItem("M1");
+$App.m2 = localStorage.getItem("M2");
+$App.m3 = localStorage.getItem("M3");
 $App.M4 = localStorage.getItem("M4");
 $App.M5 = localStorage.getItem("M5");
-$App.M6 = localStorage.getItem("M6");
+$App.m6 = localStorage.getItem("M6");
 $App.M7 = localStorage.getItem("M7");
 $App.M8 = localStorage.getItem("M8");
 $App.M9 = localStorage.getItem("M9");
@@ -3204,7 +3999,7 @@ $App.resetrules = localStorage.getItem("resetrules");
 $scope.GotoPage( "ResetNew" );};
 });
 NeoApp.controller("TNeoAppPage11_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 78;
+$App.NAB.PageNumber = 100;
 $App.NAB.PageID = "TNeoAppPage11";
 $scope.PushButton191_click = function() {neoAddToCalendar($App.title,$App.startDate,$App.endDate,$App.startHour,$App.endHour,$App.location,$App.description,$App.timeZone);
 };
@@ -3212,7 +4007,7 @@ $scope.PushButton207_click = function() {window.open("https://www.bing.com/ck/a?
 $scope.PushButton208_click = function() {$scope.GotoPage( "Temphome" );};
 });
 NeoApp.controller("Health_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 79;
+$App.NAB.PageNumber = 101;
 $App.NAB.PageID = "Health";
 $scope.PushButton149_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager13_prevclick = function() {$scope.GotoPrevPage();};
@@ -3222,7 +4017,7 @@ $scope.TextArea218_change = function() {localStorage.setItem("HEALTHGENERAL002",
 $scope.PushButton101_click = function() {neoTalkSpeak($App.HEALTHGENERAL001, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Homestuff_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 80;
+$App.NAB.PageNumber = 102;
 $App.NAB.PageID = "Homestuff";
 $scope.PushButton1_click = function() {window.open($App.title001, "_blank");};
 $scope.PushButton3_click = function() {window.open($App.title002, "_blank");};
@@ -3279,7 +4074,7 @@ $scope.TextArea6_change = function() {localStorage.setItem("Homsstuffinote",$App
 $scope.PushButton187_click = function() {neoTalkSpeak($App.Homsstuffinote, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("WorkDesktop_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 81;
+$App.NAB.PageNumber = 103;
 $App.NAB.PageID = "WorkDesktop";
 $scope.PushButton546_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager77_prevclick = function() {$scope.GotoPrevPage();};
@@ -3289,7 +4084,7 @@ $scope.PushButton547_click = function() {neoTalkSpeak($App.WorkBstuffnote, "", $
 $scope.TextArea214_change = function() {localStorage.setItem("worknotes10",$App.worknotes10);};
 });
 NeoApp.controller("HowToV3_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 82;
+$App.NAB.PageNumber = 104;
 $App.NAB.PageID = "HowToV3";
 $scope.PushButton27_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager3_prevclick = function() {$scope.GotoPrevPage();};
@@ -3300,7 +4095,7 @@ $scope.TextArea219_change = function() {localStorage.setItem("rcrimume2",$App.rc
 $scope.TextArea221_change = function() {localStorage.setItem("rcrimume3",$App.rcrimume3);};
 });
 NeoApp.controller("Tentinastorm_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 83;
+$App.NAB.PageNumber = 105;
 $App.NAB.PageID = "Tentinastorm";
 $scope.PushButton113_click = function() {window.open($App.TPtitle001, "_blank");};
 $scope.PushButton114_click = function() {window.open($App.TPtitle002, "_blank");};
@@ -3451,7 +4246,7 @@ $scope.PushButton270_click = function() {window.open($App.TPtitle031, "_blank");
 $scope.PushButton271_click = function() {window.open($App.TPtitle032, "_blank");};
 });
 NeoApp.controller("fiveyearplan_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 84;
+$App.NAB.PageNumber = 106;
 $App.NAB.PageID = "fiveyearplan";
 $scope.PushButton231_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager25_prevclick = function() {$scope.GotoPrevPage();};
@@ -3466,7 +4261,7 @@ $scope.TextArea23_change = function() {localStorage.setItem("Tinote5e",$App.Tino
 $scope.TextArea24_change = function() {localStorage.setItem("Tinote5f",$App.Tinote5f);};
 });
 NeoApp.controller("TILES_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 85;
+$App.NAB.PageNumber = 107;
 $App.NAB.PageID = "TILES";
 $scope.PushButton153_click = function() {window.open($App.Tititle001, "_blank");};
 $scope.PushButton175_click = function() {window.open($App.Tititle003, "_blank");};
@@ -3511,7 +4306,7 @@ $scope.TextArea5_change = function() {localStorage.setItem("Tinote",$App.Tinote)
 $scope.PushButton188_click = function() {neoTalkSpeak($App.Tinote, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 86;
+$App.NAB.PageNumber = 108;
 $App.NAB.PageID = "Project1";
 $scope.TextInput314_change = function() {localStorage.setItem("project1aa",$App.project1aa);};
 $scope.PushButton284_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3578,7 +4373,7 @@ $scope.TextInput369_change = function() {localStorage.setItem("project1",$App.pr
 $scope.TextInput371_change = function() {localStorage.setItem("project1doc",$App.project1doc);};
 });
 NeoApp.controller("Project1pa_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 87;
+$App.NAB.PageNumber = 109;
 $App.NAB.PageID = "Project1pa";
 $scope.PushButton274_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea167_change = function() {localStorage.setItem("project1aT",$App.project1aT);};
@@ -3588,7 +4383,7 @@ $scope.Pager30_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager30_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Projectaa_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 88;
+$App.NAB.PageNumber = 110;
 $App.NAB.PageID = "Projectaa";
 $scope.PushButton403_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea191_change = function() {localStorage.setItem("project1aaT",$App.project1aaT);};
@@ -3598,7 +4393,7 @@ $scope.Pager54_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager54_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Projectab_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 89;
+$App.NAB.PageNumber = 111;
 $App.NAB.PageID = "Projectab";
 $scope.PushButton407_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea192_change = function() {localStorage.setItem("project1abT",$App.project1abT);};
@@ -3608,7 +4403,7 @@ $scope.Pager55_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager55_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Projectac_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 90;
+$App.NAB.PageNumber = 112;
 $App.NAB.PageID = "Projectac";
 $scope.PushButton411_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea193_change = function() {localStorage.setItem("project1acT",$App.project1acT);};
@@ -3618,7 +4413,7 @@ $scope.Pager56_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager56_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Projectad_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 91;
+$App.NAB.PageNumber = 113;
 $App.NAB.PageID = "Projectad";
 $scope.PushButton415_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea194_change = function() {localStorage.setItem("project1adT",$App.project1adT);};
@@ -3628,7 +4423,7 @@ $scope.Pager57_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager57_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project1pb_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 92;
+$App.NAB.PageNumber = 114;
 $App.NAB.PageID = "Project1pb";
 $scope.PushButton305_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager31_prevclick = function() {$scope.GotoPrevPage();};
@@ -3638,7 +4433,7 @@ $scope.PushButton311_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton314_click = function() {neoTalkSpeak($App.project1bT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pc_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 93;
+$App.NAB.PageNumber = 115;
 $App.NAB.PageID = "Project1pc";
 $scope.TextArea169_change = function() {localStorage.setItem("project1cT",$App.project1cT);};
 $scope.PushButton308_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3648,7 +4443,7 @@ $scope.PushButton315_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton316_click = function() {neoTalkSpeak($App.project1cT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pd_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 94;
+$App.NAB.PageNumber = 116;
 $App.NAB.PageID = "Project1pd";
 $scope.TextArea170_change = function() {localStorage.setItem("project1dT",$App.project1dT);};
 $scope.PushButton310_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3658,7 +4453,7 @@ $scope.PushButton317_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton318_click = function() {neoTalkSpeak($App.project1dT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pe_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 95;
+$App.NAB.PageNumber = 117;
 $App.NAB.PageID = "Project1pe";
 $scope.TextArea171_change = function() {localStorage.setItem("project1eT",$App.project1eT);};
 $scope.PushButton320_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3668,7 +4463,7 @@ $scope.PushButton321_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton322_click = function() {neoTalkSpeak($App.project1eT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pf_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 96;
+$App.NAB.PageNumber = 118;
 $App.NAB.PageID = "Project1pf";
 $scope.TextArea172_change = function() {localStorage.setItem("project1fT",$App.project1fT);};
 $scope.PushButton324_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3678,7 +4473,7 @@ $scope.PushButton325_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton326_click = function() {neoTalkSpeak($App.project1fT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pg_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 97;
+$App.NAB.PageNumber = 119;
 $App.NAB.PageID = "Project1pg";
 $scope.TextArea173_change = function() {localStorage.setItem("project1gT",$App.project1gT);};
 $scope.PushButton328_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3688,7 +4483,7 @@ $scope.PushButton329_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton330_click = function() {neoTalkSpeak($App.project1gT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1ph_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 98;
+$App.NAB.PageNumber = 120;
 $App.NAB.PageID = "Project1ph";
 $scope.TextArea174_change = function() {localStorage.setItem("project1hT",$App.project1hT);};
 $scope.PushButton332_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3698,7 +4493,7 @@ $scope.PushButton333_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton334_click = function() {neoTalkSpeak($App.project1hT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pi_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 99;
+$App.NAB.PageNumber = 121;
 $App.NAB.PageID = "Project1pi";
 $scope.TextArea175_change = function() {localStorage.setItem("project1iT",$App.project1iT);};
 $scope.PushButton336_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3708,7 +4503,7 @@ $scope.PushButton337_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton338_click = function() {neoTalkSpeak($App.project1iT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pj_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 100;
+$App.NAB.PageNumber = 122;
 $App.NAB.PageID = "Project1pj";
 $scope.TextArea176_change = function() {localStorage.setItem("project1jT",$App.project1jT);};
 $scope.PushButton340_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3718,7 +4513,7 @@ $scope.PushButton341_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton342_click = function() {neoTalkSpeak($App.project1jT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pk_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 101;
+$App.NAB.PageNumber = 123;
 $App.NAB.PageID = "Project1pk";
 $scope.TextArea177_change = function() {localStorage.setItem("project1kT",$App.project1kT);};
 $scope.PushButton344_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3728,7 +4523,7 @@ $scope.PushButton345_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton346_click = function() {neoTalkSpeak($App.project1kT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pl_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 102;
+$App.NAB.PageNumber = 124;
 $App.NAB.PageID = "Project1pl";
 $scope.TextArea178_change = function() {localStorage.setItem("project1lT",$App.project1lT);};
 $scope.PushButton348_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3738,7 +4533,7 @@ $scope.PushButton349_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton350_click = function() {neoTalkSpeak($App.project1lT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pm_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 103;
+$App.NAB.PageNumber = 125;
 $App.NAB.PageID = "Project1pm";
 $scope.TextArea179_change = function() {localStorage.setItem("project1mT",$App.project1mT);};
 $scope.PushButton352_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3748,7 +4543,7 @@ $scope.PushButton353_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton354_click = function() {neoTalkSpeak($App.project1mT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pn_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 104;
+$App.NAB.PageNumber = 126;
 $App.NAB.PageID = "Project1pn";
 $scope.TextArea180_change = function() {localStorage.setItem("project1nT",$App.project1nT);};
 $scope.PushButton356_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3758,7 +4553,7 @@ $scope.PushButton357_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton358_click = function() {neoTalkSpeak($App.project1nT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pfo_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 105;
+$App.NAB.PageNumber = 127;
 $App.NAB.PageID = "Project1pfo";
 $scope.TextArea182_change = function() {localStorage.setItem("project1oT",$App.project1oT);};
 $scope.PushButton364_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3768,7 +4563,7 @@ $scope.PushButton365_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton366_click = function() {neoTalkSpeak($App.project1oT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pp_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 106;
+$App.NAB.PageNumber = 128;
 $App.NAB.PageID = "Project1pp";
 $scope.TextArea183_change = function() {localStorage.setItem("project1pT",$App.project1pT);};
 $scope.PushButton368_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3778,7 +4573,7 @@ $scope.PushButton369_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton370_click = function() {neoTalkSpeak($App.project1pT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pq_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 107;
+$App.NAB.PageNumber = 129;
 $App.NAB.PageID = "Project1pq";
 $scope.TextArea184_change = function() {localStorage.setItem("project1qT",$App.project1qT);};
 $scope.PushButton372_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3788,7 +4583,7 @@ $scope.PushButton373_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton374_click = function() {neoTalkSpeak($App.project1qT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pr_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 108;
+$App.NAB.PageNumber = 130;
 $App.NAB.PageID = "Project1pr";
 $scope.TextArea185_change = function() {localStorage.setItem("project1rT",$App.project1rT);};
 $scope.PushButton376_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3798,7 +4593,7 @@ $scope.PushButton377_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton378_click = function() {neoTalkSpeak($App.project1rT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1ps_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 109;
+$App.NAB.PageNumber = 131;
 $App.NAB.PageID = "Project1ps";
 $scope.TextArea186_change = function() {localStorage.setItem("project1sT",$App.project1sT);};
 $scope.PushButton380_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3808,7 +4603,7 @@ $scope.PushButton381_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton382_click = function() {neoTalkSpeak($App.project1sT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pft_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 110;
+$App.NAB.PageNumber = 132;
 $App.NAB.PageID = "Project1pft";
 $scope.TextArea181_change = function() {localStorage.setItem("project1tT",$App.project1tT);};
 $scope.PushButton360_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3818,7 +4613,7 @@ $scope.PushButton361_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton362_click = function() {neoTalkSpeak($App.project1tT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pu_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 111;
+$App.NAB.PageNumber = 133;
 $App.NAB.PageID = "Project1pu";
 $scope.TextArea187_change = function() {localStorage.setItem("project1uT",$App.project1uT);};
 $scope.PushButton384_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3828,7 +4623,7 @@ $scope.PushButton385_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton386_click = function() {neoTalkSpeak($App.project1uT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pv_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 112;
+$App.NAB.PageNumber = 134;
 $App.NAB.PageID = "Project1pv";
 $scope.TextArea188_change = function() {localStorage.setItem("project1vT",$App.project1vT);};
 $scope.PushButton388_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3838,7 +4633,7 @@ $scope.PushButton389_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton390_click = function() {neoTalkSpeak($App.project1vT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1pw_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 113;
+$App.NAB.PageNumber = 135;
 $App.NAB.PageID = "Project1pw";
 $scope.TextArea189_change = function() {localStorage.setItem("project1wT",$App.project1wT);};
 $scope.PushButton392_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3848,7 +4643,7 @@ $scope.PushButton393_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton394_click = function() {neoTalkSpeak($App.project1wT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project1px_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 114;
+$App.NAB.PageNumber = 136;
 $App.NAB.PageID = "Project1px";
 $scope.TextArea190_change = function() {localStorage.setItem("project1xT",$App.project1xT);};
 $scope.PushButton396_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3858,7 +4653,7 @@ $scope.PushButton397_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton398_click = function() {neoTalkSpeak($App.project1xT, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Project2_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 115;
+$App.NAB.PageNumber = 137;
 $App.NAB.PageID = "Project2";
 $scope.TextInput340_change = function() {localStorage.setItem("project2aa",$App.Project2aa);};
 $scope.PushButton420_click = function() {$scope.GotoPage( "Temphome" );};
@@ -3926,7 +4721,7 @@ $scope.TextInput372_change = function() {localStorage.setItem("project2",$App.pr
 $scope.TextInput373_change = function() {localStorage.setItem("project2doc",$App.project2doc);};
 });
 NeoApp.controller("Projectaa2_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 116;
+$App.NAB.PageNumber = 138;
 $App.NAB.PageID = "Projectaa2";
 $scope.PushButton451_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea196_change = function() {localStorage.setItem("project2aaT",$App.project2aaT);};
@@ -3936,7 +4731,7 @@ $scope.Pager59_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager59_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Projectab2_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 117;
+$App.NAB.PageNumber = 139;
 $App.NAB.PageID = "Projectab2";
 $scope.PushButton455_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea197_change = function() {localStorage.setItem("project2abT",$App.project2abT);};
@@ -3946,7 +4741,7 @@ $scope.Pager60_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager60_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Projectac2_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 118;
+$App.NAB.PageNumber = 140;
 $App.NAB.PageID = "Projectac2";
 $scope.PushButton459_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton460_click = function() {$scope.GotoPage( "Projects" );};
@@ -3958,7 +4753,7 @@ localStorage.setItem("project2acTjic",$App.project2acT);};
 $scope.PushButton526_click = function() {$App.project2acT = localStorage.getItem("project2acTjic");};
 });
 NeoApp.controller("Projectad2_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 119;
+$App.NAB.PageNumber = 141;
 $App.NAB.PageID = "Projectad2";
 $scope.PushButton463_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea199_change = function() {localStorage.setItem("project2adT",$App.project2adT);};
@@ -3968,7 +4763,7 @@ $scope.Pager62_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager62_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pa_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 120;
+$App.NAB.PageNumber = 142;
 $App.NAB.PageID = "Project2pa";
 $scope.PushButton467_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea200_change = function() {localStorage.setItem("project2aT",$App.project2aT);};
@@ -3978,7 +4773,7 @@ $scope.Pager63_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager63_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pb_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 121;
+$App.NAB.PageNumber = 143;
 $App.NAB.PageID = "Project2pb";
 $scope.PushButton471_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea201_change = function() {localStorage.setItem("project2bT",$App.project2bT);};
@@ -3988,7 +4783,7 @@ $scope.Pager64_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager64_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pc_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 122;
+$App.NAB.PageNumber = 144;
 $App.NAB.PageID = "Project2pc";
 $scope.PushButton475_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea202_change = function() {localStorage.setItem("project2cT",$App.project2cT);};
@@ -3998,7 +4793,7 @@ $scope.Pager65_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager65_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pd_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 123;
+$App.NAB.PageNumber = 145;
 $App.NAB.PageID = "Project2pd";
 $scope.PushButton479_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea203_change = function() {localStorage.setItem("project2dT",$App.project2dT);};
@@ -4008,7 +4803,7 @@ $scope.Pager66_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager66_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pe_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 124;
+$App.NAB.PageNumber = 146;
 $App.NAB.PageID = "Project2pe";
 $scope.PushButton483_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea204_change = function() {localStorage.setItem("project2eT",$App.project2eT);};
@@ -4018,7 +4813,7 @@ $scope.Pager67_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager67_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pf_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 125;
+$App.NAB.PageNumber = 147;
 $App.NAB.PageID = "Project2pf";
 $scope.PushButton487_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea205_change = function() {localStorage.setItem("project2fT",$App.project2fT);};
@@ -4028,7 +4823,7 @@ $scope.Pager68_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager68_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pg_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 126;
+$App.NAB.PageNumber = 148;
 $App.NAB.PageID = "Project2pg";
 $scope.PushButton491_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea206_change = function() {localStorage.setItem("project2gT",$App.project2gT);};
@@ -4038,7 +4833,7 @@ $scope.Pager69_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager69_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2ph_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 127;
+$App.NAB.PageNumber = 149;
 $App.NAB.PageID = "Project2ph";
 $scope.PushButton495_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea207_change = function() {localStorage.setItem("projecthT",$App.projecthT);};
@@ -4048,7 +4843,7 @@ $scope.Pager70_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager70_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pi_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 128;
+$App.NAB.PageNumber = 150;
 $App.NAB.PageID = "Project2pi";
 $scope.PushButton499_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea208_change = function() {localStorage.setItem("project2iT",$App.project2iT);};
@@ -4058,7 +4853,7 @@ $scope.Pager71_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager71_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pj_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 129;
+$App.NAB.PageNumber = 151;
 $App.NAB.PageID = "Project2pj";
 $scope.PushButton503_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea209_change = function() {localStorage.setItem("project2jT",$App.project2jT);};
@@ -4068,7 +4863,7 @@ $scope.Pager72_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager72_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pk_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 130;
+$App.NAB.PageNumber = 152;
 $App.NAB.PageID = "Project2pk";
 $scope.PushButton507_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea210_change = function() {localStorage.setItem("project2kT",$App.project2kT);};
@@ -4078,7 +4873,7 @@ $scope.Pager73_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager73_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pl_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 131;
+$App.NAB.PageNumber = 153;
 $App.NAB.PageID = "Project2pl";
 $scope.PushButton511_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea211_change = function() {localStorage.setItem("project2lT",$App.project2lT);};
@@ -4088,7 +4883,7 @@ $scope.Pager74_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager74_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pm_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 132;
+$App.NAB.PageNumber = 154;
 $App.NAB.PageID = "Project2pm";
 $scope.PushButton515_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea212_change = function() {localStorage.setItem("project2mT",$App.project2mT);};
@@ -4098,7 +4893,7 @@ $scope.Pager75_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager75_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Project2pn_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 133;
+$App.NAB.PageNumber = 155;
 $App.NAB.PageID = "Project2pn";
 $scope.PushButton519_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea213_change = function() {localStorage.setItem("project2nT",$App.project2nT);};
@@ -4108,7 +4903,7 @@ $scope.Pager76_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager76_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("C-A-Z_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 134;
+$App.NAB.PageNumber = 156;
 $App.NAB.PageID = "C-A-Z";
 $scope.PushButton31_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton32_click = function() {$scope.GotoPage( "Workstuff-A" );};
@@ -4139,7 +4934,7 @@ $scope.PushButton78_click = function() {window.open($App.Atitle015, "_blank");};
 $scope.PushButton79_click = function() {window.open($App.Atitle016, "_blank");};
 });
 NeoApp.controller("Workstuff-A_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 135;
+$App.NAB.PageNumber = 157;
 $App.NAB.PageID = "Workstuff-A";
 $scope.PushButton73_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton37_click = function() {window.open($App.Atitle001, "_blank");};
@@ -4216,7 +5011,7 @@ $scope.TextInput118_change = function() {localStorage.setItem("Atitle022",$App.A
 $scope.TextInput119_change = function() {localStorage.setItem("Atitle022n",$App.Atitle022n);};
 });
 NeoApp.controller("Workstuff-B_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 136;
+$App.NAB.PageNumber = 158;
 $App.NAB.PageID = "Workstuff-B";
 $scope.PushButton81_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton82_click = function() {window.open($App.Btitle001, "_blank");};
@@ -4275,7 +5070,7 @@ $scope.Pager17_nextclick = function() {$scope.GotoNextPage();};
 $scope.PushButton186_click = function() {neoTalkSpeak($App.WorkBstuffnote, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Workstuff-C_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 137;
+$App.NAB.PageNumber = 159;
 $App.NAB.PageID = "Workstuff-C";
 $scope.PushButton134_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton135_click = function() {window.open($App.Ctitle001, "_blank");};
@@ -4334,7 +5129,7 @@ $scope.Pager18_nextclick = function() {$scope.GotoNextPage();};
 $scope.PushButton154_click = function() {neoTalkSpeak($App.WorkCstuffnote, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("Prayer_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 138;
+$App.NAB.PageNumber = 160;
 $App.NAB.PageID = "Prayer";
 $scope.PushButton193_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager20_prevclick = function() {$scope.GotoPrevPage();};
@@ -4352,7 +5147,7 @@ $scope.TextArea397_change = function() {localStorage.setItem("Prayer3tit",$App.P
 $scope.TextArea398_change = function() {localStorage.setItem("Prayer4tit",$App.Prayer4tit);};
 });
 NeoApp.controller("Next_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 139;
+$App.NAB.PageNumber = 161;
 $App.NAB.PageID = "Next";
 $scope.PushButton212_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager23_prevclick = function() {$scope.GotoPrevPage();};
@@ -4361,7 +5156,7 @@ $scope.TextArea17_change = function() {localStorage.setItem("Next",$App.Next);};
 $scope.PushButton213_click = function() {neoTalkSpeak($App.Next, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("DailyReps_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 140;
+$App.NAB.PageNumber = 162;
 $App.NAB.PageID = "DailyReps";
 $scope.PushButton197_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager22_prevclick = function() {$scope.GotoPrevPage();};
@@ -4380,7 +5175,7 @@ $scope.TextArea401_change = function() {localStorage.setItem("Reps3tit",$App.Rep
 $scope.TextArea402_change = function() {localStorage.setItem("Reps4tit",$App.Reps4tit);};
 });
 NeoApp.controller("Home_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 141;
+$App.NAB.PageNumber = 163;
 $App.NAB.PageID = "Home";
 $scope.TextInput106_change = function() {localStorage.setItem("main001n",$App.main001n);};
 $scope.TextInput122_change = function() {localStorage.setItem("main002n",$App.main002n);};
@@ -4397,13 +5192,13 @@ $scope.Pager4_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager4_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Templates_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 142;
+$App.NAB.PageNumber = 164;
 $App.NAB.PageID = "Templates";
 $scope.Pager7_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager7_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Workstuff-D_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 143;
+$App.NAB.PageNumber = 165;
 $App.NAB.PageID = "Workstuff-D";
 $scope.PushButton156_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.PushButton157_click = function() {window.open($App.Dtitle001, "_blank");};
@@ -4462,31 +5257,31 @@ $scope.Pager19_nextclick = function() {$scope.GotoNextPage();};
 $scope.PushButton30_click = function() {neoTalkSpeak($App.WorkDstuffnote, "", $App.Read1, $App.Read2);};
 });
 NeoApp.controller("VERSION_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 144;
+$App.NAB.PageNumber = 166;
 $App.NAB.PageID = "VERSION";
 $scope.PushButton103_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea4_change = function() {localStorage.setItem("VERSIONRECORD",$App.VERSIONRECORD);};
 });
 NeoApp.controller("ResetRules_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 145;
+$App.NAB.PageNumber = 167;
 $App.NAB.PageID = "ResetRules";
 $scope.PushButton239_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea163_change = function() {localStorage.setItem("resetrules",$App.resetrules);};
 });
 NeoApp.controller("Resetoverview_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 146;
+$App.NAB.PageNumber = 168;
 $App.NAB.PageID = "Resetoverview";
 $scope.PushButton240_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea164_change = function() {localStorage.setItem("resetoverview",$App.resetoverview);};
 });
 NeoApp.controller("ResetNotes_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 147;
+$App.NAB.PageNumber = 169;
 $App.NAB.PageID = "ResetNotes";
 $scope.PushButton241_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.TextArea165_change = function() {localStorage.setItem("resetnotes",$App.resetnotes);};
 });
 NeoApp.controller("Template001_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 148;
+$App.NAB.PageNumber = 170;
 $App.NAB.PageID = "Template001";
 $scope.TextArea1_change = function() {localStorage.setItem("FNM001",$App.FNM001);};
 $scope.Pager2_prevclick = function() {$scope.GotoPrevPage();};
@@ -4495,7 +5290,7 @@ $scope.Pager8_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager8_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Template1setup_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 149;
+$App.NAB.PageNumber = 171;
 $App.NAB.PageID = "Template1setup";
 $scope.Pager1_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager1_nextclick = function() {$scope.GotoNextPage();};
@@ -4503,7 +5298,7 @@ $scope.Pager9_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager9_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("KeepJIC_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 150;
+$App.NAB.PageNumber = 172;
 $App.NAB.PageID = "KeepJIC";
 $scope.TextArea7_change = function() {localStorage.setItem("RecData",$App.RecData);};
 $scope.PushButton109_click = function() {$scope.GotoPage( "Temphome" );};
@@ -5831,7 +6626,7 @@ $App.Var1300 = lines[1299]  || "";
 };
 });
 NeoApp.controller("ResetNew_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 151;
+$App.NAB.PageNumber = 173;
 $App.NAB.PageID = "ResetNew";
 $scope.PushButton228_click = function() {$scope.GotoPage( "Resetoverview" );};
 $scope.PushButton229_click = function() {$scope.GotoPage( "ResetRules" );};
@@ -5839,7 +6634,7 @@ $scope.PushButton232_click = function() {$scope.GotoPage( "ResetNotes" );};
 $scope.PushButton238_click = function() {$scope.GotoPage( "Temphome" );};
 });
 NeoApp.controller("Reset_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 152;
+$App.NAB.PageNumber = 174;
 $App.NAB.PageID = "Reset";
 $scope.PushButton219_click = function() {window.document.location.reload();};
 $scope.PushButton220_click = function() {$scope.GotoPage( "Temphome" );};
@@ -5883,7 +6678,7 @@ $scope.TextArea58_change = function() {localStorage.setItem("Reset16a",$App.Rese
 $scope.TextArea59_change = function() {localStorage.setItem("Reset16",$App.Reset16);};
 });
 NeoApp.controller("Stages_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 153;
+$App.NAB.PageNumber = 175;
 $App.NAB.PageID = "Stages";
 $scope.Pager27_prevclick = function() {$scope.GotoPrevPage();};
 $scope.Pager27_nextclick = function() {$scope.GotoNextPage();};
@@ -5919,7 +6714,7 @@ $scope.TextArea66_change = function() {localStorage.setItem("Stage7",$App.Stage7
 $scope.TextArea67_change = function() {localStorage.setItem("Stage8",$App.Stage8);};
 });
 NeoApp.controller("Lanes_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 154;
+$App.NAB.PageNumber = 176;
 $App.NAB.PageID = "Lanes";
 $scope.PushButton224_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager28_prevclick = function() {$scope.GotoPrevPage();};
@@ -5952,7 +6747,7 @@ $scope.TextArea85_change = function() {localStorage.setItem("Lanes8",$App.Lanes8
 $scope.TextArea86_change = function() {localStorage.setItem("Lanes8",$App.Lanes8);};
 });
 NeoApp.controller("Me_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
-$App.NAB.PageNumber = 155;
+$App.NAB.PageNumber = 177;
 $App.NAB.PageID = "Me";
 $scope.PushButton215_click = function() {$scope.GotoPage( "Temphome" );};
 $scope.Pager24_prevclick = function() {$scope.GotoPrevPage();};
